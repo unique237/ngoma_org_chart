@@ -1,0 +1,430 @@
+{
+    "nodes": [
+      {
+        "id": "mindef",
+        "name": "Ministère de la Défense",
+        "acronyme": "MINDEF",
+        "fonction": "Ministère"
+      },
+      {
+        "id": "secretariat_particulier_mindef",
+        "name": "Secrétariat Particulier du Ministre",
+        "acronyme": "SP_MINDEF",
+        "fonction": "Secrétariat",
+        "parent": "mindef"
+      },
+      {
+        "id": "secretariat_militaire_mindef",
+        "name": "Secrétariat Militaire",
+        "acronyme": "SM_MINDEF",
+        "fonction": "Secrétariat",
+        "parent": "mindef"
+      },
+      {
+        "id": "reserve_logistique_mindef",
+        "name": "Réserve Logistique des Armées et de la Gendarmerie",
+        "acronyme": "RLAG_MINDEF",
+        "fonction": "Réserve",
+        "parent": "mindef"
+      },
+      {
+        "id": "admin_centrale_sedcacvg_mindef",
+        "name": "Administration Centrale du SED/CACVG",
+        "acronyme": "AC_SEDCACVG_MINDEF",
+        "fonction": "Administration",
+        "parent": "mindef"
+      },
+      {
+        "id": "etats_majors_mindef",
+        "name": "États-Majors",
+        "acronyme": "EM_MINDEF",
+        "fonction": "États-Majors",
+        "parent": "mindef"
+      },
+      {
+        "id": "secretariat_general_mindef",
+        "name": "Secrétariat Général",
+        "acronyme": "SG_MINDEF",
+        "fonction": "Secrétariat Général",
+        "parent": "mindef"
+      },
+      {
+        "id": "controle_general_armees_mindef",
+        "name": "Contrôle Général des Armées",
+        "acronyme": "CGA_MINDEF",
+        "fonction": "Contrôle",
+        "parent": "mindef"
+      },
+      {
+        "id": "inspection_generale_armees_mindef",
+        "name": "Inspection Générale des Armées",
+        "acronyme": "IGA_MINDEF",
+        "fonction": "Inspection",
+        "parent": "mindef"
+      },
+      {
+        "id": "conseiller_logistique_mindef",
+        "name": "Conseiller Logistique",
+        "acronyme": "CL_MINDEF",
+        "fonction": "Conseiller",
+        "parent": "mindef"
+      },
+      {
+        "id": "conseillers_techniques_mindef",
+        "name": "Conseillers Techniques",
+        "acronyme": "CT_MINDEF",
+        "fonction": "Conseillers",
+        "parent": "mindef"
+      },
+      {
+        "id": "attaches_defense_mindef",
+        "name": "Attachés de Défense",
+        "acronyme": "AD_MINDEF",
+        "fonction": "Attachés",
+        "parent": "mindef"
+      },
+      {
+        "id": "division_cooperation_militaire_mindef",
+        "name": "Division de la Coopération Militaire",
+        "acronyme": "DCM_MINDEF",
+        "fonction": "Division",
+        "parent": "mindef"
+      },
+      {
+        "id": "division_securite_militaire_mindef",
+        "name": "Division de la Sécurité Militaire",
+        "acronyme": "DSM_MINDEF",
+        "fonction": "Division",
+        "parent": "mindef"
+      },
+      {
+        "id": "division_communication_mindef",
+        "name": "Division de la Communication",
+        "acronyme": "DC_MINDEF",
+        "fonction": "Division",
+        "parent": "mindef"
+      },
+      {
+        "id": "direction_maintenance_materiels_mindef",
+        "name": "Direction Centrale du Suivi de la Maintenance des Matériels Majeurs de Force de Défense",
+        "acronyme": "DCSMMM_MINDEF",
+        "fonction": "Direction",
+        "parent": "mindef"
+      },
+      {
+        "id": "direction_budget_equipements_mindef",
+        "name": "Direction du Budget et des Équipements",
+        "acronyme": "DBE_MINDEF",
+        "fonction": "Direction",
+        "parent": "mindef"
+      },
+      {
+        "id": "direction_ressources_humaines_mindef",
+        "name": "Direction des Ressources Humaines",
+        "acronyme": "DRH_MINDEF",
+        "fonction": "Direction",
+        "parent": "mindef"
+      },
+      {
+        "id": "comite_coordination_interarmees_mindef",
+        "name": "Comité de Coordination Interarmées",
+        "acronyme": "CCI_MINDEF",
+        "fonction": "Comité",
+        "parent": "mindef"
+      },
+      {
+        "id": "forces_gendarmerie_nationale_mindef",
+        "name": "Forces de la Gendarmerie Nationale",
+        "acronyme": "FGN_MINDEF",
+        "fonction": "Forces",
+        "parent": "mindef"
+      },
+      {
+        "id": "forces_armee_terre_mindef",
+        "name": "Forces de l'Armée de Terre",
+        "acronyme": "FAT_MINDEF",
+        "fonction": "Forces",
+        "parent": "mindef"
+      },
+      {
+        "id": "forces_armee_air_mindef",
+        "name": "Forces de l'Armée de l'Air",
+        "acronyme": "FAA_MINDEF",
+        "fonction": "Forces",
+        "parent": "mindef"
+      },
+      {
+        "id": "forces_marine_nationale_mindef",
+        "name": "Forces de la Marine Nationale",
+        "acronyme": "FMN_MINDEF",
+        "fonction": "Forces",
+        "parent": "mindef"
+      },
+      {
+        "id": "garde_presidentielle_mindef",
+        "name": "Garde Présidentielle",
+        "acronyme": "GP_MINDEF",
+        "fonction": "Commandement Interarmées",
+        "parent": "mindef"
+      },
+      {
+        "id": "corps_sapeurs_pompiers_mindef",
+        "name": "Corps National de Sapeurs-Pompiers",
+        "acronyme": "CNSP_MINDEF",
+        "fonction": "Commandement Interarmées",
+        "parent": "mindef"
+      },
+      {
+        "id": "secretariat_division_communication_mindef",
+        "name": "Secrétariat",
+        "acronyme": "S_DC_MINDEF",
+        "fonction": "Secrétariat",
+        "parent": "division_communication_mindef"
+      },
+      {
+        "id": "bureau_moyens_generaux_mindef",
+        "name": "Bureau des Moyens Généraux",
+        "acronyme": "BMG_DC_MINDEF",
+        "fonction": "Bureau",
+        "parent": "division_communication_mindef"
+      },
+      {
+        "id": "bureau_administratif_mindef",
+        "name": "Bureau Administratif",
+        "acronyme": "BA_DC_MINDEF",
+        "fonction": "Bureau",
+        "parent": "division_communication_mindef"
+      },
+      {
+        "id": "cellule_production_mindef",
+        "name": "Cellule de la Production",
+        "acronyme": "CP_DC_MINDEF",
+        "fonction": "Cellule",
+        "parent": "division_communication_mindef"
+      },
+      {
+        "id": "cellule_communication_mindef",
+        "name": "Cellule de la Communication",
+        "acronyme": "CC_DC_MINDEF",
+        "fonction": "Cellule",
+        "parent": "division_communication_mindef"
+      },
+      {
+        "id": "antennes_communication_mindef",
+        "name": "Antennes de Communication",
+        "acronyme": "AC_DC_MINDEF",
+        "fonction": "Antennes",
+        "parent": "division_communication_mindef"
+      },
+      {
+        "id": "commandements_territoriaux_gendarmerie_mindef",
+        "name": "Commandements Territoriaux de la Gendarmerie",
+        "acronyme": "CTG_MINDEF",
+        "fonction": "Commandements",
+        "parent": "mindef"
+      },
+      {
+        "id": "commandements_territoriaux_armees_mindef",
+        "name": "Commandements Territoriaux des Armées",
+        "acronyme": "CTA_MINDEF",
+        "fonction": "Commandements",
+        "parent": "mindef"
+      },
+      {
+        "id": "commandements_territoriaux_sapeurs_pompiers_mindef",
+        "name": "Commandements Territoriaux du Corps National des Sapeurs-Pompiers",
+        "acronyme": "CTSP_MINDEF",
+        "fonction": "Commandements",
+        "parent": "mindef"
+      },
+      {
+        "id": "juridictions_militaires_mindef",
+        "name": "Juridictions Militaires",
+        "acronyme": "JM_MINDEF",
+        "fonction": "Juridictions",
+        "parent": "mindef"
+      },
+      {
+        "id": "formations_hospitalieres_militaires_mindef",
+        "name": "Formations Hospitalières Militaires",
+        "acronyme": "FHM_MINDEF",
+        "fonction": "Formations",
+        "parent": "mindef"
+      },
+      {
+        "id": "organisations_sociaux_mindef",
+        "name": "Organisations Sociaux",
+        "acronyme": "OS_MINDEF",
+        "fonction": "Organisations",
+        "parent": "mindef"
+      },
+      {
+        "id": "services_etablissements_militaires_mindef",
+        "name": "Services et Établissements Militaires",
+        "acronyme": "SEM_MINDEF",
+        "fonction": "Services",
+        "parent": "mindef"
+      },
+      {
+        "id": "services_sedcacvg_mindef",
+        "name": "Services et Organismes Relevant du SED/CACVG",
+        "acronyme": "SOS_MINDEF",
+        "fonction": "Services",
+        "parent": "mindef"
+      }
+    ],
+    "edges": [
+      {
+        "source": "mindef",
+        "target": "secretariat_particulier_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "secretariat_militaire_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "reserve_logistique_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "admin_centrale_sedcacvg_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "etats_majors_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "secretariat_general_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "controle_general_armees_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "inspection_generale_armees_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "conseiller_logistique_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "conseillers_techniques_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "attaches_defense_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "division_cooperation_militaire_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "division_securite_militaire_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "division_communication_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "direction_maintenance_materiels_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "direction_budget_equipements_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "direction_ressources_humaines_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "comite_coordination_interarmees_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "forces_gendarmerie_nationale_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "forces_armee_terre_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "forces_armee_air_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "forces_marine_nationale_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "garde_presidentielle_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "corps_sapeurs_pompiers_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "commandements_territoriaux_gendarmerie_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "commandements_territoriaux_armees_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "commandements_territoriaux_sapeurs_pompiers_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "juridictions_militaires_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "formations_hospitalieres_militaires_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "organisations_sociaux_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "services_etablissements_militaires_mindef"
+      },
+      {
+        "source": "mindef",
+        "target": "services_sedcacvg_mindef"
+      },
+      {
+        "source": "division_communication_mindef",
+        "target": "secretariat_division_communication_mindef"
+      },
+      {
+        "source": "division_communication_mindef",
+        "target": "bureau_moyens_generaux_mindef"
+      },
+      {
+        "source": "division_communication_mindef",
+        "target": "bureau_administratif_mindef"
+      },
+      {
+        "source": "division_communication_mindef",
+        "target": "cellule_production_mindef"
+      },
+      {
+        "source": "division_communication_mindef",
+        "target": "cellule_communication_mindef"
+      },
+      {
+        "source": "division_communication_mindef",
+        "target": "antennes_communication_mindef"
+      }
+    ]
+  }

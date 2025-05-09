@@ -1,0 +1,375 @@
+{
+    "nodes": [
+      {
+        "id": "minddevel",
+        "name": "Ministère de la Décentralisation et du Développement Local",
+        "acronyme": "MINDDEVEL",
+        "fonction": "Ministère"
+      },
+      {
+        "id": "secretariat_particulier_minddevel",
+        "name": "Secrétariat Particulier",
+        "acronyme": "SP_MINDDEVEL",
+        "fonction": "Secrétariat Particulier",
+        "parent": "minddevel"
+      },
+      {
+        "id": "conseillers_techniques_minddevel",
+        "name": "Conseillers Techniques (2)",
+        "acronyme": "CT_MINDDEVEL",
+        "fonction": "Conseillers Techniques",
+        "parent": "minddevel"
+      },
+      {
+        "id": "inspection_generale_minddevel",
+        "name": "Inspection Générale",
+        "acronyme": "IG_MINDDEVEL",
+        "fonction": "Inspection Générale",
+        "parent": "minddevel"
+      },
+      {
+        "id": "administration_centrale_minddevel",
+        "name": "Administration Centrale",
+        "acronyme": "AC_MINDDEVEL",
+        "fonction": "Administration Centrale",
+        "parent": "minddevel"
+      },
+      {
+        "id": "services_deconcentres_minddevel",
+        "name": "Services Déconcentrés",
+        "acronyme": "SD_MINDDEVEL",
+        "fonction": "Services Déconcentrés",
+        "parent": "minddevel"
+      },
+      {
+        "id": "secretariat_general_minddevel",
+        "name": "Secrétariat Général",
+        "acronyme": "SG_MINDDEVEL",
+        "fonction": "Secrétariat Général",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "division_planification_developpement_local_minddevel",
+        "name": "Division de la Planification du Développement Local",
+        "acronyme": "DPDL_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "division_promotion_socio_economique_minddevel",
+        "name": "Division de la Promotion Socio-Économique",
+        "acronyme": "DPSE_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "direction_services_locaux_minddevel",
+        "name": "Direction des Services Locaux",
+        "acronyme": "DSL_MINDDEVEL",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "direction_finances_locales_minddevel",
+        "name": "Direction des Finances Locales",
+        "acronyme": "DFL_MINDDEVEL",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "direction_cooperation_decentralisee_minddevel",
+        "name": "Direction de la Coopération Décentralisée et des Partenariats",
+        "acronyme": "DCDP_MINDDEVEL",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "direction_ressources_humaines_minddevel",
+        "name": "Direction des Ressources Humaines",
+        "acronyme": "DRH_MINDDEVEL",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "brigade_nationale_controle_minddevel",
+        "name": "Brigade Nationale de Contrôle",
+        "acronyme": "BNC_MINDDEVEL",
+        "fonction": "Brigade",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "direction_affaires_generales_minddevel",
+        "name": "Direction des Affaires Générales",
+        "acronyme": "DAG_MINDDEVEL",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minddevel"
+      },
+      {
+        "id": "division_affaires_juridiques_minddevel",
+        "name": "Division des Affaires Juridiques",
+        "acronyme": "DAJ_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "division_etudes_statistiques_planification_cooperation_minddevel",
+        "name": "Division des Études, des Statistiques, de la Planification et de la Coopération",
+        "acronyme": "DESPC_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "division_systemes_information_minddevel",
+        "name": "Division des Systèmes d'Information",
+        "acronyme": "DSI_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "division_communication_relations_publiques_minddevel",
+        "name": "Division de la Communication et des Relations Publiques",
+        "acronyme": "DCRP_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "division_suivi_controle_minddevel",
+        "name": "Division du Suivi et du Contrôle",
+        "acronyme": "DSC_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "division_traduction_promotion_bilinguisme_minddevel",
+        "name": "Division de la Traduction et de la Promotion du Bilinguisme",
+        "acronyme": "DTPB_MINDDEVEL",
+        "fonction": "Division",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "sous_direction_accueil_courrier_liaison_minddevel",
+        "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+        "acronyme": "SDACL_MINDDEVEL",
+        "fonction": "Sous-Direction",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "centre_documentation_archives_minddevel",
+        "name": "Centre de Documentation et des Archives",
+        "acronyme": "CDA_MINDDEVEL",
+        "fonction": "Centre",
+        "parent": "secretariat_general_minddevel"
+      },
+      {
+        "id": "delegation_regionale_minddevel",
+        "name": "Délégation Régionale",
+        "acronyme": "DR_MINDDEVEL",
+        "fonction": "Délégation Régionale",
+        "parent": "services_deconcentres_minddevel"
+      },
+      {
+        "id": "delegation_departementale_minddevel",
+        "name": "Délégation Départementale",
+        "acronyme": "DD_MINDDEVEL",
+        "fonction": "Délégation Départementale",
+        "parent": "services_deconcentres_minddevel"
+      },
+      {
+        "id": "service_budget_minddevel",
+        "name": "Service du Budget",
+        "acronyme": "SB_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_minddevel"
+      },
+      {
+        "id": "service_marches_publics_minddevel",
+        "name": "Service des Marchés Publics",
+        "acronyme": "SMP_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_minddevel"
+      },
+      {
+        "id": "sous_direction_equipement_maintenance_minddevel",
+        "name": "Sous-Direction de l'Équipement et de la Maintenance",
+        "acronyme": "SDEM_MINDDEVEL",
+        "fonction": "Sous-Direction",
+        "parent": "direction_affaires_generales_minddevel"
+      },
+      {
+        "id": "service_assistance_developpement_regional_minddevel",
+        "name": "Service de l'Assistance et du Développement Régional",
+        "acronyme": "SADR_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "delegation_regionale_minddevel"
+      },
+      {
+        "id": "service_planification_territoriale_regionale_minddevel",
+        "name": "Service de l'Appui à la Planification Territoriale",
+        "acronyme": "SAPT_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "delegation_regionale_minddevel"
+      },
+      {
+        "id": "service_affaires_generales_regionale_minddevel",
+        "name": "Service des Affaires Générales",
+        "acronyme": "SAG_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "delegation_regionale_minddevel"
+      },
+      {
+        "id": "service_assistance_developpement_departemental_minddevel",
+        "name": "Service de l'Assistance et du Développement Départemental",
+        "acronyme": "SADD_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "delegation_departementale_minddevel"
+      },
+      {
+        "id": "service_planification_territoriale_communale_minddevel",
+        "name": "Service de l'Appui à la Planification Territoriale Communale",
+        "acronyme": "SAPTC_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "delegation_departementale_minddevel"
+      },
+      {
+        "id": "service_affaires_generales_departementale_minddevel",
+        "name": "Service des Affaires Générales",
+        "acronyme": "SAGD_MINDDEVEL",
+        "fonction": "Service",
+        "parent": "delegation_departementale_minddevel"
+      }
+    ],
+    "edges": [
+      {
+        "source": "minddevel",
+        "target": "secretariat_particulier_minddevel"
+      },
+      {
+        "source": "minddevel",
+        "target": "conseillers_techniques_minddevel"
+      },
+      {
+        "source": "minddevel",
+        "target": "inspection_generale_minddevel"
+      },
+      {
+        "source": "minddevel",
+        "target": "administration_centrale_minddevel"
+      },
+      {
+        "source": "minddevel",
+        "target": "services_deconcentres_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "secretariat_general_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "division_planification_developpement_local_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "division_promotion_socio_economique_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "direction_services_locaux_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "direction_finances_locales_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "direction_cooperation_decentralisee_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "direction_ressources_humaines_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "brigade_nationale_controle_minddevel"
+      },
+      {
+        "source": "administration_centrale_minddevel",
+        "target": "direction_affaires_generales_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "division_affaires_juridiques_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "division_etudes_statistiques_planification_cooperation_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "division_systemes_information_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "division_communication_relations_publiques_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "division_suivi_controle_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "division_traduction_promotion_bilinguisme_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "sous_direction_accueil_courrier_liaison_minddevel"
+      },
+      {
+        "source": "secretariat_general_minddevel",
+        "target": "centre_documentation_archives_minddevel"
+      },
+      {
+        "source": "services_deconcentres_minddevel",
+        "target": "delegation_regionale_minddevel"
+      },
+      {
+        "source": "services_deconcentres_minddevel",
+        "target": "delegation_departementale_minddevel"
+      },
+      {
+        "source": "direction_affaires_generales_minddevel",
+        "target": "service_budget_minddevel"
+      },
+      {
+        "source": "direction_affaires_generales_minddevel",
+        "target": "service_marches_publics_minddevel"
+      },
+      {
+        "source": "direction_affaires_generales_minddevel",
+        "target": "sous_direction_equipement_maintenance_minddevel"
+      },
+      {
+        "source": "delegation_regionale_minddevel",
+        "target": "service_assistance_developpement_regional_minddevel"
+      },
+      {
+        "source": "delegation_regionale_minddevel",
+        "target": "service_planification_territoriale_regionale_minddevel"
+      },
+      {
+        "source": "delegation_regionale_minddevel",
+        "target": "service_affaires_generales_regionale_minddevel"
+      },
+      {
+        "source": "delegation_departementale_minddevel",
+        "target": "service_assistance_developpement_departemental_minddevel"
+      },
+      {
+        "source": "delegation_departementale_minddevel",
+        "target": "service_planification_territoriale_communale_minddevel"
+      },
+      {
+        "source": "delegation_departementale_minddevel",
+        "target": "service_affaires_generales_departementale_minddevel"
+      }
+    ]
+  }

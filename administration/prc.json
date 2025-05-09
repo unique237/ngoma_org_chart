@@ -1,0 +1,1244 @@
+{
+    "nodes": [
+      {
+        "id": "prc",
+        "name": "Présidence de la République",
+        "acronyme": "PRC",
+        "fonction": "Présidence"
+      },
+      {
+        "id": "secretariat_general_prc",
+        "name": "Secrétariat Général",
+        "acronyme": "SG_PRC",
+        "fonction": "Secrétariat Général",
+        "parent": "prc"
+      },
+      {
+        "id": "cabinet_civil_prc",
+        "name": "Cabinet Civil",
+        "acronyme": "CC_PRC",
+        "fonction": "Cabinet Civil",
+        "parent": "prc"
+      },
+      {
+        "id": "grande_chancellerie_prc",
+        "name": "Grande Chancellerie des Ordres Nationaux",
+        "acronyme": "GCON_PRC",
+        "fonction": "Grande Chancellerie",
+        "parent": "prc"
+      },
+      {
+        "id": "mindef",
+        "name": "Ministère de la Défense",
+        "acronyme": "MINDEF_PRC",
+        "fonction": "Ministère Délégué",
+        "parent": "prc"
+      },
+      {
+        "id": "consupe",
+        "name": "Services du Contrôle Supérieur de l'État",
+        "acronyme": "CSE_PRC",
+        "fonction": "Services Délégués",
+        "parent": "prc"
+      },
+      {
+        "id": "relations_assemblees_prc",
+        "name": "Services chargés des Relations avec les Assemblées",
+        "acronyme": "SRA_PRC",
+        "fonction": "Services Délégués",
+        "parent": "prc"
+      },
+      {
+        "id": "ministere_marches_publics_prc",
+        "name": "Ministère des Marchés Publics",
+        "acronyme": "MINMAP_PRC",
+        "fonction": "Ministère Délégué",
+        "parent": "prc"
+      },
+      {
+        "id": "ministres_mission_prc",
+        "name": "Ministres Chargés de Mission",
+        "acronyme": "MCM_PRC",
+        "fonction": "Ministres",
+        "parent": "prc"
+      },
+      {
+        "id": "ministres_sans_portefeuille_prc",
+        "name": "Ministres sans portefeuille",
+        "acronyme": "MSP_PRC",
+        "fonction": "Ministres",
+        "parent": "prc"
+      },
+      {
+        "id": "delegation_surete_nationale_prc",
+        "name": "Délégation Générale à la Sûreté Nationale",
+        "acronyme": "DGSN_PRC",
+        "fonction": "Délégation",
+        "parent": "prc"
+      },
+      {
+        "id": "delegation_recherche_exterieure_prc",
+        "name": "Délégation Générale à la Recherche Extérieure",
+        "acronyme": "DGRE_PRC",
+        "fonction": "Délégation",
+        "parent": "prc"
+      },
+      {
+        "id": "conseillers_speciaux_prc",
+        "name": "Conseillers Spéciaux",
+        "acronyme": "CS_PRC",
+        "fonction": "Conseillers",
+        "parent": "prc"
+      },
+      {
+        "id": "ambassadeurs_itinerants_prc",
+        "name": "Ambassadeurs Itinérants",
+        "acronyme": "AI_PRC",
+        "fonction": "Ambassadeurs",
+        "parent": "prc"
+      },
+      {
+        "id": "intendance_palais_prc",
+        "name": "Intendance du Palais de l'Unité, des Résidences et Pavillons Présidentiels",
+        "acronyme": "IPU_PRC",
+        "fonction": "Intendance",
+        "parent": "prc"
+      },
+      {
+        "id": "etat_major_particulier_prc",
+        "name": "État-Major Particulier du Président de la République",
+        "acronyme": "EMP_PRC",
+        "fonction": "État-Major",
+        "parent": "prc"
+      },
+      {
+        "id": "direction_securite_presidentielle_prc",
+        "name": "Direction de la Sécurité Présidentielle",
+        "acronyme": "DSP_PRC",
+        "fonction": "Direction",
+        "parent": "prc"
+      },
+      {
+        "id": "garde_presidentielle_prc",
+        "name": "Garde Présidentielle",
+        "acronyme": "GP_PRC",
+        "fonction": "Garde",
+        "parent": "prc"
+      },
+      {
+        "id": "conseil_national_securite_prc",
+        "name": "Conseil National de Sécurité",
+        "acronyme": "CNS_PRC",
+        "fonction": "Conseil",
+        "parent": "prc"
+      },
+      {
+        "id": "commission_anti_corruption_prc",
+        "name": "Commission Nationale Anti-Corruption",
+        "acronyme": "CONAC_PRC",
+        "fonction": "Commission",
+        "parent": "prc"
+      },
+      {
+        "id": "commission_frontieres_prc",
+        "name": "Commission Nationale des Frontières",
+        "acronyme": "CNF_PRC",
+        "fonction": "Commission",
+        "parent": "prc"
+      },
+      {
+        "id": "comite_grands_projets_prc",
+        "name": "Comité de Suivi des Grands Projets",
+        "acronyme": "CSGP_PRC",
+        "fonction": "Comité",
+        "parent": "prc"
+      },
+      {
+        "id": "conseillers_techniques_sg_prc",
+        "name": "Conseillers Techniques",
+        "acronyme": "CT_SG_PRC",
+        "fonction": "Conseillers Techniques",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "charges_mission_sg_prc",
+        "name": "Chargés de Mission",
+        "acronyme": "CM_SG_PRC",
+        "fonction": "Chargés de Mission",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "attaches_sg_prc",
+        "name": "Attachés",
+        "acronyme": "AT_SG_PRC",
+        "fonction": "Attachés",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "secretariats_particuliers_sg_prc",
+        "name": "Secrétariats Particuliers du Secrétaire Général et Adjoints",
+        "acronyme": "SP_SG_PRC",
+        "fonction": "Secrétariats Particuliers",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "service_deplacements_sg_prc",
+        "name": "Service des Déplacements",
+        "acronyme": "SD_SG_PRC",
+        "fonction": "Service",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "service_fichier_legislatif_prc",
+        "name": "Service du Fichier Législatif et Réglementaire",
+        "acronyme": "SFLR_SG_PRC",
+        "fonction": "Service",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "imprimerie_palais_prc",
+        "name": "Imprimerie du Palais de l'Unité",
+        "acronyme": "IPU_SG_PRC",
+        "fonction": "Imprimerie",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "direction_informatique_prc",
+        "name": "Direction de l'Informatique",
+        "acronyme": "DI_SG_PRC",
+        "fonction": "Direction",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "direction_courrier_presidentiel_prc",
+        "name": "Direction du Courrier Présidentiel",
+        "acronyme": "DCP_SG_PRC",
+        "fonction": "Direction",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "direction_journal_officiel_prc",
+        "name": "Direction du Journal Officiel",
+        "acronyme": "DJO_SG_PRC",
+        "fonction": "Direction",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "direction_affaires_generales_prc",
+        "name": "Direction des Affaires Générales",
+        "acronyme": "DAG_SG_PRC",
+        "fonction": "Direction",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "secretariat_conseils_ministeriels_prc",
+        "name": "Secrétariat des Conseils Ministériels",
+        "acronyme": "SCM_SG_PRC",
+        "fonction": "Secrétariat",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "observatoire_ressources_humaines_prc",
+        "name": "Observatoire des Ressources Humaines",
+        "acronyme": "ORH_SG_PRC",
+        "fonction": "Observatoire",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "division_linguistique_bilinguisme_prc",
+        "name": "Division Linguistique et du Bilinguisme",
+        "acronyme": "DLB_SG_PRC",
+        "fonction": "Division",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "bureau_ordres_mission_gouvernement_prc",
+        "name": "Bureau des Ordres de Mission des Membres du Gouvernement et Assimilés",
+        "acronyme": "BOMG_SD_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_deplacements_sg_prc"
+      },
+      {
+        "id": "bureau_ordres_mission_personnel_prc",
+        "name": "Bureau des Ordres de Mission des Personnels de la Présidence",
+        "acronyme": "BOMP_SD_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_deplacements_sg_prc"
+      },
+      {
+        "id": "bureau_engagements_suivi_prc",
+        "name": "Bureau des Engagements et du Suivi",
+        "acronyme": "BES_SD_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_deplacements_sg_prc"
+      },
+      {
+        "id": "bureau_formalisation_actes_prc",
+        "name": "Bureau de la Formalisation des Actes",
+        "acronyme": "BFA_SFLR_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_fichier_legislatif_prc"
+      },
+      {
+        "id": "bureau_conservation_archives_prc",
+        "name": "Bureau de la Conservation des Archives Législatives et Réglementaires",
+        "acronyme": "BCALR_SFLR_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_fichier_legislatif_prc"
+      },
+      {
+        "id": "bureau_visa_prc",
+        "name": "Bureau du Visa",
+        "acronyme": "BV_SFLR_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_fichier_legislatif_prc"
+      },
+      {
+        "id": "unite_fabrication_imprimerie_prc",
+        "name": "Unité de Fabrication",
+        "acronyme": "UF_IPU_SG_PRC",
+        "fonction": "Unité",
+        "parent": "imprimerie_palais_prc"
+      },
+      {
+        "id": "unite_maintenance_imprimerie_prc",
+        "name": "Unité de Maintenance",
+        "acronyme": "UM_IPU_SG_PRC",
+        "fonction": "Unité",
+        "parent": "imprimerie_palais_prc"
+      },
+      {
+        "id": "service_suivi_relance_prc",
+        "name": "Service du Suivi et de la Relance",
+        "acronyme": "SSR_DCP_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_courrier_presidentiel_prc"
+      },
+      {
+        "id": "service_ordre_prc",
+        "name": "Service d'Ordre",
+        "acronyme": "SO_DCP_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_courrier_presidentiel_prc"
+      },
+      {
+        "id": "service_archives_classement_prc",
+        "name": "Service des Archives et du Classement",
+        "acronyme": "SAC_DCP_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_courrier_presidentiel_prc"
+      },
+      {
+        "id": "bureau_suivi_prc",
+        "name": "Bureau du Suivi",
+        "acronyme": "BS_SSR_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_suivi_relance_prc"
+      },
+      {
+        "id": "bureau_relance_prc",
+        "name": "Bureau de la Relance",
+        "acronyme": "BR_SSR_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_suivi_relance_prc"
+      },
+      {
+        "id": "bureau_reception_prc",
+        "name": "Bureau de Réception",
+        "acronyme": "BR_SO_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_ordre_prc"
+      },
+      {
+        "id": "bureau_expedition_prc",
+        "name": "Bureau de l'Expédition",
+        "acronyme": "BE_SO_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_ordre_prc"
+      },
+      {
+        "id": "bureau_transmission_interne_prc",
+        "name": "Bureau de Transmission Interne",
+        "acronyme": "BTI_SO_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_ordre_prc"
+      },
+      {
+        "id": "bureau_chiffre_prc",
+        "name": "Bureau du Chiffre",
+        "acronyme": "BC_SO_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_ordre_prc"
+      },
+      {
+        "id": "bureau_archives_prc",
+        "name": "Bureau des Archives",
+        "acronyme": "BA_SAC_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_archives_classement_prc"
+      },
+      {
+        "id": "bureau_classement_prc",
+        "name": "Bureau du Classement",
+        "acronyme": "BC_SAC_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_archives_classement_prc"
+      },
+      {
+        "id": "bureau_fichier_nominatif_prc",
+        "name": "Bureau du Fichier Nominatif",
+        "acronyme": "BFN_SAC_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_archives_classement_prc"
+      },
+      {
+        "id": "bureau_fichier_matiere_prc",
+        "name": "Bureau du Fichier Matière",
+        "acronyme": "BFM_SAC_DCP_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_archives_classement_prc"
+      },
+      {
+        "id": "service_collecte_prc",
+        "name": "Service de la Collecte",
+        "acronyme": "SC_DJO_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_journal_officiel_prc"
+      },
+      {
+        "id": "service_production_prc",
+        "name": "Service de la Production",
+        "acronyme": "SP_DJO_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_journal_officiel_prc"
+      },
+      {
+        "id": "service_promotion_distribution_prc",
+        "name": "Service de la Promotion et de la Distribution",
+        "acronyme": "SPD_DJO_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_journal_officiel_prc"
+      },
+      {
+        "id": "service_financier_comptable_prc",
+        "name": "Service Financier et Comptable",
+        "acronyme": "SFC_DJO_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_journal_officiel_prc"
+      },
+      {
+        "id": "bureau_collecte_administrations_prc",
+        "name": "Bureau de la Collecte auprès des Administrations de l'État",
+        "acronyme": "BCAE_SC_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_collecte_prc"
+      },
+      {
+        "id": "bureau_collecte_collectivites_prc",
+        "name": "Bureau de la Collecte auprès des Collectivités Territoriales Décentralisées",
+        "acronyme": "BCCTD_SC_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_collecte_prc"
+      },
+      {
+        "id": "bureau_preparation_saisie_prc",
+        "name": "Bureau de la Préparation et de la Saisie",
+        "acronyme": "BPS_SP_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_production_prc"
+      },
+      {
+        "id": "bureau_relecture_prc",
+        "name": "Bureau de la Relecture",
+        "acronyme": "BR_SP_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_production_prc"
+      },
+      {
+        "id": "bureau_abonnements_prc",
+        "name": "Bureau des Abonnements",
+        "acronyme": "BA_SPD_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_promotion_distribution_prc"
+      },
+      {
+        "id": "bureau_ventes_distribution_prc",
+        "name": "Bureau des Ventes Directes et de la Distribution",
+        "acronyme": "BVDD_SPD_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_promotion_distribution_prc"
+      },
+      {
+        "id": "bureau_stockage_prc",
+        "name": "Bureau du Stockage",
+        "acronyme": "BS_SPD_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_promotion_distribution_prc"
+      },
+      {
+        "id": "bureau_budget_prc",
+        "name": "Bureau du Budget",
+        "acronyme": "BB_SFC_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_financier_comptable_prc"
+      },
+      {
+        "id": "bureau_controle_prc",
+        "name": "Bureau du Contrôle",
+        "acronyme": "BC_SFC_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_financier_comptable_prc"
+      },
+      {
+        "id": "bureau_recouvrement_prc",
+        "name": "Bureau du Recouvrement",
+        "acronyme": "BR_SFC_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_financier_comptable_prc"
+      },
+      {
+        "id": "bureau_comptabilite_prc",
+        "name": "Bureau de la Comptabilité",
+        "acronyme": "BCOM_SFC_DJO_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_financier_comptable_prc"
+      },
+      {
+        "id": "service_personnel_prc",
+        "name": "Service du Personnel",
+        "acronyme": "SP_DAG_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "service_budget_dag_prc",
+        "name": "Service du Budget",
+        "acronyme": "SB_DAG_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "service_materiel_prc",
+        "name": "Service du Matériel",
+        "acronyme": "SM_DAG_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "service_documentation_bibliotheque_prc",
+        "name": "Service de la Documentation et de la Bibliothèque",
+        "acronyme": "SDB_DAG_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "service_liaisons_radio_prc",
+        "name": "Service des Liaisons-Radio",
+        "acronyme": "SLR_DAG_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "service_permanence_prc",
+        "name": "Service de Permanence",
+        "acronyme": "SPER_DAG_SG_PRC",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "magasin_prc",
+        "name": "Magasin",
+        "acronyme": "MAG_DAG_SG_PRC",
+        "fonction": "Magasin",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "standard_telephonique_prc",
+        "name": "Standard Téléphonique",
+        "acronyme": "ST_DAG_SG_PRC",
+        "fonction": "Standard",
+        "parent": "direction_affaires_generales_prc"
+      },
+      {
+        "id": "bureau_personnel_fonctionnaire_prc",
+        "name": "Bureau du Personnel Fonctionnaire",
+        "acronyme": "BPF_SP_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_personnel_prc"
+      },
+      {
+        "id": "bureau_personnel_non_fonctionnaire_prc",
+        "name": "Bureau du Personnel Non Fonctionnaire",
+        "acronyme": "BPNF_SP_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_personnel_prc"
+      },
+      {
+        "id": "bureau_preparation_budget_prc",
+        "name": "Bureau de la Préparation du Budget",
+        "acronyme": "BPB_SB_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_budget_dag_prc"
+      },
+      {
+        "id": "bureau_suivi_execution_budget_prc",
+        "name": "Bureau du Suivi de l'Exécution du Budget",
+        "acronyme": "BSEB_SB_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_budget_dag_prc"
+      },
+      {
+        "id": "bureau_materiel_roulant_prc",
+        "name": "Bureau du Matériel Roulant",
+        "acronyme": "BMR_SM_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_materiel_prc"
+      },
+      {
+        "id": "bureau_autres_materiels_prc",
+        "name": "Bureau des Autres Matériels",
+        "acronyme": "BAM_SM_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_materiel_prc"
+      },
+      {
+        "id": "bureau_comptabilite_matieres_prc",
+        "name": "Bureau de la Comptabilité-Matières",
+        "acronyme": "BCM_SM_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_materiel_prc"
+      },
+      {
+        "id": "bureau_acquisitions_prc",
+        "name": "Bureau des Acquisitions",
+        "acronyme": "BA_SDB_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_documentation_bibliotheque_prc"
+      },
+      {
+        "id": "bureau_classement_sdb_prc",
+        "name": "Bureau du Classement",
+        "acronyme": "BC_SDB_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_documentation_bibliotheque_prc"
+      },
+      {
+        "id": "bureau_pret_prc",
+        "name": "Bureau du Prêt",
+        "acronyme": "BP_SDB_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_documentation_bibliotheque_prc"
+      },
+      {
+        "id": "bureau_equipements_techniques_prc",
+        "name": "Bureau des Équipements Techniques",
+        "acronyme": "BET_SLR_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_liaisons_radio_prc"
+      },
+      {
+        "id": "bureau_maintenance_slr_prc",
+        "name": "Bureau de la Maintenance",
+        "acronyme": "BM_SLR_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_liaisons_radio_prc"
+      },
+      {
+        "id": "bureau_radio_commandement_prc",
+        "name": "Bureau de la Radio de Commandement",
+        "acronyme": "BRC_SLR_DAG_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "service_liaisons_radio_prc"
+      },
+      {
+        "id": "section_traduction_francaise_prc",
+        "name": "Section de Traduction de Langue Française",
+        "acronyme": "STLF_DLB_SG_PRC",
+        "fonction": "Section",
+        "parent": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "id": "section_traduction_anglaise_prc",
+        "name": "Section de Traduction de Langue Anglaise",
+        "acronyme": "STLA_DLB_SG_PRC",
+        "fonction": "Section",
+        "parent": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "id": "section_traduction_etrangeres_prc",
+        "name": "Section de Traduction de Langues Étrangères",
+        "acronyme": "STLE_DLB_SG_PRC",
+        "fonction": "Section",
+        "parent": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "id": "section_encadrement_normalisation_prc",
+        "name": "Section de l'Encadrement, de la Normalisation et des Technologies Nouvelles",
+        "acronyme": "SENTN_DLB_SG_PRC",
+        "fonction": "Section",
+        "parent": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "id": "cellule_conferences_prc",
+        "name": "Cellule des Conférences",
+        "acronyme": "CC_DLB_SG_PRC",
+        "fonction": "Cellule",
+        "parent": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "id": "bureau_liaison_prc",
+        "name": "Bureau de Liaison",
+        "acronyme": "BL_DLB_SG_PRC",
+        "fonction": "Bureau",
+        "parent": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "id": "pool_dactylographie_prc",
+        "name": "Pool de Dactylographie et de Traitement des Textes",
+        "acronyme": "PDTT_DLB_SG_PRC",
+        "fonction": "Pool",
+        "parent": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "id": "cellule_revision_francaise_prc",
+        "name": "Cellule de Révision (Française)",
+        "acronyme": "CRF_STLF_DLB_SG_PRC",
+        "fonction": "Cellule",
+        "parent": "section_traduction_francaise_prc"
+      },
+      {
+        "id": "unite_traduction_francaise_prc",
+        "name": "Unité de Traduction (Française)",
+        "acronyme": "UTF_STLF_DLB_SG_PRC",
+        "fonction": "Unité",
+        "parent": "section_traduction_francaise_prc"
+      },
+      {
+        "id": "cellule_revision_anglaise_prc",
+        "name": "Cellule de Révision (Anglaise)",
+        "acronyme": "CRA_STLA_DLB_SG_PRC",
+        "fonction": "Cellule",
+        "parent": "section_traduction_anglaise_prc"
+      },
+      {
+        "id": "unite_traduction_anglaise_prc",
+        "name": "Unité de Traduction (Anglaise)",
+        "acronyme": "UTA_STLA_DLB_SG_PRC",
+        "fonction": "Unité",
+        "parent": "section_traduction_anglaise_prc"
+      },
+      {
+        "id": "cellule_revision_etrangeres_prc",
+        "name": "Cellule de Révision (Étrangères)",
+        "acronyme": "CRE_STLE_DLB_SG_PRC",
+        "fonction": "Cellule",
+        "parent": "section_traduction_etrangeres_prc"
+      },
+      {
+        "id": "unite_traduction_etrangeres_prc",
+        "name": "Unité de Traduction (Étrangères)",
+        "acronyme": "UTE_STLE_DLB_SG_PRC",
+        "fonction": "Unité",
+        "parent": "section_traduction_etrangeres_prc"
+      },
+      {
+        "id": "unite_normalisation_terminologie_prc",
+        "name": "Unité de la Normalisation et de la Terminologie",
+        "acronyme": "UNT_SENTN_DLB_SG_PRC",
+        "fonction": "Unité",
+        "parent": "section_encadrement_normalisation_prc"
+      },
+      {
+        "id": "unite_encadrement_controle_prc",
+        "name": "Unité de l'Encadrement et du Contrôle de Qualité",
+        "acronyme": "UECQ_SENTN_DLB_SG_PRC",
+        "fonction": "Unité",
+        "parent": "section_encadrement_normalisation_prc"
+      },
+      {
+        "id": "unite_documentation_prc",
+        "name": "Unité de Documentation",
+        "acronyme": "UD_SENTN_DLB_SG_PRC",
+        "fonction": "Unité",
+        "parent": "section_encadrement_normalisation_prc"
+      },
+      {
+        "id": "programme_formation_bilingue_prc",
+        "name": "Programme de Formation Bilingue",
+        "acronyme": "PFB_SG_PRC",
+        "fonction": "Programme",
+        "parent": "secretariat_general_prc"
+      },
+      {
+        "id": "protocole_etat_prc",
+        "name": "Protocole d'État",
+        "acronyme": "PE_CC_PRC",
+        "fonction": "Protocole",
+        "parent": "cabinet_civil_prc"
+      },
+      {
+        "id": "cellule_communication_prc",
+        "name": "Cellule de Communication du Président de la République",
+        "acronyme": "CCOM_CC_PRC",
+        "fonction": "Cellule",
+        "parent": "cabinet_civil_prc"
+      },
+      {
+        "id": "division_affaires_reservees_prc",
+        "name": "Division des Affaires Réservées",
+        "acronyme": "DAR_CC_PRC",
+        "fonction": "Division",
+        "parent": "cabinet_civil_prc"
+      }
+    ],
+    "edges": [
+      {
+        "source": "prc",
+        "target": "secretariat_general_prc"
+      },
+      {
+        "source": "prc",
+        "target": "cabinet_civil_prc"
+      },
+      {
+        "source": "prc",
+        "target": "grande_chancellerie_prc"
+      },
+      {
+        "source": "prc",
+        "target": "mindef"
+      },
+      {
+        "source": "prc",
+        "target": "consupe"
+      },
+      {
+        "source": "prc",
+        "target": "relations_assemblees_prc"
+      },
+      {
+        "source": "prc",
+        "target": "ministere_marches_publics_prc"
+      },
+      {
+        "source": "prc",
+        "target": "ministres_mission_prc"
+      },
+      {
+        "source": "prc",
+        "target": "ministres_sans_portefeuille_prc"
+      },
+      {
+        "source": "prc",
+        "target": "delegation_surete_nationale_prc"
+      },
+      {
+        "source": "prc",
+        "target": "delegation_recherche_exterieure_prc"
+      },
+      {
+        "source": "prc",
+        "target": "conseillers_speciaux_prc"
+      },
+      {
+        "source": "prc",
+        "target": "ambassadeurs_itinerants_prc"
+      },
+      {
+        "source": "prc",
+        "target": "intendance_palais_prc"
+      },
+      {
+        "source": "prc",
+        "target": "etat_major_particulier_prc"
+      },
+      {
+        "source": "prc",
+        "target": "direction_securite_presidentielle_prc"
+      },
+      {
+        "source": "prc",
+        "target": "garde_presidentielle_prc"
+      },
+      {
+        "source": "prc",
+        "target": "conseil_national_securite_prc"
+      },
+      {
+        "source": "prc",
+        "target": "commission_anti_corruption_prc"
+      },
+      {
+        "source": "prc",
+        "target": "commission_frontieres_prc"
+      },
+      {
+        "source": "prc",
+        "target": "comite_grands_projets_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "conseillers_techniques_sg_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "charges_mission_sg_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "attaches_sg_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "secretariats_particuliers_sg_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "service_deplacements_sg_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "service_fichier_legislatif_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "imprimerie_palais_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "direction_informatique_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "direction_courrier_presidentiel_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "direction_journal_officiel_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "direction_affaires_generales_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "secretariat_conseils_ministeriels_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "observatoire_ressources_humaines_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "division_linguistique_bilinguisme_prc"
+      },
+      {
+        "source": "secretariat_general_prc",
+        "target": "programme_formation_bilingue_prc"
+      },
+      {
+        "source": "service_deplacements_sg_prc",
+        "target": "bureau_ordres_mission_gouvernement_prc"
+      },
+      {
+        "source": "service_deplacements_sg_prc",
+        "target": "bureau_ordres_mission_personnel_prc"
+      },
+      {
+        "source": "service_deplacements_sg_prc",
+        "target": "bureau_engagements_suivi_prc"
+      },
+      {
+        "source": "service_fichier_legislatif_prc",
+        "target": "bureau_formalisation_actes_prc"
+      },
+      {
+        "source": "service_fichier_legislatif_prc",
+        "target": "bureau_conservation_archives_prc"
+      },
+      {
+        "source": "service_fichier_legislatif_prc",
+        "target": "bureau_visa_prc"
+      },
+      {
+        "source": "imprimerie_palais_prc",
+        "target": "unite_fabrication_imprimerie_prc"
+      },
+      {
+        "source": "imprimerie_palais_prc",
+        "target": "unite_maintenance_imprimerie_prc"
+      },
+      {
+        "source": "direction_courrier_presidentiel_prc",
+        "target": "service_suivi_relance_prc"
+      },
+      {
+        "source": "direction_courrier_presidentiel_prc",
+        "target": "service_ordre_prc"
+      },
+      {
+        "source": "direction_courrier_presidentiel_prc",
+        "target": "service_archives_classement_prc"
+      },
+      {
+        "source": "service_suivi_relance_prc",
+        "target": "bureau_suivi_prc"
+      },
+      {
+        "source": "service_suivi_relance_prc",
+        "target": "bureau_relance_prc"
+      },
+      {
+        "source": "service_ordre_prc",
+        "target": "bureau_reception_prc"
+      },
+      {
+        "source": "service_ordre_prc",
+        "target": "bureau_expedition_prc"
+      },
+      {
+        "source": "service_ordre_prc",
+        "target": "bureau_transmission_interne_prc"
+      },
+      {
+        "source": "service_ordre_prc",
+        "target": "bureau_chiffre_prc"
+      },
+      {
+        "source": "service_archives_classement_prc",
+        "target": "bureau_archives_prc"
+      },
+      {
+        "source": "service_archives_classement_prc",
+        "target": "bureau_classement_prc"
+      },
+      {
+        "source": "service_archives_classement_prc",
+        "target": "bureau_fichier_nominatif_prc"
+      },
+      {
+        "source": "service_archives_classement_prc",
+        "target": "bureau_fichier_matiere_prc"
+      },
+      {
+        "source": "direction_journal_officiel_prc",
+        "target": "service_collecte_prc"
+      },
+      {
+        "source": "direction_journal_officiel_prc",
+        "target": "service_production_prc"
+      },
+      {
+        "source": "direction_journal_officiel_prc",
+        "target": "service_promotion_distribution_prc"
+      },
+      {
+        "source": "direction_journal_officiel_prc",
+        "target": "service_financier_comptable_prc"
+      },
+      {
+        "source": "service_collecte_prc",
+        "target": "bureau_collecte_administrations_prc"
+      },
+      {
+        "source": "service_collecte_prc",
+        "target": "bureau_collecte_collectivites_prc"
+      },
+      {
+        "source": "service_production_prc",
+        "target": "bureau_preparation_saisie_prc"
+      },
+      {
+        "source": "service_production_prc",
+        "target": "bureau_relecture_prc"
+      },
+      {
+        "source": "service_promotion_distribution_prc",
+        "target": "bureau_abonnements_prc"
+      },
+      {
+        "source": "service_promotion_distribution_prc",
+        "target": "bureau_ventes_distribution_prc"
+      },
+      {
+        "source": "service_promotion_distribution_prc",
+        "target": "bureau_stockage_prc"
+      },
+      {
+        "source": "service_financier_comptable_prc",
+        "target": "bureau_budget_prc"
+      },
+      {
+        "source": "service_financier_comptable_prc",
+        "target": "bureau_controle_prc"
+      },
+      {
+        "source": "service_financier_comptable_prc",
+        "target": "bureau_recouvrement_prc"
+      },
+      {
+        "source": "service_financier_comptable_prc",
+        "target": "bureau_comptabilite_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "service_personnel_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "service_budget_dag_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "service_materiel_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "service_documentation_bibliotheque_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "service_liaisons_radio_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "service_permanence_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "magasin_prc"
+      },
+      {
+        "source": "direction_affaires_generales_prc",
+        "target": "standard_telephonique_prc"
+      },
+      {
+        "source": "service_personnel_prc",
+        "target": "bureau_personnel_fonctionnaire_prc"
+      },
+      {
+        "source": "service_personnel_prc",
+        "target": "bureau_personnel_non_fonctionnaire_prc"
+      },
+      {
+        "source": "service_budget_dag_prc",
+        "target": "bureau_preparation_budget_prc"
+      },
+      {
+        "source": "service_budget_dag_prc",
+        "target": "bureau_suivi_execution_budget_prc"
+      },
+      {
+        "source": "service_materiel_prc",
+        "target": "bureau_materiel_roulant_prc"
+      },
+      {
+        "source": "service_materiel_prc",
+        "target": "bureau_autres_materiels_prc"
+      },
+      {
+        "source": "service_materiel_prc",
+        "target": "bureau_comptabilite_matieres_prc"
+      },
+      {
+        "source": "service_documentation_bibliotheque_prc",
+        "target": "bureau_acquisitions_prc"
+      },
+      {
+        "source": "service_documentation_bibliotheque_prc",
+        "target": "bureau_classement_sdb_prc"
+      },
+      {
+        "source": "service_documentation_bibliotheque_prc",
+        "target": "bureau_pret_prc"
+      },
+      {
+        "source": "service_liaisons_radio_prc",
+        "target": "bureau_equipements_techniques_prc"
+      },
+      {
+        "source": "service_liaisons_radio_prc",
+        "target": "bureau_maintenance_slr_prc"
+      },
+      {
+        "source": "service_liaisons_radio_prc",
+        "target": "bureau_radio_commandement_prc"
+      },
+      {
+        "source": "division_linguistique_bilinguisme_prc",
+        "target": "section_traduction_francaise_prc"
+      },
+      {
+        "source": "division_linguistique_bilinguisme_prc",
+        "target": "section_traduction_anglaise_prc"
+      },
+      {
+        "source": "division_linguistique_bilinguisme_prc",
+        "target": "section_traduction_etrangeres_prc"
+      },
+      {
+        "source": "division_linguistique_bilinguisme_prc",
+        "target": "section_encadrement_normalisation_prc"
+      },
+      {
+        "source": "division_linguistique_bilinguisme_prc",
+        "target": "cellule_conferences_prc"
+      },
+      {
+        "source": "division_linguistique_bilinguisme_prc",
+        "target": "bureau_liaison_prc"
+      },
+      {
+        "source": "division_linguistique_bilinguisme_prc",
+        "target": "pool_dactylographie_prc"
+      },
+      {
+        "source": "section_traduction_francaise_prc",
+        "target": "cellule_revision_francaise_prc"
+      },
+      {
+        "source": "section_traduction_francaise_prc",
+        "target": "unite_traduction_francaise_prc"
+      },
+      {
+        "source": "section_traduction_anglaise_prc",
+        "target": "cellule_revision_anglaise_prc"
+      },
+      {
+        "source": "section_traduction_anglaise_prc",
+        "target": "unite_traduction_anglaise_prc"
+      },
+      {
+        "source": "section_traduction_etrangeres_prc",
+        "target": "cellule_revision_etrangeres_prc"
+      },
+      {
+        "source": "section_traduction_etrangeres_prc",
+        "target": "unite_traduction_etrangeres_prc"
+      },
+      {
+        "source": "section_encadrement_normalisation_prc",
+        "target": "unite_normalisation_terminologie_prc"
+      },
+      {
+        "source": "section_encadrement_normalisation_prc",
+        "target": "unite_encadrement_controle_prc"
+      },
+      {
+        "source": "section_encadrement_normalisation_prc",
+        "target": "unite_documentation_prc"
+      },
+      {
+        "source": "cabinet_civil_prc",
+        "target": "protocole_etat_prc"
+      },
+      {
+        "source": "cabinet_civil_prc",
+        "target": "cellule_communication_prc"
+      },
+      {
+        "source": "cabinet_civil_prc",
+        "target": "division_affaires_reservees_prc"
+      }
+    ]
+  }

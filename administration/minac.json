@@ -1,6 +1,6 @@
 {
     "nodes": [
-      {"id": "minac", "name": "ministère des arts et de la culture", "acronyme": "MINAC", "fonction": "Ministere"},
+      {"id": "minac", "name": "Ministère des Arts et de la Culture", "acronyme": "MINAC", "fonction": "Ministere"},
       {"id": "secretariat_particulier_minac", "name": "secrétariat particulier", "acronyme": "SP_MINAC", "fonction": "Secretariat Particulier", "parent": "minac"},
       {"id": "conseillers_techniques_minac", "name": "conseillers techniques", "acronyme": "CT_MINAC", "fonction": "Conseillers Techniques", "parent": "minac"},
       {"id": "inspection_generale_minac", "name": "inspection générale", "acronyme": "IG_MINAC", "fonction": "Secretariat General", "parent": "minac"},

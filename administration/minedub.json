@@ -1,0 +1,1431 @@
+{
+    "nodes": [
+      {
+        "id": "minedub",
+        "name": "Ministère de l'Education de Base",
+        "acronyme": "MINEDUB",
+        "fonction": "Ministère"
+      },
+      {
+        "id": "secretariat_particulier_minedub",
+        "name": "Secrétariat Particulier du Ministre",
+        "acronyme": "SP_MINEDUB",
+        "fonction": "Secrétariat",
+        "parent": "minedub"
+      },
+      {
+        "id": "secretariat_particulier_se_minedub",
+        "name": "Secrétariat Particulier du Secrétaire d'Etat",
+        "acronyme": "SP_SE_MINEDUB",
+        "fonction": "Secrétariat",
+        "parent": "minedub"
+      },
+      {
+        "id": "conseillers_techniques_minedub",
+        "name": "Conseillers Techniques",
+        "acronyme": "CT_MINEDUB",
+        "fonction": "Conseillers",
+        "parent": "minedub"
+      },
+      {
+        "id": "inspection_generale_services_minedub",
+        "name": "Inspection Générale des Services",
+        "acronyme": "IGS_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "minedub"
+      },
+      {
+        "id": "inspection_generale_enseignements_minedub",
+        "name": "Inspection Générale des Enseignements",
+        "acronyme": "IGE_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "minedub"
+      },
+      {
+        "id": "secretariat_general_minedub",
+        "name": "Secrétariat Général",
+        "acronyme": "SG_MINEDUB",
+        "fonction": "Secrétariat Général",
+        "parent": "minedub"
+      },
+      {
+        "id": "direction_enseignement_maternel_primaire_minedub",
+        "name": "Direction de l'Enseignement Maternel et Primaire",
+        "acronyme": "DEMP_MINEDUB",
+        "fonction": "Direction",
+        "parent": "minedub"
+      },
+      {
+        "id": "direction_suivi_enseignement_prive_minedub",
+        "name": "Direction du Suivi de l'Enseignement Privé de Base",
+        "acronyme": "DSEPB_MINEDUB",
+        "fonction": "Direction",
+        "parent": "minedub"
+      },
+      {
+        "id": "direction_alphabetisation_education_non_formelle_minedub",
+        "name": "Direction de l'Alphabétisation, de l'Education de Base Non Formelle et de la Promotion des Langues Nationales",
+        "acronyme": "DAENF_MINEDUB",
+        "fonction": "Direction",
+        "parent": "minedub"
+      },
+      {
+        "id": "direction_examens_concours_certification_minedub",
+        "name": "Direction des Examens, des Concours et de la Certification",
+        "acronyme": "DECC_MINEDUB",
+        "fonction": "Direction",
+        "parent": "minedub"
+      },
+      {
+        "id": "direction_sante_sport_activites_minedub",
+        "name": "Direction de la Santé, du Sport et des Activités Post et Périscolaires",
+        "acronyme": "DSSAP_MINEDUB",
+        "fonction": "Direction",
+        "parent": "minedub"
+      },
+      {
+        "id": "division_planification_projets_cooperation_minedub",
+        "name": "Division de la Planification, des Projets et de la Coopération",
+        "acronyme": "DPPC_MINEDUB",
+        "fonction": "Division",
+        "parent": "minedub"
+      },
+      {
+        "id": "direction_ressources_humaines_minedub",
+        "name": "Direction des Ressources Humaines",
+        "acronyme": "DRH_MINEDUB",
+        "fonction": "Direction",
+        "parent": "minedub"
+      },
+      {
+        "id": "direction_ressources_financieres_materielles_minedub",
+        "name": "Direction des Ressources Financières et Matérielles",
+        "acronyme": "DRFM_MINEDUB",
+        "fonction": "Direction",
+        "parent": "minedub"
+      },
+      {
+        "id": "services_deconcentres_minedub",
+        "name": "Services Déconcentrés",
+        "acronyme": "SD_MINEDUB",
+        "fonction": "Services",
+        "parent": "minedub"
+      },
+      {
+        "id": "etablissements_scolaires_instituts_minedub",
+        "name": "Etablissements Scolaires et Instituts Rattachés",
+        "acronyme": "ESIR_MINEDUB",
+        "fonction": "Etablissements",
+        "parent": "minedub"
+      },
+      {
+        "id": "organismes_consultatifs_minedub",
+        "name": "Organismes Consultatifs",
+        "acronyme": "OC_MINEDUB",
+        "fonction": "Organismes",
+        "parent": "minedub"
+      },
+      {
+        "id": "inspecteurs_services_minedub",
+        "name": "Inspecteurs des Services",
+        "acronyme": "IS_MINEDUB",
+        "fonction": "Inspecteurs",
+        "parent": "inspection_generale_services_minedub"
+      },
+      {
+        "id": "inspection_pedagogie_bilinguisme_minedub",
+        "name": "Inspection de Pédagogie Chargée de la Promotion du Bilinguisme",
+        "acronyme": "IPB_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_generale_enseignements_minedub"
+      },
+      {
+        "id": "inspection_pedagogie_alphabetisation_minedub",
+        "name": "Inspection de Pédagogie Chargée de l'Alphabétisation, de l'Education de Base Non Formelle et de la Promotion des Langues Nationales",
+        "acronyme": "IPA_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_generale_enseignements_minedub"
+      },
+      {
+        "id": "inspection_pedagogie_enseignement_maternel_minedub",
+        "name": "Inspection de Pédagogie Chargée de l'Enseignement Maternel",
+        "acronyme": "IPEM_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_generale_enseignements_minedub"
+      },
+      {
+        "id": "inspection_pedagogie_enseignement_primaire_minedub",
+        "name": "Inspection de Pédagogie Chargée de l'Enseignement Primaire",
+        "acronyme": "IPEP_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_generale_enseignements_minedub"
+      },
+      {
+        "id": "inspection_pedagogie_technologies_educatives_minedub",
+        "name": "Inspection de Pédagogie Chargée des Technologies Educatives",
+        "acronyme": "IPTE_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_generale_enseignements_minedub"
+      },
+      {
+        "id": "division_affaires_juridiques_minedub",
+        "name": "Division des Affaires Juridiques",
+        "acronyme": "DAJ_MINEDUB",
+        "fonction": "Division",
+        "parent": "secretariat_general_minedub"
+      },
+      {
+        "id": "cellule_suivi_minedub",
+        "name": "Cellule de Suivi",
+        "acronyme": "CS_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minedub"
+      },
+      {
+        "id": "cellule_communication_minedub",
+        "name": "Cellule de la Communication",
+        "acronyme": "CC_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minedub"
+      },
+      {
+        "id": "cellule_traduction_minedub",
+        "name": "Cellule de la Traduction",
+        "acronyme": "CTRAD_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minedub"
+      },
+      {
+        "id": "cellule_informatique_minedub",
+        "name": "Cellule Informatique",
+        "acronyme": "CI_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minedub"
+      },
+      {
+        "id": "sous_direction_documentation_archives_minedub",
+        "name": "Sous-Direction de la Documentation et des Archives",
+        "acronyme": "SDDA_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "secretariat_general_minedub"
+      },
+      {
+        "id": "sous_direction_accueil_courrier_liaison_minedub",
+        "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+        "acronyme": "SDACL_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "secretariat_general_minedub"
+      },
+      {
+        "id": "cellule_etudes_reglementation_minedub",
+        "name": "Cellule des Etudes et de la Règlementation",
+        "acronyme": "CER_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "division_affaires_juridiques_minedub"
+      },
+      {
+        "id": "cellule_contentieux_minedub",
+        "name": "Cellule du Contentieux",
+        "acronyme": "CCONT_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "division_affaires_juridiques_minedub"
+      },
+      {
+        "id": "sous_direction_enseignement_maternel_minedub",
+        "name": "Sous-Direction de l'Enseignement Maternel",
+        "acronyme": "SDEM_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_enseignement_maternel_primaire_minedub"
+      },
+      {
+        "id": "sous_direction_enseignement_primaire_minedub",
+        "name": "Sous-Direction de l'Enseignement Primaire",
+        "acronyme": "SDEP_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_enseignement_maternel_primaire_minedub"
+      },
+      {
+        "id": "service_ecoles_maternelles_publiques_minedub",
+        "name": "Service des Ecoles Maternelles Publiques",
+        "acronyme": "SEMP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_enseignement_maternel_minedub"
+      },
+      {
+        "id": "service_ecoles_maternelles_application_minedub",
+        "name": "Service des Ecoles Maternelles d'Application",
+        "acronyme": "SEMA_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_enseignement_maternel_minedub"
+      },
+      {
+        "id": "service_centres_prescolaires_communautaires_minedub",
+        "name": "Service des Centres Préscolaires Communautaires",
+        "acronyme": "SCPC_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_enseignement_maternel_minedub"
+      },
+      {
+        "id": "service_ecoles_primaires_publiques_minedub",
+        "name": "Service des Ecoles Primaires Publiques",
+        "acronyme": "SEPP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_enseignement_primaire_minedub"
+      },
+      {
+        "id": "service_ecoles_primaires_application_minedub",
+        "name": "Service des Ecoles Primaires d'Application",
+        "acronyme": "SEPA_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_enseignement_primaire_minedub"
+      },
+      {
+        "id": "service_education_inclusive_minedub",
+        "name": "Service de l'Education Inclusive",
+        "acronyme": "SEI_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_enseignement_primaire_minedub"
+      },
+      {
+        "id": "sous_direction_reglementation_agrements_minedub",
+        "name": "Sous-Direction de la Règlementation et des Agréments",
+        "acronyme": "SDRA_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_suivi_enseignement_prive_minedub"
+      },
+      {
+        "id": "sous_direction_affaires_administratives_pedagogiques_minedub",
+        "name": "Sous-Direction des Affaires Administratives et Pédagogiques",
+        "acronyme": "SDAAP_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_suivi_enseignement_prive_minedub"
+      },
+      {
+        "id": "service_reglementation_suivi_ecoles_sous_contrat_minedub",
+        "name": "Service de la Règlementation et du Suivi des Ecoles Maternelles et Primaires Privées de Base Sous-Contrat",
+        "acronyme": "SRSESC_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_reglementation_agrements_minedub"
+      },
+      {
+        "id": "service_suivi_ecoles_libres_minedub",
+        "name": "Service du Suivi des Ecoles Maternelles et Primaires Privées de Base Libres",
+        "acronyme": "SSELIB_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_reglementation_agrements_minedub"
+      },
+      {
+        "id": "service_affaires_administratives_minedub",
+        "name": "Service des Affaires Administratives",
+        "acronyme": "SAA_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_affaires_administratives_pedagogiques_minedub"
+      },
+      {
+        "id": "service_affaires_pedagogiques_minedub",
+        "name": "Service des Affaires Pédagogiques",
+        "acronyme": "SAP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_affaires_administratives_pedagogiques_minedub"
+      },
+      {
+        "id": "sous_direction_alphabetisation_langues_nationales_minedub",
+        "name": "Sous-Direction de l'Alphabétisation et de la Promotion des Langues Nationales",
+        "acronyme": "SDALN_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_alphabetisation_education_non_formelle_minedub"
+      },
+      {
+        "id": "sous_direction_education_base_non_formelle_minedub",
+        "name": "Sous-Direction de l'Education de Base Non Formelle",
+        "acronyme": "SDEBNF_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_alphabetisation_education_non_formelle_minedub"
+      },
+      {
+        "id": "service_alphabetisation_fonctionnelle_minedub",
+        "name": "Service de l'Alphabétisation Fonctionnelle et de la Promotion des Langues Nationales",
+        "acronyme": "SAFPLN_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_alphabetisation_langues_nationales_minedub"
+      },
+      {
+        "id": "service_gestion_centres_alphabetisation_minedub",
+        "name": "Service de Gestion des Centres d'Alphabétisation",
+        "acronyme": "SGCA_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_alphabetisation_langues_nationales_minedub"
+      },
+      {
+        "id": "service_education_base_non_formelle_minedub",
+        "name": "Service de l'Education de Base Non Formelle",
+        "acronyme": "SEBNF_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_education_base_non_formelle_minedub"
+      },
+      {
+        "id": "service_suivi_centres_education_non_formelle_minedub",
+        "name": "Service du Suivi des Centres d'Education de Base Non Formelle",
+        "acronyme": "SSCEBNF_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_education_base_non_formelle_minedub"
+      },
+      {
+        "id": "sous_direction_organisation_examens_concours_minedub",
+        "name": "Sous-Direction de l'Organisation des Examens et Concours",
+        "acronyme": "SDOEC_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_examens_concours_certification_minedub"
+      },
+      {
+        "id": "sous_direction_certification_archives_statistiques_minedub",
+        "name": "Sous-Direction de la Certification, des Archives et des Statistiques",
+        "acronyme": "SDCAS_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_examens_concours_certification_minedub"
+      },
+      {
+        "id": "service_examens_concours_anglophones_minedub",
+        "name": "Service des Examens et Concours Anglophones",
+        "acronyme": "SECA_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_organisation_examens_concours_minedub"
+      },
+      {
+        "id": "service_examens_concours_francophones_minedub",
+        "name": "Service des Examens et Concours Francophones",
+        "acronyme": "SECF_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_organisation_examens_concours_minedub"
+      },
+      {
+        "id": "service_reprographie_minedub",
+        "name": "Service de la Reprographie",
+        "acronyme": "SR_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_organisation_examens_concours_minedub"
+      },
+      {
+        "id": "service_certification_minedub",
+        "name": "Service de la Certification",
+        "acronyme": "SCERT_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_certification_archives_statistiques_minedub"
+      },
+      {
+        "id": "service_archives_statistiques_examens_minedub",
+        "name": "Service des Archives et des Statistiques des Examens",
+        "acronyme": "SASE_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_certification_archives_statistiques_minedub"
+      },
+      {
+        "id": "sous_direction_sante_scolaire_minedub",
+        "name": "Sous-Direction de la Santé Scolaire",
+        "acronyme": "SDSS_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_sante_sport_activites_minedub"
+      },
+      {
+        "id": "sous_direction_education_physique_sport_minedub",
+        "name": "Sous-Direction de l'Education Physique et du Sport Scolaire",
+        "acronyme": "SDEPSS_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_sante_sport_activites_minedub"
+      },
+      {
+        "id": "sous_direction_activites_post_periscolaires_minedub",
+        "name": "Sous-Direction des Activités Post et Périscolaires",
+        "acronyme": "SDAPP_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_sante_sport_activites_minedub"
+      },
+      {
+        "id": "service_hygiene_prophylaxie_minedub",
+        "name": "Service de l'Hygiène et de la Prophylaxie",
+        "acronyme": "SHP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_sante_scolaire_minedub"
+      },
+      {
+        "id": "service_sante_eleves_personnels_minedub",
+        "name": "Service de la Santé des Elèves et des Personnels",
+        "acronyme": "SSEP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_sante_scolaire_minedub"
+      },
+      {
+        "id": "service_education_physique_minedub",
+        "name": "Service de l'Education Physique",
+        "acronyme": "SEP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_education_physique_sport_minedub"
+      },
+      {
+        "id": "service_sport_scolaire_minedub",
+        "name": "Service du Sport Scolaire",
+        "acronyme": "SSS_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_education_physique_sport_minedub"
+      },
+      {
+        "id": "service_clubs_associations_minedub",
+        "name": "Service des Clubs et Associations",
+        "acronyme": "SCA_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_activites_post_periscolaires_minedub"
+      },
+      {
+        "id": "service_vie_scolaire_minedub",
+        "name": "Service de la Vie Scolaire",
+        "acronyme": "SVS_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_activites_post_periscolaires_minedub"
+      },
+      {
+        "id": "cellule_planification_minedub",
+        "name": "Cellule de la Planification",
+        "acronyme": "CPLAN_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "division_planification_projets_cooperation_minedub"
+      },
+      {
+        "id": "cellule_projets_minedub",
+        "name": "Cellule des Projets",
+        "acronyme": "CPROJ_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "division_planification_projets_cooperation_minedub"
+      },
+      {
+        "id": "cellule_cooperation_minedub",
+        "name": "Cellule de la Coopération",
+        "acronyme": "CCOOP_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "division_planification_projets_cooperation_minedub"
+      },
+      {
+        "id": "cellule_gestion_projet_sigipes_minedub",
+        "name": "Cellule de Gestion du Projet SIGIPES",
+        "acronyme": "CGSIG_MINEDUB",
+        "fonction": "Cellule",
+        "parent": "direction_ressources_humaines_minedub"
+      },
+      {
+        "id": "sous_direction_personnels_fonctionnaires_minedub",
+        "name": "Sous-Direction des Personnels Fonctionnaires",
+        "acronyme": "SDPF_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_ressources_humaines_minedub"
+      },
+      {
+        "id": "sous_direction_personnels_non_fonctionnaires_minedub",
+        "name": "Sous-Direction des Personnels Non Fonctionnaires",
+        "acronyme": "SDPNF_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_ressources_humaines_minedub"
+      },
+      {
+        "id": "sous_direction_developpement_ressources_humaines_minedub",
+        "name": "Sous-Direction du Développement des Ressources Humaines",
+        "acronyme": "SDDRH_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_ressources_humaines_minedub"
+      },
+      {
+        "id": "sous_direction_solde_pensions_minedub",
+        "name": "Sous-Direction de la Solde et des Pensions",
+        "acronyme": "SDSP_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_ressources_humaines_minedub"
+      },
+      {
+        "id": "service_personnels_enseignants_minedub",
+        "name": "Service des Personnels Enseignants",
+        "acronyme": "SPE_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_personnels_fonctionnaires_minedub"
+      },
+      {
+        "id": "service_personnels_non_enseignants_minedub",
+        "name": "Service des Personnels Non Enseignants",
+        "acronyme": "SPNE_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_personnels_fonctionnaires_minedub"
+      },
+      {
+        "id": "service_enseignants_contractuels_minedub",
+        "name": "Service des Enseignants Contractuels",
+        "acronyme": "SEC_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_personnels_non_fonctionnaires_minedub"
+      },
+      {
+        "id": "service_contractuels_non_enseignants_minedub",
+        "name": "Service des Contractuels Non Enseignants",
+        "acronyme": "SCNE_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_personnels_non_fonctionnaires_minedub"
+      },
+      {
+        "id": "service_gestion_previsionnelle_minedub",
+        "name": "Service de la Gestion Prévisionnelle",
+        "acronyme": "SGP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_developpement_ressources_humaines_minedub"
+      },
+      {
+        "id": "service_formation_stages_minedub",
+        "name": "Service de la Formation et des Stages",
+        "acronyme": "SFS_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_developpement_ressources_humaines_minedub"
+      },
+      {
+        "id": "service_action_sociale_minedub",
+        "name": "Service de l'Action Sociale",
+        "acronyme": "SAS_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_developpement_ressources_humaines_minedub"
+      },
+      {
+        "id": "service_solde_personnels_fonctionnaires_minedub",
+        "name": "Service de la Solde des Personnels Fonctionnaires",
+        "acronyme": "SSPF_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_solde_pensions_minedub"
+      },
+      {
+        "id": "service_solde_personnels_non_fonctionnaires_minedub",
+        "name": "Service de la Solde des Personnels Non Fonctionnaires",
+        "acronyme": "SSPNF_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_solde_pensions_minedub"
+      },
+      {
+        "id": "service_pensions_minedub",
+        "name": "Service des Pensions",
+        "acronyme": "SPEN_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_solde_pensions_minedub"
+      },
+      {
+        "id": "sous_direction_budget_minedub",
+        "name": "Sous-Direction du Budget",
+        "acronyme": "SDB_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_ressources_financieres_materielles_minedub"
+      },
+      {
+        "id": "sous_direction_patrimoine_minedub",
+        "name": "Sous-Direction du Patrimoine",
+        "acronyme": "SDP_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "direction_ressources_financieres_materielles_minedub"
+      },
+      {
+        "id": "service_programmation_budget_minedub",
+        "name": "Service de la Programmation du Budget",
+        "acronyme": "SPB_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_budget_minedub"
+      },
+      {
+        "id": "service_execution_budget_minedub",
+        "name": "Service de l'Exécution du Budget",
+        "acronyme": "SEB_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_budget_minedub"
+      },
+      {
+        "id": "service_marches_publics_minedub",
+        "name": "Service des Marchés Publics",
+        "acronyme": "SMP_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_budget_minedub"
+      },
+      {
+        "id": "service_materiel_minedub",
+        "name": "Service du Matériel",
+        "acronyme": "SMAT_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_patrimoine_minedub"
+      },
+      {
+        "id": "service_maintenance_minedub",
+        "name": "Service de la Maintenance",
+        "acronyme": "SMAINT_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_patrimoine_minedub"
+      },
+      {
+        "id": "delegations_regionales_minedub",
+        "name": "Délégations Régionales de l'Education de Base",
+        "acronyme": "DREB_MINEDUB",
+        "fonction": "Délégations",
+        "parent": "services_deconcentres_minedub"
+      },
+      {
+        "id": "delegations_departementales_minedub",
+        "name": "Délégations Départementales de l'Education de Base",
+        "acronyme": "DDEB_MINEDUB",
+        "fonction": "Délégations",
+        "parent": "services_deconcentres_minedub"
+      },
+      {
+        "id": "inspections_arrondissements_minedub",
+        "name": "Inspections d'Arrondissements de l'Education de Base",
+        "acronyme": "IAEB_MINEDUB",
+        "fonction": "Inspections",
+        "parent": "services_deconcentres_minedub"
+      },
+      {
+        "id": "inspection_coordination_enseignements_minedub",
+        "name": "Inspection de Coordination des Enseignements",
+        "acronyme": "ICE_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "delegations_regionales_minedub"
+      },
+      {
+        "id": "sous_direction_examens_concours_minedub",
+        "name": "Sous-Direction des Examens et Concours",
+        "acronyme": "SDEC_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "delegations_regionales_minedub"
+      },
+      {
+        "id": "sous_direction_affaires_generales_minedub",
+        "name": "Sous-Direction des Affaires Générales",
+        "acronyme": "SDAG_MINEDUB",
+        "fonction": "Sous-Direction",
+        "parent": "delegations_regionales_minedub"
+      },
+      {
+        "id": "service_etablissements_scolaires_minedub",
+        "name": "Service des Etablissements Scolaires",
+        "acronyme": "SES_MINEDUB",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minedub"
+      },
+      {
+        "id": "service_centres_prescolaires_alphabetisation_minedub",
+        "name": "Service des Centres Préscolaires Communautaires, d'Alphabétisation et de l'Education de Base Non Formelle",
+        "acronyme": "SCPAENF_MINEDUB",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minedub"
+      },
+      {
+        "id": "service_carte_scolaire_sport_activites_minedub",
+        "name": "Service de la Carte Scolaire, du Sport et des Activités Post et Périscolaires",
+        "acronyme": "SCSSAP_MINEDUB",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minedub"
+      },
+      {
+        "id": "service_accueil_courrier_liaison_traduction_minedub",
+        "name": "Service de l'Accueil, du Courrier, de Liaison et de la Traduction",
+        "acronyme": "SACLT_MINEDUB",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minedub"
+      },
+      {
+        "id": "inspection_regionale_pedagogie_bilinguisme_minedub",
+        "name": "Inspection Régionale de Pédagogie Chargée de la Promotion du Bilinguisme",
+        "acronyme": "IRPB_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_coordination_enseignements_minedub"
+      },
+      {
+        "id": "inspection_regionale_pedagogie_alphabetisation_minedub",
+        "name": "Inspection Régionale de Pédagogie Chargée de l'Alphabétisation, de l'Education Non Formelle et de la Promotion des Langues Nationales",
+        "acronyme": "IRPA_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_coordination_enseignements_minedub"
+      },
+      {
+        "id": "inspection_regionale_pedagogie_enseignement_maternel_minedub",
+        "name": "Inspection Régionale de Pédagogie Chargée de l'Enseignement Maternel",
+        "acronyme": "IRPEM_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_coordination_enseignements_minedub"
+      },
+      {
+        "id": "inspection_regionale_pedagogie_enseignement_primaire_minedub",
+        "name": "Inspection Régionale de Pédagogie Chargée de l'Enseignement Primaire",
+        "acronyme": "IRPEP_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_coordination_enseignements_minedub"
+      },
+      {
+        "id": "inspection_regionale_pedagogie_technologies_educatives_minedub",
+        "name": "Inspection Régionale de Pédagogie Chargée des Technologies Educatives",
+        "acronyme": "IRPTE_MINEDUB",
+        "fonction": "Inspection",
+        "parent": "inspection_coordination_enseignements_minedub"
+      },
+      {
+        "id": "service_personnel_solde_minedub",
+        "name": "Service du Personnel et de la Solde",
+        "acronyme": "SPS_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_affaires_generales_minedub"
+      },
+      {
+        "id": "service_financier_minedub",
+        "name": "Service Financier",
+        "acronyme": "SF_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_affaires_generales_minedub"
+      },
+      {
+        "id": "service_materiel_constructions_equipements_minedub",
+        "name": "Service du Matériel, des Constructions et des Equipements Scolaires",
+        "acronyme": "SMCE_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_affaires_generales_minedub"
+      },
+      {
+        "id": "service_inspection_medico_scolaire_minedub",
+        "name": "Service de l'Inspection Médico-Scolaire",
+        "acronyme": "SIMS_MINEDUB",
+        "fonction": "Service",
+        "parent": "sous_direction_affaires_generales_minedub"
+      },
+      {
+        "id": "service_affaires_administratives_financieres_minedub",
+        "name": "Service des Affaires Administratives et Financières",
+        "acronyme": "SAAF_MINEDUB",
+        "fonction": "Service",
+        "parent": "delegations_departementales_minedub"
+      },
+      {
+        "id": "service_statistiques_carte_scolaire_minedub",
+        "name": "Service des Statistiques et de la Carte Scolaire",
+        "acronyme": "SSCS_MINEDUB",
+        "fonction": "Service",
+        "parent": "delegations_departementales_minedub"
+      },
+      {
+        "id": "service_sport_activites_post_periscolaires_minedub",
+        "name": "Service du Sport et des Activités Post et Périscolaires",
+        "acronyme": "SSAPP_MINEDUB",
+        "fonction": "Service",
+        "parent": "delegations_departementales_minedub"
+      },
+      {
+        "id": "bureau_affaires_pedagogiques_activites_minedub",
+        "name": "Bureau des Affaires Pédagogiques et des Activités Post et Périscolaires",
+        "acronyme": "BAPAP_MINEDUB",
+        "fonction": "Bureau",
+        "parent": "inspections_arrondissements_minedub"
+      },
+      {
+        "id": "bureau_affaires_generales_minedub",
+        "name": "Bureau des Affaires Générales",
+        "acronyme": "BAG_MINEDUB",
+        "fonction": "Bureau",
+        "parent": "inspections_arrondissements_minedub"
+      },
+      {
+        "id": "centres_recherche_pedagogique_minedub",
+        "name": "Centres de Recherche Pédagogique Appliquée",
+        "acronyme": "CERPA_MINEDUB",
+        "fonction": "Centres",
+        "parent": "etablissements_scolaires_instituts_minedub"
+      },
+      {
+        "id": "ecoles_maternelles_application_minedub",
+        "name": "Ecoles Maternelles Publiques d'Application",
+        "acronyme": "EMPA_MINEDUB",
+        "fonction": "Ecoles",
+        "parent": "etablissements_scolaires_instituts_minedub"
+      },
+      {
+        "id": "ecoles_primaires_application_minedub",
+        "name": "Ecoles Primaires Publiques d'Application",
+        "acronyme": "EPPA_MINEDUB",
+        "fonction": "Ecoles",
+        "parent": "etablissements_scolaires_instituts_minedub"
+      },
+      {
+        "id": "ecoles_maternelles_minedub",
+        "name": "Ecoles Maternelles",
+        "acronyme": "EM_MINEDUB",
+        "fonction": "Ecoles",
+        "parent": "etablissements_scolaires_instituts_minedub"
+      },
+      {
+        "id": "ecoles_primaires_minedub",
+        "name": "Ecoles Primaires",
+        "acronyme": "EP_MINEDUB",
+        "fonction": "Ecoles",
+        "parent": "etablissements_scolaires_instituts_minedub"
+      },
+      {
+        "id": "centres_alphabetisation_education_non_formelle_minedub",
+        "name": "Centres d'Alphabétisation et de l'Education de Base Non Formelle",
+        "acronyme": "CAENF_MINEDUB",
+        "fonction": "Centres",
+        "parent": "etablissements_scolaires_instituts_minedub"
+      },
+      {
+        "id": "conseil_national_education_minedub",
+        "name": "Conseil National de l'Education",
+        "acronyme": "CNE_MINEDUB",
+        "fonction": "Conseil",
+        "parent": "organismes_consultatifs_minedub"
+      },
+      {
+        "id": "commission_nationale_unesco_minedub",
+        "name": "Commission Nationale de l'UNESCO",
+        "acronyme": "CNU_MINEDUB",
+        "fonction": "Commission",
+        "parent": "organismes_consultatifs_minedub"
+      },
+      {
+        "id": "conseil_national_agrement_manuels_minedub",
+        "name": "Conseil National d'Agrément des Manuels Scolaires et des Matériels Didactiques",
+        "acronyme": "CNAM_MINEDUB",
+        "fonction": "Conseil",
+        "parent": "organismes_consultatifs_minedub"
+      },
+      {
+        "id": "commission_nationale_programmes_diplomes_minedub",
+        "name": "Commission Nationale des Programmes et des Diplômes",
+        "acronyme": "CNPD_MINEDUB",
+        "fonction": "Commission",
+        "parent": "organismes_consultatifs_minedub"
+      },
+      {
+        "id": "conseil_national_enseignement_prive_minedub",
+        "name": "Conseil National de l'Enseignement Privé",
+        "acronyme": "CNEP_MINEDUB",
+        "fonction": "Conseil",
+        "parent": "organismes_consultatifs_minedub"
+      },
+      {
+        "id": "commission_nationale_enseignement_prive_base_minedub",
+        "name": "Commission Nationale de l'Enseignement Privé de Base",
+        "acronyme": "CNEPB_MINEDUB",
+        "fonction": "Commission",
+        "parent": "organismes_consultatifs_minedub"
+      }
+    ],
+    "edges": [
+      {
+        "source": "minedub",
+        "target": "secretariat_particulier_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "secretariat_particulier_se_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "conseillers_techniques_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "inspection_generale_services_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "inspection_generale_enseignements_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "secretariat_general_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "direction_enseignement_maternel_primaire_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "direction_suivi_enseignement_prive_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "direction_alphabetisation_education_non_formelle_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "direction_examens_concours_certification_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "direction_sante_sport_activites_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "division_planification_projets_cooperation_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "direction_ressources_humaines_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "direction_ressources_financieres_materielles_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "services_deconcentres_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "etablissements_scolaires_instituts_minedub"
+      },
+      {
+        "source": "minedub",
+        "target": "organismes_consultatifs_minedub"
+      },
+      {
+        "source": "inspection_generale_services_minedub",
+        "target": "inspecteurs_services_minedub"
+      },
+      {
+        "source": "inspection_generale_enseignements_minedub",
+        "target": "inspection_pedagogie_bilinguisme_minedub"
+      },
+      {
+        "source": "inspection_generale_enseignements_minedub",
+        "target": "inspection_pedagogie_alphabetisation_minedub"
+      },
+      {
+        "source": "inspection_generale_enseignements_minedub",
+        "target": "inspection_pedagogie_enseignement_maternel_minedub"
+      },
+      {
+        "source": "inspection_generale_enseignements_minedub",
+        "target": "inspection_pedagogie_enseignement_primaire_minedub"
+      },
+      {
+        "source": "inspection_generale_enseignements_minedub",
+        "target": "inspection_pedagogie_technologies_educatives_minedub"
+      },
+      {
+        "source": "secretariat_general_minedub",
+        "target": "division_affaires_juridiques_minedub"
+      },
+      {
+        "source": "secretariat_general_minedub",
+        "target": "cellule_suivi_minedub"
+      },
+      {
+        "source": "secretariat_general_minedub",
+        "target": "cellule_communication_minedub"
+      },
+      {
+        "source": "secretariat_general_minedub",
+        "target": "cellule_traduction_minedub"
+      },
+      {
+        "source": "secretariat_general_minedub",
+        "target": "cellule_informatique_minedub"
+      },
+      {
+        "source": "secretariat_general_minedub",
+        "target": "sous_direction_documentation_archives_minedub"
+      },
+      {
+        "source": "secretariat_general_minedub",
+        "target": "sous_direction_accueil_courrier_liaison_minedub"
+      },
+      {
+        "source": "division_affaires_juridiques_minedub",
+        "target": "cellule_etudes_reglementation_minedub"
+      },
+      {
+        "source": "division_affaires_juridiques_minedub",
+        "target": "cellule_contentieux_minedub"
+      },
+      {
+        "source": "direction_enseignement_maternel_primaire_minedub",
+        "target": "sous_direction_enseignement_maternel_minedub"
+      },
+      {
+        "source": "direction_enseignement_maternel_primaire_minedub",
+        "target": "sous_direction_enseignement_primaire_minedub"
+      },
+      {
+        "source": "sous_direction_enseignement_maternel_minedub",
+        "target": "service_ecoles_maternelles_publiques_minedub"
+      },
+      {
+        "source": "sous_direction_enseignement_maternel_minedub",
+        "target": "service_ecoles_maternelles_application_minedub"
+      },
+      {
+        "source": "sous_direction_enseignement_maternel_minedub",
+        "target": "service_centres_prescolaires_communautaires_minedub"
+      },
+      {
+        "source": "sous_direction_enseignement_primaire_minedub",
+        "target": "service_ecoles_primaires_publiques_minedub"
+      },
+      {
+        "source": "sous_direction_enseignement_primaire_minedub",
+        "target": "service_ecoles_primaires_application_minedub"
+      },
+      {
+        "source": "sous_direction_enseignement_primaire_minedub",
+        "target": "service_education_inclusive_minedub"
+      },
+      {
+        "source": "direction_suivi_enseignement_prive_minedub",
+        "target": "sous_direction_reglementation_agrements_minedub"
+      },
+      {
+        "source": "direction_suivi_enseignement_prive_minedub",
+        "target": "sous_direction_affaires_administratives_pedagogiques_minedub"
+      },
+      {
+        "source": "sous_direction_reglementation_agrements_minedub",
+        "target": "service_reglementation_suivi_ecoles_sous_contrat_minedub"
+      },
+      {
+        "source": "sous_direction_reglementation_agrements_minedub",
+        "target": "service_suivi_ecoles_libres_minedub"
+      },
+      {
+        "source": "sous_direction_affaires_administratives_pedagogiques_minedub",
+        "target": "service_affaires_administratives_minedub"
+      },
+      {
+        "source": "sous_direction_affaires_administratives_pedagogiques_minedub",
+        "target": "service_affaires_pedagogiques_minedub"
+      },
+      {
+        "source": "direction_alphabetisation_education_non_formelle_minedub",
+        "target": "sous_direction_alphabetisation_langues_nationales_minedub"
+      },
+      {
+        "source": "direction_alphabetisation_education_non_formelle_minedub",
+        "target": "sous_direction_education_base_non_formelle_minedub"
+      },
+      {
+        "source": "sous_direction_alphabetisation_langues_nationales_minedub",
+        "target": "service_alphabetisation_fonctionnelle_minedub"
+      },
+      {
+        "source": "sous_direction_alphabetisation_langues_nationales_minedub",
+        "target": "service_gestion_centres_alphabetisation_minedub"
+      },
+      {
+        "source": "sous_direction_education_base_non_formelle_minedub",
+        "target": "service_education_base_non_formelle_minedub"
+      },
+      {
+        "source": "sous_direction_education_base_non_formelle_minedub",
+        "target": "service_suivi_centres_education_non_formelle_minedub"
+      },
+      {
+        "source": "direction_examens_concours_certification_minedub",
+        "target": "sous_direction_organisation_examens_concours_minedub"
+      },
+      {
+        "source": "direction_examens_concours_certification_minedub",
+        "target": "sous_direction_certification_archives_statistiques_minedub"
+      },
+      {
+        "source": "sous_direction_organisation_examens_concours_minedub",
+        "target": "service_examens_concours_anglophones_minedub"
+      },
+      {
+        "source": "sous_direction_organisation_examens_concours_minedub",
+        "target": "service_examens_concours_francophones_minedub"
+      },
+      {
+        "source": "sous_direction_organisation_examens_concours_minedub",
+        "target": "service_reprographie_minedub"
+      },
+      {
+        "source": "sous_direction_certification_archives_statistiques_minedub",
+        "target": "service_certification_minedub"
+      },
+      {
+        "source": "sous_direction_certification_archives_statistiques_minedub",
+        "target": "service_archives_statistiques_examens_minedub"
+      },
+      {
+        "source": "direction_sante_sport_activites_minedub",
+        "target": "sous_direction_sante_scolaire_minedub"
+      },
+      {
+        "source": "direction_sante_sport_activites_minedub",
+        "target": "sous_direction_education_physique_sport_minedub"
+      },
+      {
+        "source": "direction_sante_sport_activites_minedub",
+        "target": "sous_direction_activites_post_periscolaires_minedub"
+      },
+      {
+        "source": "sous_direction_sante_scolaire_minedub",
+        "target": "service_hygiene_prophylaxie_minedub"
+      },
+      {
+        "source": "sous_direction_sante_scolaire_minedub",
+        "target": "service_sante_eleves_personnels_minedub"
+      },
+      {
+        "source": "sous_direction_education_physique_sport_minedub",
+        "target": "service_education_physique_minedub"
+      },
+      {
+        "source": "sous_direction_education_physique_sport_minedub",
+        "target": "service_sport_scolaire_minedub"
+      },
+      {
+        "source": "sous_direction_activites_post_periscolaires_minedub",
+        "target": "service_clubs_associations_minedub"
+      },
+      {
+        "source": "sous_direction_activites_post_periscolaires_minedub",
+        "target": "service_vie_scolaire_minedub"
+      },
+      {
+        "source": "division_planification_projets_cooperation_minedub",
+        "target": "cellule_planification_minedub"
+      },
+      {
+        "source": "division_planification_projets_cooperation_minedub",
+        "target": "cellule_projets_minedub"
+      },
+      {
+        "source": "division_planification_projets_cooperation_minedub",
+        "target": "cellule_cooperation_minedub"
+      },
+      {
+        "source": "direction_ressources_humaines_minedub",
+        "target": "cellule_gestion_projet_sigipes_minedub"
+      },
+      {
+        "source": "direction_ressources_humaines_minedub",
+        "target": "sous_direction_personnels_fonctionnaires_minedub"
+      },
+      {
+        "source": "direction_ressources_humaines_minedub",
+        "target": "sous_direction_personnels_non_fonctionnaires_minedub"
+      },
+      {
+        "source": "direction_ressources_humaines_minedub",
+        "target": "sous_direction_developpement_ressources_humaines_minedub"
+      },
+      {
+        "source": "direction_ressources_humaines_minedub",
+        "target": "sous_direction_solde_pensions_minedub"
+      },
+      {
+        "source": "sous_direction_personnels_fonctionnaires_minedub",
+        "target": "service_personnels_enseignants_minedub"
+      },
+      {
+        "source": "sous_direction_personnels_fonctionnaires_minedub",
+        "target": "service_personnels_non_enseignants_minedub"
+      },
+      {
+        "source": "sous_direction_personnels_non_fonctionnaires_minedub",
+        "target": "service_enseignants_contractuels_minedub"
+      },
+      {
+        "source": "sous_direction_personnels_non_fonctionnaires_minedub",
+        "target": "service_contractuels_non_enseignants_minedub"
+      },
+      {
+        "source": "sous_direction_developpement_ressources_humaines_minedub",
+        "target": "service_gestion_previsionnelle_minedub"
+      },
+      {
+        "source": "sous_direction_developpement_ressources_humaines_minedub",
+        "target": "service_formation_stages_minedub"
+      },
+      {
+        "source": "sous_direction_developpement_ressources_humaines_minedub",
+        "target": "service_action_sociale_minedub"
+      },
+      {
+        "source": "sous_direction_solde_pensions_minedub",
+        "target": "service_solde_personnels_fonctionnaires_minedub"
+      },
+      {
+        "source": "sous_direction_solde_pensions_minedub",
+        "target": "service_solde_personnels_non_fonctionnaires_minedub"
+      },
+      {
+        "source": "sous_direction_solde_pensions_minedub",
+        "target": "service_pensions_minedub"
+      },
+      {
+        "source": "direction_ressources_financieres_materielles_minedub",
+        "target": "sous_direction_budget_minedub"
+      },
+      {
+        "source": "direction_ressources_financieres_materielles_minedub",
+        "target": "sous_direction_patrimoine_minedub"
+      },
+      {
+        "source": "sous_direction_budget_minedub",
+        "target": "service_programmation_budget_minedub"
+      },
+      {
+        "source": "sous_direction_budget_minedub",
+        "target": "service_execution_budget_minedub"
+      },
+      {
+        "source": "sous_direction_budget_minedub",
+        "target": "service_marches_publics_minedub"
+      },
+      {
+        "source": "sous_direction_patrimoine_minedub",
+        "target": "service_materiel_minedub"
+      },
+      {
+        "source": "sous_direction_patrimoine_minedub",
+        "target": "service_maintenance_minedub"
+      },
+      {
+        "source": "services_deconcentres_minedub",
+        "target": "delegations_regionales_minedub"
+      },
+      {
+        "source": "services_deconcentres_minedub",
+        "target": "delegations_departementales_minedub"
+      },
+      {
+        "source": "services_deconcentres_minedub",
+        "target": "inspections_arrondissements_minedub"
+      },
+      {
+        "source": "delegations_regionales_minedub",
+        "target": "inspection_coordination_enseignements_minedub"
+      },
+      {
+        "source": "delegations_regionales_minedub",
+        "target": "sous_direction_examens_concours_minedub"
+      },
+      {
+        "source": "delegations_regionales_minedub",
+        "target": "sous_direction_affaires_generales_minedub"
+      },
+      {
+        "source": "delegations_regionales_minedub",
+        "target": "service_etablissements_scolaires_minedub"
+      },
+      {
+        "source": "delegations_regionales_minedub",
+        "target": "service_centres_prescolaires_alphabetisation_minedub"
+      },
+      {
+        "source": "delegations_regionales_minedub",
+        "target": "service_carte_scolaire_sport_activites_minedub"
+      },
+      {
+        "source": "delegations_regionales_minedub",
+        "target": "service_accueil_courrier_liaison_traduction_minedub"
+      },
+      {
+        "source": "inspection_coordination_enseignements_minedub",
+        "target": "inspection_regionale_pedagogie_bilinguisme_minedub"
+      },
+      {
+        "source": "inspection_coordination_enseignements_minedub",
+        "target": "inspection_regionale_pedagogie_alphabetisation_minedub"
+      },
+      {
+        "source": "inspection_coordination_enseignements_minedub",
+        "target": "inspection_regionale_pedagogie_enseignement_maternel_minedub"
+      },
+      {
+        "source": "inspection_coordination_enseignements_minedub",
+        "target": "inspection_regionale_pedagogie_enseignement_primaire_minedub"
+      },
+      {
+        "source": "inspection_coordination_enseignements_minedub",
+        "target": "inspection_regionale_pedagogie_technologies_educatives_minedub"
+      },
+      {
+        "source": "sous_direction_affaires_generales_minedub",
+        "target": "service_personnel_solde_minedub"
+      },
+      {
+        "source": "sous_direction_affaires_generales_minedub",
+        "target": "service_financier_minedub"
+      },
+      {
+        "source": "sous_direction_affaires_generales_minedub",
+        "target": "service_materiel_constructions_equipements_minedub"
+      },
+      {
+        "source": "sous_direction_affaires_generales_minedub",
+        "target": "service_inspection_medico_scolaire_minedub"
+      },
+      {
+        "source": "delegations_departementales_minedub",
+        "target": "service_affaires_administratives_financieres_minedub"
+      },
+      {
+        "source": "delegations_departementales_minedub",
+        "target": "service_statistiques_carte_scolaire_minedub"
+      },
+      {
+        "source": "delegations_departementales_minedub",
+        "target": "service_sport_activites_post_periscolaires_minedub"
+      },
+      {
+        "source": "inspections_arrondissements_minedub",
+        "target": "bureau_affaires_pedagogiques_activites_minedub"
+      },
+      {
+        "source": "inspections_arrondissements_minedub",
+        "target": "bureau_affaires_generales_minedub"
+      },
+      {
+        "source": "etablissements_scolaires_instituts_minedub",
+        "target": "centres_recherche_pedagogique_minedub"
+      },
+      {
+        "source": "etablissements_scolaires_instituts_minedub",
+        "target": "ecoles_maternelles_application_minedub"
+      },
+      {
+        "source": "etablissements_scolaires_instituts_minedub",
+        "target": "ecoles_primaires_application_minedub"
+      },
+      {
+        "source": "etablissements_scolaires_instituts_minedub",
+        "target": "ecoles_maternelles_minedub"
+      },
+      {
+        "source": "etablissements_scolaires_instituts_minedub",
+        "target": "ecoles_primaires_minedub"
+      },
+      {
+        "source": "etablissements_scolaires_instituts_minedub",
+        "target": "centres_alphabetisation_education_non_formelle_minedub"
+      },
+      {
+        "source": "organismes_consultatifs_minedub",
+        "target": "conseil_national_education_minedub"
+      },
+      {
+        "source": "organismes_consultatifs_minedub",
+        "target": "commission_nationale_unesco_minedub"
+      },
+      {
+        "source": "organismes_consultatifs_minedub",
+        "target": "conseil_national_agrement_manuels_minedub"
+      },
+      {
+        "source": "organismes_consultatifs_minedub",
+        "target": "commission_nationale_programmes_diplomes_minedub"
+      },
+      {
+        "source": "organismes_consultatifs_minedub",
+        "target": "conseil_national_enseignement_prive_minedub"
+      },
+      {
+        "source": "organismes_consultatifs_minedub",
+        "target": "commission_nationale_enseignement_prive_base_minedub"
+      }
+    ]
+  }
