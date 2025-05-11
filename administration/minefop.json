@@ -1,0 +1,800 @@
+{
+  "nodes": [
+    {
+      "id": "minefop",
+      "name": "Ministère de l'Emploi et de la Formation Professionnelle",
+      "acronyme": "MINEFOP",
+      "fonction": "Ministere"
+    },
+    {
+      "id": "secretariat_particulier_minefop",
+      "name": "Secrétariat Particulier",
+      "acronyme": "SP_MINEFOP",
+      "fonction": "Secretariat Particulier",
+      "parent": "minefop"
+    },
+    {
+      "id": "conseillers_techniques_minefop",
+      "name": "Conseillers Techniques",
+      "acronyme": "CT_MINEFOP",
+      "fonction": "Conseillers Techniques",
+      "parent": "minefop"
+    },
+    {
+      "id": "inspection_generale_services_minefop",
+      "name": "Inspection Générale des Services",
+      "acronyme": "IGS_MINEFOP",
+      "fonction": "Inspection Generale",
+      "parent": "minefop"
+    },
+    {
+      "id": "inspecteur_general_services_minefop",
+      "name": "Inspecteur Général des Services",
+      "acronyme": "IG_SERVICES_MINEFOP",
+      "fonction": "Inspecteur",
+      "parent": "inspection_generale_services_minefop"
+    },
+    {
+      "id": "inspecteurs_services_minefop",
+      "name": "Inspecteurs des Services",
+      "acronyme": "IS_MINEFOP",
+      "fonction": "Inspecteurs",
+      "parent": "inspection_generale_services_minefop"
+    },
+    {
+      "id": "inspection_generale_formations_minefop",
+      "name": "Inspection Générale des Formations",
+      "acronyme": "IGF_MINEFOP",
+      "fonction": "Inspection Generale",
+      "parent": "minefop"
+    },
+    {
+      "id": "inspecteur_general_formations_minefop",
+      "name": "Inspecteur Général des Formations",
+      "acronyme": "IG_FORMATIONS_MINEFOP",
+      "fonction": "Inspecteur",
+      "parent": "inspection_generale_formations_minefop"
+    },
+    {
+      "id": "inspecteurs_formations_minefop",
+      "name": "Inspecteurs des Formations",
+      "acronyme": "IF_MINEFOP",
+      "fonction": "Inspecteurs",
+      "parent": "inspection_generale_formations_minefop"
+    },
+    {
+      "id": "administration_centrale_minefop",
+      "name": "Administration Centrale",
+      "acronyme": "AC_MINEFOP",
+      "fonction": "Administration Centrale",
+      "parent": "minefop"
+    },
+    {
+      "id": "secretariat_general_minefop",
+      "name": "Secrétariat Général",
+      "acronyme": "SG_MINEFOP",
+      "fonction": "Secretariat General",
+      "parent": "administration_centrale_minefop"
+    },
+    {
+      "id": "division_affaires_juridiques_minefop",
+      "name": "Division des Affaires Juridiques",
+      "acronyme": "DAJ_MINEFOP",
+      "fonction": "Division",
+      "parent": "secretariat_general_minefop"
+    },
+    {
+      "id": "cellule_etudes_reglementation_minefop",
+      "name": "Cellule des Études et de la Réglementation",
+      "acronyme": "CER_MINEFOP",
+      "fonction": "Cellule",
+      "parent": "division_affaires_juridiques_minefop"
+    },
+    {
+      "id": "cellule_contentieux_minefop",
+      "name": "Cellule du Contentieux",
+      "acronyme": "CCONT_MINEFOP",
+      "fonction": "Cellule",
+      "parent": "division_affaires_juridiques_minefop"
+    },
+    {
+      "id": "cellule_suivi_minefop",
+      "name": "Cellule de Suivi",
+      "acronyme": "CS_MINEFOP",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minefop"
+    },
+    {
+      "id": "cellule_communication_minefop",
+      "name": "Cellule de Communication",
+      "acronyme": "CCOM_MINEFOP",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minefop"
+    },
+    {
+      "id": "cellule_informatique_minefop",
+      "name": "Cellule Informatique",
+      "acronyme": "CI_MINEFOP",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minefop"
+    },
+    {
+      "id": "cellule_traduction_minefop",
+      "name": "Cellule de Traduction",
+      "acronyme": "CTRAD_MINEFOP",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minefop"
+    },
+    {
+      "id": "sous_direction_accueil_courrier_liaison_minefop",
+      "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+      "acronyme": "SDACL_MINEFOP",
+      "fonction": "Sous-direction",
+      "parent": "secretariat_general_minefop"
+    },
+    {
+      "id": "service_accueil_orientation_minefop",
+      "name": "Service de l'Accueil et de l'Orientation",
+      "acronyme": "SAO_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_liaison_minefop"
+    },
+    {
+      "id": "service_courrier_liaison_minefop",
+      "name": "Service du Courrier et de Liaison",
+      "acronyme": "SCL_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_liaison_minefop"
+    },
+    {
+      "id": "service_relance_minefop",
+      "name": "Service de la Relance",
+      "acronyme": "SR_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_liaison_minefop"
+    },
+    {
+      "id": "sous_direction_documentation_archives_minefop",
+      "name": "Sous-Direction de la Documentation et des Archives",
+      "acronyme": "SDDA_MINEFOP",
+      "fonction": "Sous-direction",
+      "parent": "secretariat_general_minefop"
+    },
+    {
+      "id": "service_documentation_minefop",
+      "name": "Service de la Documentation",
+      "acronyme": "SDOC_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_documentation_archives_minefop"
+    },
+    {
+      "id": "service_archives_minefop",
+      "name": "Service des Archives",
+      "acronyme": "SARCH_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_documentation_archives_minefop"
+    },
+    {
+      "id": "division_promotion_emploi_minefop",
+      "name": "Division de la Promotion de l'Emploi",
+      "acronyme": "DPE_MINEFOP",
+      "fonction": "Division",
+      "parent": "administration_centrale_minefop"
+    },
+    {
+      "id": "direction_regulation_main_oeuvre_minefop",
+      "name": "Direction de la Régulation de la Main-d'œuvre",
+      "acronyme": "DRMO_MINEFOP",
+      "fonction": "Direction",
+      "parent": "administration_centrale_minefop"
+    },
+    {
+      "id": "direction_formation_orientation_minefop",
+      "name": "Direction de la Formation et de l'Orientation Professionnelles",
+      "acronyme": "DFOP_MINEFOP",
+      "fonction": "Direction",
+      "parent": "administration_centrale_minefop"
+    },
+    {
+      "id": "division_etudes_prospective_cooperation_minefop",
+      "name": "Division des Études, de la Prospective et de la Coopération",
+      "acronyme": "DEPC_MINEFOP",
+      "fonction": "Division",
+      "parent": "administration_centrale_minefop"
+    },
+    {
+      "id": "direction_affaires_generales_minefop",
+      "name": "Direction des Affaires Générales",
+      "acronyme": "DAG_MINEFOP",
+      "fonction": "Direction",
+      "parent": "administration_centrale_minefop"
+    },
+    {
+      "id": "cellule_gestion_projet_sigipes_minefop",
+      "name": "Cellule de Gestion du Projet SIGIPES",
+      "acronyme": "CGPS_MINEFOP",
+      "fonction": "Cellule",
+      "parent": "direction_affaires_generales_minefop"
+    },
+    {
+      "id": "sous_direction_personnel_solde_pensions_minefop",
+      "name": "Sous-Direction du Personnel, de la Solde et des Pensions",
+      "acronyme": "SDPSP_MINEFOP",
+      "fonction": "Sous-direction",
+      "parent": "direction_affaires_generales_minefop"
+    },
+    {
+      "id": "service_personnel_formation_minefop",
+      "name": "Service du Personnel et de la Formation Continue",
+      "acronyme": "SPFC_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_personnel_solde_pensions_minefop"
+    },
+    {
+      "id": "service_solde_pensions_minefop",
+      "name": "Service de la Solde et des Pensions",
+      "acronyme": "SSP_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_personnel_solde_pensions_minefop"
+    },
+    {
+      "id": "service_action_sociale_minefop",
+      "name": "Service de l'Action Sociale",
+      "acronyme": "SAS_MINEFOP",
+      "fonction": "Service",
+      "parent": "sous_direction_personnel_solde_pensions_minefop"
+    },
+    {
+      "id": "sous_direction_budget_minefop",
+      "name": "Sous-Direction du Budget",
+      "acronyme": "SDB_MINEFOP",
+      "fonction": "Sous-direction",
+      "parent": "direction_affaires_generales_minefop"
+    },
+    {
+      "id": "sous_direction_infrastructures_equipements_maintenance_minefop",
+      "name": "Sous-Direction des Infrastructures, des Équipements et de la Maintenance",
+      "acronyme": "SDIEM_MINEFOP",
+      "fonction": "Sous-direction",
+      "parent": "direction_affaires_generales_minefop"
+    },
+    {
+      "id": "services_deconcentres_minefop",
+      "name": "Services Déconcentrés",
+      "acronyme": "SD_MINEFOP",
+      "fonction": "Services Deconcentres",
+      "parent": "minefop"
+    },
+    {
+      "id": "delegations_regionales_minefop",
+      "name": "Délégations Régionales de l'Emploi et de la Formation Professionnelle",
+      "acronyme": "DREFP_MINEFOP",
+      "fonction": "Delegation Regionale",
+      "parent": "services_deconcentres_minefop"
+    },
+    {
+      "id": "inspection_regionale_formations_minefop",
+      "name": "Inspection Régionale des Formations",
+      "acronyme": "IRF_MINEFOP",
+      "fonction": "Inspection Regionale",
+      "parent": "delegations_regionales_minefop"
+    },
+    {
+      "id": "service_promotion_emploi_minefop",
+      "name": "Service de la Promotion de l'Emploi",
+      "acronyme": "SPE_MINEFOP",
+      "fonction": "Service",
+      "parent": "delegations_regionales_minefop"
+    },
+    {
+      "id": "bureau_promotion_auto_emploi_minefop",
+      "name": "Bureau de la Promotion de l'Auto-Emploi",
+      "acronyme": "BPAE_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_promotion_emploi_minefop"
+    },
+    {
+      "id": "bureau_promotion_himo_minefop",
+      "name": "Bureau de la Promotion de l'Approche HIMO",
+      "acronyme": "BPHIMO_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_promotion_emploi_minefop"
+    },
+    {
+      "id": "bureau_migration_informel_formel_minefop",
+      "name": "Bureau de Migration du Secteur Informel vers le Secteur Formel",
+      "acronyme": "BMIF_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_promotion_emploi_minefop"
+    },
+    {
+      "id": "service_regulation_main_oeuvre_minefop",
+      "name": "Service de la Régulation de la Main-d'œuvre",
+      "acronyme": "SRMO_MINEFOP",
+      "fonction": "Service",
+      "parent": "delegations_regionales_minefop"
+    },
+    {
+      "id": "bureau_enregistrement_placement_minefop",
+      "name": "Bureau de l'Enregistrement et_rotating du Placement",
+      "acronyme": "BEP_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_regulation_main_oeuvre_minefop"
+    },
+    {
+      "id": "bureau_fichier_statistiques_minefop",
+      "name": "Bureau du Fichier et des Statistiques",
+      "acronyme": "BFS_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_regulation_main_oeuvre_minefop"
+    },
+    {
+      "id": "service_formation_orientation_minefop",
+      "name": "Service de la Formation et de l'Orientation Professionnelles",
+      "acronyme": "SFOP_MINEFOP",
+      "fonction": "Service",
+      "parent": "delegations_regionales_minefop"
+    },
+    {
+      "id": "bureau_gestion_structures_formation_minefop",
+      "name": "Bureau de Gestion des Structures de Formation Professionnelle",
+      "acronyme": "BGSFP_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_formation_orientation_minefop"
+    },
+    {
+      "id": "bureau_evaluations_minefop",
+      "name": "Bureau des Évaluations",
+      "acronyme": "BEVAL_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_formation_orientation_minefop"
+    },
+    {
+      "id": "bureau_orientation_tests_psychotechniques_minefop",
+      "name": "Bureau de l'Orientation, des Tests Psychotechniques et du Contrôle des Conditions Psychologiques du Travail",
+      "acronyme": "BOTPCPT_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_formation_orientation_minefop"
+    },
+    {
+      "id": "service_administratif_financier_minefop",
+      "name": "Service Administratif et Financier",
+      "acronyme": "SAF_MINEFOP",
+      "fonction": "Service",
+      "parent": "delegations_regionales_minefop"
+    },
+    {
+      "id": "bureau_personnel_minefop",
+      "name": "Bureau du Personnel",
+      "acronyme": "BP_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_administratif_financier_minefop"
+    },
+    {
+      "id": "bureau_budget_materiel_minefop",
+      "name": "Bureau du Budget et du Matériel",
+      "acronyme": "BBM_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_administratif_financier_minefop"
+    },
+    {
+      "id": "bureau_accueil_courrier_liaison_regionale_minefop",
+      "name": "Bureau de l'Accueil, du Courrier et de Liaison",
+      "acronyme": "BACL_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "delegations_regionales_minefop"
+    },
+    {
+      "id": "delegations_departementales_minefop",
+      "name": "Délégations Départementales de l'Emploi et de la Formation Professionnelle",
+      "acronyme": "DDEFP_MINEFOP",
+      "fonction": "Delegation Departementale",
+      "parent": "services_deconcentres_minefop"
+    },
+    {
+      "id": "service_lutte_sous_emploi_chomage_jeunes_minefop",
+      "name": "Service de Lutte contre le Sous-Emploi et le Chômage des Jeunes",
+      "acronyme": "SLSCJ_MINEFOP",
+      "fonction": "Service",
+      "parent": "delegations_departementales_minefop"
+    },
+    {
+      "id": "bureau_emploi_salarie_minefop",
+      "name": "Bureau de l'Emploi Salarié",
+      "acronyme": "BES_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_lutte_sous_emploi_chomage_jeunes_minefop"
+    },
+    {
+      "id": "bureau_emploi_independant_minefop",
+      "name": "Bureau de l'Emploi Indépendant",
+      "acronyme": "BEI_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_lutte_sous_emploi_chomage_jeunes_minefop"
+    },
+    {
+      "id": "bureau_controles_statistiques_minefop",
+      "name": "Bureau des Contrôles et des Statistiques",
+      "acronyme": "BCS_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_lutte_sous_emploi_chomage_jeunes_minefop"
+    },
+    {
+      "id": "service_formation_orientation_evaluations_minefop",
+      "name": "Service de la Formation, de l'Orientation Professionnelles et des Évaluations",
+      "acronyme": "SFOE_MINEFOP",
+      "fonction": "Service",
+      "parent": "delegations_departementales_minefop"
+    },
+    {
+      "id": "bureau_accueil_chercheurs_emploi_minefop",
+      "name": "Bureau de l'Accueil des Chercheurs d'Emploi",
+      "acronyme": "BACE_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_formation_orientation_evaluations_minefop"
+    },
+    {
+      "id": "bureau_orientation_professionnelle_minefop",
+      "name": "Bureau de l'Orientation Professionnelle",
+      "acronyme": "BOP_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_formation_orientation_evaluations_minefop"
+    },
+    {
+      "id": "bureau_gestion_structures_formation_departementale_minefop",
+      "name": "Bureau de la Gestion des Structures de Formation",
+      "acronyme": "BGSF_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "service_formation_orientation_evaluations_minefop"
+    },
+    {
+      "id": "bureau_affaires_generales_minefop",
+      "name": "Bureau des Affaires Générales",
+      "acronyme": "BAG_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minefop"
+    },
+    {
+      "id": "bureau_accueil_courrier_liaison_departementale_minefop",
+      "name": "Bureau de l'Accueil, du Courrier et de Liaison",
+      "acronyme": "BACLD_MINEFOP",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minefop"
+    },
+    {
+      "id": "structures_formation_minefop",
+      "name": "Structures Publiques de Formation Professionnelle",
+      "acronyme": "SPFP_MINEFOP",
+      "fonction": "Structures Formation",
+      "parent": "services_deconcentres_minefop"
+    },
+    {
+      "id": "cfpe_minefop",
+      "name": "Centres de Formation Professionnelle d'Excellence",
+      "acronyme": "CFPE_MINEFOP",
+      "fonction": "Centre Formation",
+      "parent": "structures_formation_minefop"
+    },
+    {
+      "id": "csfp_minefop",
+      "name": "Centres Sectoriels de Formation Professionnelle",
+      "acronyme": "CSFP_MINEFOP",
+      "fonction": "Centre Formation",
+      "parent": "structures_formation_minefop"
+    },
+    {
+      "id": "cfm_minefop",
+      "name": "Centres de Formation aux Métiers",
+      "acronyme": "CFM_MINEFOP",
+      "fonction": "Centre Formation",
+      "parent": "structures_formation_minefop"
+    },
+    {
+      "id": "cap_minefop",
+      "name": "Centres d'Apprentissage Professionnel",
+      "acronyme": "CAP_MINEFOP",
+      "fonction": "Centre Formation",
+      "parent": "structures_formation_minefop"
+    },
+    {
+      "id": "cpfpr_minefop",
+      "name": "Centres Publics de Formation Professionnelle Rapide",
+      "acronyme": "CPFPR_MINEFOP",
+      "fonction": "Centre Formation",
+      "parent": "structures_formation_minefop"
+    },
+    {
+      "id": "sar_sm_minefop",
+      "name": "Sections Artisanales Rurales et Sections Ménagères",
+      "acronyme": "SAR_SM_MINEFOP",
+      "fonction": "Centre Formation",
+      "parent": "structures_formation_minefop"
+    },
+    {
+      "id": "organismes_rattaches_minefop",
+      "name": "Organismes Rattachés",
+      "acronyme": "OR_MINEFOP",
+      "fonction": "Organismes Rattachés",
+      "parent": "minefop"
+    },
+    {
+      "id": "onefop_minefop",
+      "name": "Observatoire National de l'Emploi et de la Formation Professionnelle",
+      "acronyme": "ONEFOP_MINEFOP",
+      "fonction": "Organisme",
+      "parent": "organismes_rattaches_minefop"
+    },
+    {
+      "id": "piaasi_minefop",
+      "name": "Projet Intégré d'Appui aux Acteurs du Secteur Informel",
+      "acronyme": "PIAASI_MINEFOP",
+      "fonction": "Organisme",
+      "parent": "organismes_rattaches_minefop"
+    },
+    {
+      "id": "cosup_minefop",
+      "name": "Centres d'Orientation Scolaire, Universitaire et Professionnelle",
+      "acronyme": "COSUP_MINEFOP",
+      "fonction": "Organisme",
+      "parent": "organismes_rattaches_minefop"
+    }
+  ],
+  "edges": [
+    { "source": "minefop", "target": "secretariat_particulier_minefop" },
+    { "source": "minefop", "target": "conseillers_techniques_minefop" },
+    { "source": "minefop", "target": "inspection_generale_services_minefop" },
+    { "source": "minefop", "target": "inspection_generale_formations_minefop" },
+    { "source": "minefop", "target": "administration_centrale_minefop" },
+    { "source": "minefop", "target": "services_deconcentres_minefop" },
+    { "source": "minefop", "target": "organismes_rattaches_minefop" },
+    {
+      "source": "inspection_generale_services_minefop",
+      "target": "inspecteur_general_services_minefop"
+    },
+    {
+      "source": "inspection_generale_services_minefop",
+      "target": "inspecteurs_services_minefop"
+    },
+    {
+      "source": "inspection_generale_formations_minefop",
+      "target": "inspecteur_general_formations_minefop"
+    },
+    {
+      "source": "inspection_generale_formations_minefop",
+      "target": "inspecteurs_formations_minefop"
+    },
+    {
+      "source": "administration_centrale_minefop",
+      "target": "secretariat_general_minefop"
+    },
+    {
+      "source": "administration_centrale_minefop",
+      "target": "division_promotion_emploi_minefop"
+    },
+    {
+      "source": "administration_centrale_minefop",
+      "target": "direction_regulation_main_oeuvre_minefop"
+    },
+    {
+      "source": "administration_centrale_minefop",
+      "target": "direction_formation_orientation_minefop"
+    },
+    {
+      "source": "administration_centrale_minefop",
+      "target": "division_etudes_prospective_cooperation_minefop"
+    },
+    {
+      "source": "administration_centrale_minefop",
+      "target": "direction_affaires_generales_minefop"
+    },
+    {
+      "source": "secretariat_general_minefop",
+      "target": "division_affaires_juridiques_minefop"
+    },
+    {
+      "source": "division_affaires_juridiques_minefop",
+      "target": "cellule_etudes_reglementation_minefop"
+    },
+    {
+      "source": "division_affaires_juridiques_minefop",
+      "target": "cellule_contentieux_minefop"
+    },
+    {
+      "source": "secretariat_general_minefop",
+      "target": "cellule_suivi_minefop"
+    },
+    {
+      "source": "secretariat_general_minefop",
+      "target": "cellule_communication_minefop"
+    },
+    {
+      "source": "secretariat_general_minefop",
+      "target": "cellule_informatique_minefop"
+    },
+    {
+      "source": "secretariat_general_minefop",
+      "target": "cellule_traduction_minefop"
+    },
+    {
+      "source": "secretariat_general_minefop",
+      "target": "sous_direction_accueil_courrier_liaison_minefop"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_liaison_minefop",
+      "target": "service_accueil_orientation_minefop"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_liaison_minefop",
+      "target": "service_courrier_liaison_minefop"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_liaison_minefop",
+      "target": "service_relance_minefop"
+    },
+    {
+      "source": "secretariat_general_minefop",
+      "target": "sous_direction_documentation_archives_minefop"
+    },
+    {
+      "source": "sous_direction_documentation_archives_minefop",
+      "target": "service_documentation_minefop"
+    },
+    {
+      "source": "sous_direction_documentation_archives_minefop",
+      "target": "service_archives_minefop"
+    },
+    {
+      "source": "direction_affaires_generales_minefop",
+      "target": "cellule_gestion_projet_sigipes_minefop"
+    },
+    {
+      "source": "direction_affaires_generales_minefop",
+      "target": "sous_direction_personnel_solde_pensions_minefop"
+    },
+    {
+      "source": "sous_direction_personnel_solde_pensions_minefop",
+      "target": "service_personnel_formation_minefop"
+    },
+    {
+      "source": "sous_direction_personnel_solde_pensions_minefop",
+      "target": "service_solde_pensions_minefop"
+    },
+    {
+      "source": "sous_direction_personnel_solde_pensions_minefop",
+      "target": "service_action_sociale_minefop"
+    },
+    {
+      "source": "direction_affaires_generales_minefop",
+      "target": "sous_direction_budget_minefop"
+    },
+    {
+      "source": "direction_affaires_generales_minefop",
+      "target": "sous_direction_infrastructures_equipements_maintenance_minefop"
+    },
+    {
+      "source": "services_deconcentres_minefop",
+      "target": "delegations_regionales_minefop"
+    },
+    {
+      "source": "services_deconcentres_minefop",
+      "target": "delegations_departementales_minefop"
+    },
+    {
+      "source": "services_deconcentres_minefop",
+      "target": "structures_formation_minefop"
+    },
+    {
+      "source": "delegations_regionales_minefop",
+      "target": "inspection_regionale_formations_minefop"
+    },
+    {
+      "source": "delegations_regionales_minefop",
+      "target": "service_promotion_emploi_minefop"
+    },
+    {
+      "source": "service_promotion_emploi_minefop",
+      "target": "bureau_promotion_auto_emploi_minefop"
+    },
+    {
+      "source": "service_promotion_emploi_minefop",
+      "target": "bureau_promotion_himo_minefop"
+    },
+    {
+      "source": "service_promotion_emploi_minefop",
+      "target": "bureau_migration_informel_formel_minefop"
+    },
+    {
+      "source": "delegations_regionales_minefop",
+      "target": "service_regulation_main_oeuvre_minefop"
+    },
+    {
+      "source": "service_regulation_main_oeuvre_minefop",
+      "target": "bureau_enregistrement_placement_minefop"
+    },
+    {
+      "source": "service_regulation_main_oeuvre_minefop",
+      "target": "bureau_fichier_statistiques_minefop"
+    },
+    {
+      "source": "delegations_regionales_minefop",
+      "target": "service_formation_orientation_minefop"
+    },
+    {
+      "source": "service_formation_orientation_minefop",
+      "target": "bureau_gestion_structures_formation_minefop"
+    },
+    {
+      "source": "service_formation_orientation_minefop",
+      "target": "bureau_evaluations_minefop"
+    },
+    {
+      "source": "service_formation_orientation_minefop",
+      "target": "bureau_orientation_tests_psychotechniques_minefop"
+    },
+    {
+      "source": "delegations_regionales_minefop",
+      "target": "service_administratif_financier_minefop"
+    },
+    {
+      "source": "service_administratif_financier_minefop",
+      "target": "bureau_personnel_minefop"
+    },
+    {
+      "source": "service_administratif_financier_minefop",
+      "target": "bureau_budget_materiel_minefop"
+    },
+    {
+      "source": "delegations_regionales_minefop",
+      "target": "bureau_accueil_courrier_liaison_regionale_minefop"
+    },
+    {
+      "source": "delegations_departementales_minefop",
+      "target": "service_lutte_sous_emploi_chomage_jeunes_minefop"
+    },
+    {
+      "source": "service_lutte_sous_emploi_chomage_jeunes_minefop",
+      "target": "bureau_emploi_salarie_minefop"
+    },
+    {
+      "source": "service_lutte_sous_emploi_chomage_jeunes_minefop",
+      "target": "bureau_emploi_independant_minefop"
+    },
+    {
+      "source": "service_lutte_sous_emploi_chomage_jeunes_minefop",
+      "target": "bureau_controles_statistiques_minefop"
+    },
+    {
+      "source": "delegations_departementales_minefop",
+      "target": "service_formation_orientation_evaluations_minefop"
+    },
+    {
+      "source": "service_formation_orientation_evaluations_minefop",
+      "target": "bureau_accueil_chercheurs_emploi_minefop"
+    },
+    {
+      "source": "service_formation_orientation_evaluations_minefop",
+      "target": "bureau_orientation_professionnelle_minefop"
+    },
+    {
+      "source": "service_formation_orientation_evaluations_minefop",
+      "target": "bureau_gestion_structures_formation_departementale_minefop"
+    },
+    {
+      "source": "delegations_departementales_minefop",
+      "target": "bureau_affaires_generales_minefop"
+    },
+    {
+      "source": "delegations_departementales_minefop",
+      "target": "bureau_accueil_courrier_liaison_departementale_minefop"
+    },
+    { "source": "structures_formation_minefop", "target": "cfpe_minefop" },
+    { "source": "structures_formation_minefop", "target": "csfp_minefop" },
+    { "source": "structures_formation_minefop", "target": "cfm_minefop" },
+    { "source": "structures_formation_minefop", "target": "cap_minefop" },
+    { "source": "structures_formation_minefop", "target": "cpfpr_minefop" },
+    { "source": "structures_formation_minefop", "target": "sar_sm_minefop" },
+    { "source": "organismes_rattaches_minefop", "target": "onefop_minefop" },
+    { "source": "organismes_rattaches_minefop", "target": "piaasi_minefop" },
+    { "source": "organismes_rattaches_minefop", "target": "cosup_minefop" }
+  ]
+}
