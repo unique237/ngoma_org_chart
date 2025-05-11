@@ -1,0 +1,947 @@
+{
+  "nodes": [
+    {
+      "id": "minas",
+      "name": "Ministère des Affaires Sociales",
+      "acronyme": "MINAS",
+      "fonction": "Ministère"
+    },
+    {
+      "id": "secretariat_particulier_minas",
+      "name": "Secrétariat Particulier",
+      "acronyme": "SP_MINAS",
+      "fonction": "Secrétariat",
+      "parent": "minas"
+    },
+    {
+      "id": "conseillers_techniques_minas",
+      "name": "Conseillers Techniques",
+      "acronyme": "CT_MINAS",
+      "fonction": "Conseillers",
+      "parent": "minas"
+    },
+    {
+      "id": "inspection_generale_minas",
+      "name": "Inspection Générale",
+      "acronyme": "IG_MINAS",
+      "fonction": "Inspection",
+      "parent": "minas"
+    },
+    {
+      "id": "admin_centrale_minas",
+      "name": "Administration Centrale",
+      "acronyme": "AC_MINAS",
+      "fonction": "Administration",
+      "parent": "minas"
+    },
+    {
+      "id": "services_deconcentres_minas",
+      "name": "Services Déconcentrés",
+      "acronyme": "SD_MINAS",
+      "fonction": "Services",
+      "parent": "minas"
+    },
+    {
+      "id": "unites_techniques_operationnelles_minas",
+      "name": "Unités Techniques Opérationnelles",
+      "acronyme": "UTO_MINAS",
+      "fonction": "Unités",
+      "parent": "minas"
+    },
+    {
+      "id": "etablissements_organismes_specialises_minas",
+      "name": "Établissements et Organismes Spécialisés",
+      "acronyme": "EOS_MINAS",
+      "fonction": "Établissements",
+      "parent": "minas"
+    },
+    {
+      "id": "secretariat_general_minas",
+      "name": "Secrétariat Général",
+      "acronyme": "SG_MINAS",
+      "fonction": "Secrétariat Général",
+      "parent": "admin_centrale_minas"
+    },
+    {
+      "id": "direction_solidarite_nationale_minas",
+      "name": "Direction de la Solidarité Nationale",
+      "acronyme": "DSN_MINAS",
+      "fonction": "Direction",
+      "parent": "admin_centrale_minas"
+    },
+    {
+      "id": "direction_protection_handicapes_agees_minas",
+      "name": "Direction de la Protection Sociale des Personnes Handicapées et des Personnes Âgées",
+      "acronyme": "DPSHPA_MINAS",
+      "fonction": "Direction",
+      "parent": "admin_centrale_minas"
+    },
+    {
+      "id": "direction_protection_enfance_minas",
+      "name": "Direction de la Protection Sociale de l'Enfance",
+      "acronyme": "DPSE_MINAS",
+      "fonction": "Direction",
+      "parent": "admin_centrale_minas"
+    },
+    {
+      "id": "direction_affaires_generales_minas",
+      "name": "Direction des Affaires Générales",
+      "acronyme": "DAG_MINAS",
+      "fonction": "Direction",
+      "parent": "admin_centrale_minas"
+    },
+    {
+      "id": "division_developpement_social_minas",
+      "name": "Division du Développement Social, des Études et de la Coopération",
+      "acronyme": "DDSEC_MINAS",
+      "fonction": "Division",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "cellule_juridique_minas",
+      "name": "Cellule Juridique",
+      "acronyme": "CJ_MINAS",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "cellule_suivi_minas",
+      "name": "Cellule de Suivi",
+      "acronyme": "CS_MINAS",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "cellule_communication_minas",
+      "name": "Cellule de Communication",
+      "acronyme": "CC_MINAS",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "cellule_informatique_minas",
+      "name": "Cellule Informatique",
+      "acronyme": "CI_MINAS",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "cellule_traduction_minas",
+      "name": "Cellule de Traduction",
+      "acronyme": "CTD_MINAS",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "sous_direction_accueil_courrier_minas",
+      "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+      "acronyme": "SDACL_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "service_documentation_archives_minas",
+      "name": "Service de la Documentation et des Archives",
+      "acronyme": "SDA_MINAS",
+      "fonction": "Service",
+      "parent": "secretariat_general_minas"
+    },
+    {
+      "id": "cellule_developpement_social_minas",
+      "name": "Cellule du Développement Social",
+      "acronyme": "CDS_MINAS",
+      "fonction": "Cellule",
+      "parent": "division_developpement_social_minas"
+    },
+    {
+      "id": "cellule_etudes_statistiques_minas",
+      "name": "Cellule des Études et des Statistiques",
+      "acronyme": "CES_MINAS",
+      "fonction": "Cellule",
+      "parent": "division_developpement_social_minas"
+    },
+    {
+      "id": "cellule_cooperation_minas",
+      "name": "Cellule de la Coopération",
+      "acronyme": "CCO_MINAS",
+      "fonction": "Cellule",
+      "parent": "division_developpement_social_minas"
+    },
+    {
+      "id": "service_accueil_orientation_minas",
+      "name": "Service de l'Accueil et de l'Orientation",
+      "acronyme": "SAO_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_minas"
+    },
+    {
+      "id": "service_courrier_liaison_minas",
+      "name": "Service du Courrier et de Liaison",
+      "acronyme": "SCL_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_minas"
+    },
+    {
+      "id": "service_relance_minas",
+      "name": "Service de la Relance",
+      "acronyme": "SR_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_minas"
+    },
+    {
+      "id": "sous_direction_lutte_exclusion_minas",
+      "name": "Sous-Direction de la Lutte Contre l'Exclusion Sociale",
+      "acronyme": "SDLES_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_solidarite_nationale_minas"
+    },
+    {
+      "id": "sous_direction_promotion_solidarite_minas",
+      "name": "Sous-Direction de la Promotion de la Solidarité Nationale",
+      "acronyme": "SDPSN_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_solidarite_nationale_minas"
+    },
+    {
+      "id": "service_encadrement_populations_marginales_minas",
+      "name": "Service de la Promotion des Droits et de l'Encadrement des Populations Marginales",
+      "acronyme": "SEPMP_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_lutte_exclusion_minas"
+    },
+    {
+      "id": "service_lutte_fleaux_sociaux_minas",
+      "name": "Service de la Lutte Contre les Fléaux Sociaux",
+      "acronyme": "SLFS_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_lutte_exclusion_minas"
+    },
+    {
+      "id": "service_appui_sinistres_minas",
+      "name": "Service de l'Appui aux Sinistrés",
+      "acronyme": "SAS_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_lutte_exclusion_minas"
+    },
+    {
+      "id": "service_education_sociale_minas",
+      "name": "Service de l'Éducation Sociale et de la Promotion des Organismes de Solidarité",
+      "acronyme": "SES_POS_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_promotion_solidarite_minas"
+    },
+    {
+      "id": "service_encadrement_initiatives_locales_minas",
+      "name": "Service de l'Encadrement des Initiatives Locales de Solidarité",
+      "acronyme": "SEILS_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_promotion_solidarite_minas"
+    },
+    {
+      "id": "service_lutte_pauvrete_minas",
+      "name": "Service de la Lutte Contre la Pauvreté",
+      "acronyme": "SLP_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_promotion_solidarite_minas"
+    },
+    {
+      "id": "sous_direction_reinsertion_handicapes_minas",
+      "name": "Sous-Direction de la Réinsertion des Personnes Handicapées",
+      "acronyme": "SDRH_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_protection_handicapes_agees_minas"
+    },
+    {
+      "id": "sous_direction_protection_agees_minas",
+      "name": "Sous-Direction de la Protection des Personnes Âgées",
+      "acronyme": "SDPA_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_protection_handicapes_agees_minas"
+    },
+    {
+      "id": "service_prevention_depistage_handicap_minas",
+      "name": "Service de la Prévention, du Dépistage du Handicap et de la Réadaptation des Personnes Handicapées",
+      "acronyme": "SPDH_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_reinsertion_handicapes_minas"
+    },
+    {
+      "id": "service_education_speciale_minas",
+      "name": "Service de l'Éducation Spéciale et de l'Intégration Scolaire",
+      "acronyme": "SEIS_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_reinsertion_handicapes_minas"
+    },
+    {
+      "id": "service_appui_reinsertion_socio_economique_minas",
+      "name": "Service de l'Appui à la Réinsertion Socio-Économique",
+      "acronyme": "SARSE_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_reinsertion_handicapes_minas"
+    },
+    {
+      "id": "sous_direction_promotion_droits_enfant_minas",
+      "name": "Sous-Direction de la Promotion des Droits de l'Enfant",
+      "acronyme": "SDPDE_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_protection_enfance_minas"
+    },
+    {
+      "id": "sous_direction_sauvegarde_enfant_minas",
+      "name": "Sous-Direction de la Sauvegarde de l'Enfant",
+      "acronyme": "SDSE_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_protection_enfance_minas"
+    },
+    {
+      "id": "service_protection_droits_enfant_minas",
+      "name": "Service de la Protection et de la Promotion des Droits de l'Enfant",
+      "acronyme": "SPPDE_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_promotion_droits_enfant_minas"
+    },
+    {
+      "id": "service_agrement_controle_institutions_minas",
+      "name": "Service de l'Agrément et du Contrôle des Institutions Privées d'Encadrement de l'Enfant",
+      "acronyme": "SACIPE_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_promotion_droits_enfant_minas"
+    },
+    {
+      "id": "service_protection_petite_enfance_minas",
+      "name": "Service de la Protection de la Petite Enfance",
+      "acronyme": "SPPE_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_sauvegarde_enfant_minas"
+    },
+    {
+      "id": "service_liberte_surveillee_minas",
+      "name": "Service de la Liberté Surveillée et de l'Éducation en Milieu Ouvert",
+      "acronyme": "SLS_EMO_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_sauvegarde_enfant_minas"
+    },
+    {
+      "id": "service_reeducation_internat_minas",
+      "name": "Service de la Rééducation en Internat",
+      "acronyme": "SRI_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_sauvegarde_enfant_minas"
+    },
+    {
+      "id": "cellule_gestion_sigipes_minas",
+      "name": "Cellule de Gestion du Projet SIGIPES",
+      "acronyme": "CGS_MINAS",
+      "fonction": "Cellule",
+      "parent": "direction_affaires_generales_minas"
+    },
+    {
+      "id": "sous_direction_personnels_solde_minas",
+      "name": "Sous-Direction des Personnels, de la Solde et des Pensions",
+      "acronyme": "SDPSP_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_affaires_generales_minas"
+    },
+    {
+      "id": "sous_direction_budget_materiel_minas",
+      "name": "Sous-Direction du Budget, du Matériel et de la Maintenance",
+      "acronyme": "SDBMM_MINAS",
+      "fonction": "Sous-Direction",
+      "parent": "direction_affaires_generales_minas"
+    },
+    {
+      "id": "service_personnel_minas",
+      "name": "Service du Personnel",
+      "acronyme": "SP_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_personnels_solde_minas"
+    },
+    {
+      "id": "service_solde_pensions_minas",
+      "name": "Service de la Solde et des Pensions",
+      "acronyme": "SSP_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_personnels_solde_minas"
+    },
+    {
+      "id": "service_action_sociale_minas",
+      "name": "Service de l'Action Sociale",
+      "acronyme": "SASOC_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_personnels_solde_minas"
+    },
+    {
+      "id": "service_budget_materiel_minas",
+      "name": "Service du Budget et du Matériel",
+      "acronyme": "SBM_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_budget_materiel_minas"
+    },
+    {
+      "id": "service_marches_minas",
+      "name": "Service des Marchés",
+      "acronyme": "SM_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_budget_materiel_minas"
+    },
+    {
+      "id": "service_infrastructures_minas",
+      "name": "Service des Infrastructures",
+      "acronyme": "SI_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_budget_materiel_minas"
+    },
+    {
+      "id": "service_maintenance_minas",
+      "name": "Service de la Maintenance",
+      "acronyme": "SMA_MINAS",
+      "fonction": "Service",
+      "parent": "sous_direction_budget_materiel_minas"
+    },
+    {
+      "id": "delegations_provinciales_minas",
+      "name": "Délégations Provinciales des Affaires Sociales",
+      "acronyme": "DPAS_MINAS",
+      "fonction": "Délégations",
+      "parent": "services_deconcentres_minas"
+    },
+    {
+      "id": "delegations_departementales_minas",
+      "name": "Délégations Départementales des Affaires Sociales",
+      "acronyme": "DDAS_MINAS",
+      "fonction": "Délégations",
+      "parent": "services_deconcentres_minas"
+    },
+    {
+      "id": "brigade_controle_institutions_minas",
+      "name": "Brigade de Contrôle des Institutions Publiques et Privées",
+      "acronyme": "BCIPP_MINAS",
+      "fonction": "Brigade",
+      "parent": "delegations_provinciales_minas"
+    },
+    {
+      "id": "service_promotion_droits_handicapes_agees_minas",
+      "name": "Service de la Promotion des Droits des Personnes Handicapées et Âgées",
+      "acronyme": "SPDHPA_MINAS",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minas"
+    },
+    {
+      "id": "service_solidarite_nationale_minas",
+      "name": "Service de la Solidarité Nationale",
+      "acronyme": "SSN_MINAS",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minas"
+    },
+    {
+      "id": "service_protection_enfance_minas",
+      "name": "Service de la Protection de l'Enfance",
+      "acronyme": "SPE_MINAS",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minas"
+    },
+    {
+      "id": "service_statistiques_documentation_minas",
+      "name": "Service des Statistiques, de la Documentation et des Archives",
+      "acronyme": "SSDA_MINAS",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minas"
+    },
+    {
+      "id": "service_affaires_generales_provincial_minas",
+      "name": "Service des Affaires Générales",
+      "acronyme": "SAGP_MINAS",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minas"
+    },
+    {
+      "id": "bureau_identification_assistance_minas",
+      "name": "Bureau d'Identification et d'Assistance aux Nécessiteux",
+      "acronyme": "BIAN_MINAS",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minas"
+    },
+    {
+      "id": "bureau_protection_sociale_enfance_minas",
+      "name": "Bureau de la Protection Sociale de l'Enfance",
+      "acronyme": "BPSE_MINAS",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minas"
+    },
+    {
+      "id": "bureau_affaires_communes_statistiques_minas",
+      "name": "Bureau des Affaires Communes et des Statistiques Sociales",
+      "acronyme": "BACSS_MINAS",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minas"
+    },
+    {
+      "id": "centres_sociaux_minas",
+      "name": "Centres Sociaux",
+      "acronyme": "CS_MINAS",
+      "fonction": "Centres",
+      "parent": "unites_techniques_operationnelles_minas"
+    },
+    {
+      "id": "services_action_sociale_minas",
+      "name": "Services de l'Action Sociale",
+      "acronyme": "SAS_MINAS",
+      "fonction": "Services",
+      "parent": "unites_techniques_operationnelles_minas"
+    },
+    {
+      "id": "section_promotion_droits_minas",
+      "name": "Section de Promotion des Droits des Personnes Handicapées et des Personnes Âgées",
+      "acronyme": "SPDRHPA_MINAS",
+      "fonction": "Section",
+      "parent": "centres_sociaux_minas"
+    },
+    {
+      "id": "section_lutte_exclusion_minas",
+      "name": "Section de Lutte Contre l'Exclusion Sociale et la Marginalité",
+      "acronyme": "SLESM_MINAS",
+      "fonction": "Section",
+      "parent": "centres_sociaux_minas"
+    },
+    {
+      "id": "section_protection_enfance_minas",
+      "name": "Section de Protection de l'Enfance",
+      "acronyme": "SPDE_MINAS",
+      "fonction": "Section",
+      "parent": "centres_sociaux_minas"
+    },
+    {
+      "id": "section_action_communautaire_minas",
+      "name": "Section de l'Action Communautaire et d'Appui aux Initiatives Locales de Solidarité",
+      "acronyme": "SACAILS_MINAS",
+      "fonction": "Section",
+      "parent": "centres_sociaux_minas"
+    },
+    {
+      "id": "section_affaires_generales_statistiques_minas",
+      "name": "Section des Affaires Générales et des Statistiques",
+      "acronyme": "SAGS_MINAS",
+      "fonction": "Section",
+      "parent": "centres_sociaux_minas"
+    },
+    {
+      "id": "service_action_sociale_scolaires_minas",
+      "name": "Service de l'Action Sociale auprès des Établissements Scolaires et Universitaires",
+      "acronyme": "SASSU_MINAS",
+      "fonction": "Service",
+      "parent": "services_action_sociale_minas"
+    },
+    {
+      "id": "service_action_sociale_hopitaux_minas",
+      "name": "Service de l'Action Sociale auprès des Hôpitaux",
+      "acronyme": "SASH_MINAS",
+      "fonction": "Service",
+      "parent": "services_action_sociale_minas"
+    },
+    {
+      "id": "service_action_sociale_juridictions_minas",
+      "name": "Service de l'Action Sociale auprès des Juridictions",
+      "acronyme": "SASJ_MINAS",
+      "fonction": "Service",
+      "parent": "services_action_sociale_minas"
+    },
+    {
+      "id": "service_action_sociale_commissariats_minas",
+      "name": "Service de l'Action Sociale auprès des Commissariats de Police",
+      "acronyme": "SASCP_MINAS",
+      "fonction": "Service",
+      "parent": "services_action_sociale_minas"
+    },
+    {
+      "id": "service_action_sociale_penitentiaires_minas",
+      "name": "Service de l'Action Sociale auprès des Établissements Pénitentiaires",
+      "acronyme": "SASEP_MINAS",
+      "fonction": "Service",
+      "parent": "services_action_sociale_minas"
+    },
+    {
+      "id": "service_action_sociale_populations_marginales_minas",
+      "name": "Service de l'Action Sociale auprès des Populations Marginales",
+      "acronyme": "SASPM_MINAS",
+      "fonction": "Service",
+      "parent": "services_action_sociale_minas"
+    },
+    {
+      "id": "etablissements_formation_minas",
+      "name": "Établissements de Formation",
+      "acronyme": "EF_MINAS",
+      "fonction": "Établissements",
+      "parent": "etablissements_organismes_specialises_minas"
+    },
+    {
+      "id": "institutions_reeducation_minas",
+      "name": "Institutions de Rééducation et de Réhabilitation",
+      "acronyme": "IRR_MINAS",
+      "fonction": "Institutions",
+      "parent": "etablissements_organismes_specialises_minas"
+    },
+    {
+      "id": "institutions_petite_enfance_minas",
+      "name": "Institutions Publiques de la Petite Enfance",
+      "acronyme": "IPPE_MINAS",
+      "fonction": "Institutions",
+      "parent": "etablissements_organismes_specialises_minas"
+    },
+    {
+      "id": "ateliers_proteges_minas",
+      "name": "Ateliers Protégés",
+      "acronyme": "AP_MINAS",
+      "fonction": "Ateliers",
+      "parent": "etablissements_organismes_specialises_minas"
+    },
+    {
+      "id": "home_ateliers_minas",
+      "name": "Home-Ateliers",
+      "acronyme": "HA_MINAS",
+      "fonction": "Ateliers",
+      "parent": "etablissements_organismes_specialises_minas"
+    }
+  ],
+  "edges": [
+    {
+      "source": "minas",
+      "target": "secretariat_particulier_minas"
+    },
+    {
+      "source": "minas",
+      "target": "conseillers_techniques_minas"
+    },
+    {
+      "source": "minas",
+      "target": "inspection_generale_minas"
+    },
+    {
+      "source": "minas",
+      "target": "admin_centrale_minas"
+    },
+    {
+      "source": "minas",
+      "target": "services_deconcentres_minas"
+    },
+    {
+      "source": "minas",
+      "target": "unites_techniques_operationnelles_minas"
+    },
+    {
+      "source": "minas",
+      "target": "etablissements_organismes_specialises_minas"
+    },
+    {
+      "source": "admin_centrale_minas",
+      "target": "secretariat_general_minas"
+    },
+    {
+      "source": "admin_centrale_minas",
+      "target": "direction_solidarite_nationale_minas"
+    },
+    {
+      "source": "admin_centrale_minas",
+      "target": "direction_protection_handicapes_agees_minas"
+    },
+    {
+      "source": "admin_centrale_minas",
+      "target": "direction_protection_enfance_minas"
+    },
+    {
+      "source": "admin_centrale_minas",
+      "target": "direction_affaires_generales_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "division_developpement_social_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "cellule_juridique_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "cellule_suivi_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "cellule_communication_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "cellule_informatique_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "cellule_traduction_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "sous_direction_accueil_courrier_minas"
+    },
+    {
+      "source": "secretariat_general_minas",
+      "target": "service_documentation_archives_minas"
+    },
+    {
+      "source": "division_developpement_social_minas",
+      "target": "cellule_developpement_social_minas"
+    },
+    {
+      "source": "division_developpement_social_minas",
+      "target": "cellule_etudes_statistiques_minas"
+    },
+    {
+      "source": "division_developpement_social_minas",
+      "target": "cellule_cooperation_minas"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_minas",
+      "target": "service_accueil_orientation_minas"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_minas",
+      "target": "service_courrier_liaison_minas"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_minas",
+      "target": "service_relance_minas"
+    },
+    {
+      "source": "direction_solidarite_nationale_minas",
+      "target": "sous_direction_lutte_exclusion_minas"
+    },
+    {
+      "source": "direction_solidarite_nationale_minas",
+      "target": "sous_direction_promotion_solidarite_minas"
+    },
+    {
+      "source": "sous_direction_lutte_exclusion_minas",
+      "target": "service_encadrement_populations_marginales_minas"
+    },
+    {
+      "source": "sous_direction_lutte_exclusion_minas",
+      "target": "service_lutte_fleaux_sociaux_minas"
+    },
+    {
+      "source": "sous_direction_lutte_exclusion_minas",
+      "target": "service_appui_sinistres_minas"
+    },
+    {
+      "source": "sous_direction_promotion_solidarite_minas",
+      "target": "service_education_sociale_minas"
+    },
+    {
+      "source": "sous_direction_promotion_solidarite_minas",
+      "target": "service_encadrement_initiatives_locales_minas"
+    },
+    {
+      "source": "sous_direction_promotion_solidarite_minas",
+      "target": "service_lutte_pauvrete_minas"
+    },
+    {
+      "source": "direction_protection_handicapes_agees_minas",
+      "target": "sous_direction_reinsertion_handicapes_minas"
+    },
+    {
+      "source": "direction_protection_handicapes_agees_minas",
+      "target": "sous_direction_protection_agees_minas"
+    },
+    {
+      "source": "sous_direction_reinsertion_handicapes_minas",
+      "target": "service_prevention_depistage_handicap_minas"
+    },
+    {
+      "source": "sous_direction_reinsertion_handicapes_minas",
+      "target": "service_education_speciale_minas"
+    },
+    {
+      "source": "sous_direction_reinsertion_handicapes_minas",
+      "target": "service_appui_reinsertion_socio_economique_minas"
+    },
+    {
+      "source": "direction_protection_enfance_minas",
+      "target": "sous_direction_promotion_droits_enfant_minas"
+    },
+    {
+      "source": "direction_protection_enfance_minas",
+      "target": "sous_direction_sauvegarde_enfant_minas"
+    },
+    {
+      "source": "sous_direction_promotion_droits_enfant_minas",
+      "target": "service_protection_droits_enfant_minas"
+    },
+    {
+      "source": "sous_direction_promotion_droits_enfant_minas",
+      "target": "service_agrement_controle_institutions_minas"
+    },
+    {
+      "source": "sous_direction_sauvegarde_enfant_minas",
+      "target": "service_protection_petite_enfance_minas"
+    },
+    {
+      "source": "sous_direction_sauvegarde_enfant_minas",
+      "target": "service_liberte_surveillee_minas"
+    },
+    {
+      "source": "sous_direction_sauvegarde_enfant_minas",
+      "target": "service_reeducation_internat_minas"
+    },
+    {
+      "source": "direction_affaires_generales_minas",
+      "target": "cellule_gestion_sigipes_minas"
+    },
+    {
+      "source": "direction_affaires_generales_minas",
+      "target": "sous_direction_personnels_solde_minas"
+    },
+    {
+      "source": "direction_affaires_generales_minas",
+      "target": "sous_direction_budget_materiel_minas"
+    },
+    {
+      "source": "sous_direction_personnels_solde_minas",
+      "target": "service_personnel_minas"
+    },
+    {
+      "source": "sous_direction_personnels_solde_minas",
+      "target": "service_solde_pensions_minas"
+    },
+    {
+      "source": "sous_direction_personnels_solde_minas",
+      "target": "service_action_sociale_minas"
+    },
+    {
+      "source": "sous_direction_budget_materiel_minas",
+      "target": "service_budget_materiel_minas"
+    },
+    {
+      "source": "sous_direction_budget_materiel_minas",
+      "target": "service_marches_minas"
+    },
+    {
+      "source": "sous_direction_budget_materiel_minas",
+      "target": "service_infrastructures_minas"
+    },
+    {
+      "source": "sous_direction_budget_materiel_minas",
+      "target": "service_maintenance_minas"
+    },
+    {
+      "source": "services_deconcentres_minas",
+      "target": "delegations_provinciales_minas"
+    },
+    {
+      "source": "services_deconcentres_minas",
+      "target": "delegations_departementales_minas"
+    },
+    {
+      "source": "delegations_provinciales_minas",
+      "target": "brigade_controle_institutions_minas"
+    },
+    {
+      "source": "delegations_provinciales_minas",
+      "target": "service_promotion_droits_handicapes_agees_minas"
+    },
+    {
+      "source": "delegations_provinciales_minas",
+      "target": "service_solidarite_nationale_minas"
+    },
+    {
+      "source": "delegations_provinciales_minas",
+      "target": "service_protection_enfance_minas"
+    },
+    {
+      "source": "delegations_provinciales_minas",
+      "target": "service_statistiques_documentation_minas"
+    },
+    {
+      "source": "delegations_provinciales_minas",
+      "target": "service_affaires_generales_provincial_minas"
+    },
+    {
+      "source": "delegations_departementales_minas",
+      "target": "bureau_identification_assistance_minas"
+    },
+    {
+      "source": "delegations_departementales_minas",
+      "target": "bureau_protection_sociale_enfance_minas"
+    },
+    {
+      "source": "delegations_departementales_minas",
+      "target": "bureau_affaires_communes_statistiques_minas"
+    },
+    {
+      "source": "unites_techniques_operationnelles_minas",
+      "target": "centres_sociaux_minas"
+    },
+    {
+      "source": "unites_techniques_operationnelles_minas",
+      "target": "services_action_sociale_minas"
+    },
+    {
+      "source": "centres_sociaux_minas",
+      "target": "section_promotion_droits_minas"
+    },
+    {
+      "source": "centres_sociaux_minas",
+      "target": "section_lutte_exclusion_minas"
+    },
+    {
+      "source": "centres_sociaux_minas",
+      "target": "section_protection_enfance_minas"
+    },
+    {
+      "source": "centres_sociaux_minas",
+      "target": "section_action_communautaire_minas"
+    },
+    {
+      "source": "centres_sociaux_minas",
+      "target": "section_affaires_generales_statistiques_minas"
+    },
+    {
+      "source": "services_action_sociale_minas",
+      "target": "service_action_sociale_scolaires_minas"
+    },
+    {
+      "source": "services_action_sociale_minas",
+      "target": "service_action_sociale_hopitaux_minas"
+    },
+    {
+      "source": "services_action_sociale_minas",
+      "target": "service_action_sociale_juridictions_minas"
+    },
+    {
+      "source": "services_action_sociale_minas",
+      "target": "service_action_sociale_commissariats_minas"
+    },
+    {
+      "source": "services_action_sociale_minas",
+      "target": "service_action_sociale_penitentiaires_minas"
+    },
+    {
+      "source": "services_action_sociale_minas",
+      "target": "service_action_sociale_populations_marginales_minas"
+    },
+    {
+      "source": "etablissements_organismes_specialises_minas",
+      "target": "etablissements_formation_minas"
+    },
+    {
+      "source": "etablissements_organismes_specialises_minas",
+      "target": "institutions_reeducation_minas"
+    },
+    {
+      "source": "etablissements_organismes_specialises_minas",
+      "target": "institutions_petite_enfance_minas"
+    },
+    {
+      "source": "etablissements_organismes_specialises_minas",
+      "target": "ateliers_proteges_minas"
+    },
+    {
+      "source": "etablissements_organismes_specialises_minas",
+      "target": "home_ateliers_minas"
+    }
+  ]
+}
