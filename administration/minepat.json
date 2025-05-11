@@ -1,0 +1,1042 @@
+{
+  "nodes": [
+    {
+      "id": "minepat",
+      "name": "Ministère de la Planification, de la Programmation du Développement et de l'Aménagement du Territoire",
+      "acronyme": "MINEPAT",
+      "fonction": "Ministere"
+    },
+    {
+      "id": "secretariat_particulier_minepat",
+      "name": "Secrétariat Particulier",
+      "acronyme": "SP_MINEPAT",
+      "fonction": "Secretariat Particulier",
+      "parent": "minepat"
+    },
+    {
+      "id": "secretariat_particulier_ministre_delegue_minepat",
+      "name": "Secrétariat Particulier du Ministre Délégué",
+      "acronyme": "SPMD_MINEPAT",
+      "fonction": "Secretariat Particulier",
+      "parent": "minepat"
+    },
+    {
+      "id": "secretariat_particulier_secretaire_etat_minepat",
+      "name": "Secrétariat Particulier du Secrétaire d'Etat",
+      "acronyme": "SPSE_MINEPAT",
+      "fonction": "Secretariat Particulier",
+      "parent": "minepat"
+    },
+    {
+      "id": "conseillers_techniques_minepat",
+      "name": "Conseillers Techniques",
+      "acronyme": "CT_MINEPAT",
+      "fonction": "Conseillers Techniques",
+      "parent": "minepat"
+    },
+    {
+      "id": "inspection_generale_minepat",
+      "name": "Inspection Générale",
+      "acronyme": "IG_MINEPAT",
+      "fonction": "Inspection Generale",
+      "parent": "minepat"
+    },
+    {
+      "id": "inspecteur_planification_minepat",
+      "name": "Inspecteur de la Planification et de la Programmation du Développement",
+      "acronyme": "IPPD_MINEPAT",
+      "fonction": "Inspecteur",
+      "parent": "inspection_generale_minepat"
+    },
+    {
+      "id": "inspecteur_amenagement_minepat",
+      "name": "Inspecteur de l'Aménagement du Territoire",
+      "acronyme": "IAT_MINEPAT",
+      "fonction": "Inspecteur",
+      "parent": "inspection_generale_minepat"
+    },
+    {
+      "id": "inspecteur_services_administratifs_minepat",
+      "name": "Inspecteur des Services Administratifs",
+      "acronyme": "ISA_MINEPAT",
+      "fonction": "Inspecteur",
+      "parent": "inspection_generale_minepat"
+    },
+    {
+      "id": "administration_centrale_minepat",
+      "name": "Administration Centrale",
+      "acronyme": "AC_MINEPAT",
+      "fonction": "Administration Centrale",
+      "parent": "minepat"
+    },
+    {
+      "id": "secretariat_general_minepat",
+      "name": "Secrétariat Général",
+      "acronyme": "SG_MINEPAT",
+      "fonction": "Secretariat General",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "division_affaires_juridiques_minepat",
+      "name": "Division des Affaires Juridiques",
+      "acronyme": "DAJ_MINEPAT",
+      "fonction": "Division",
+      "parent": "secretariat_general_minepat"
+    },
+    {
+      "id": "cellule_etudes_reglementation_minepat",
+      "name": "Cellule des Etudes et de la Réglementation",
+      "acronyme": "CER_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_affaires_juridiques_minepat"
+    },
+    {
+      "id": "cellule_contentieux_minepat",
+      "name": "Cellule du Contentieux",
+      "acronyme": "CC_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_affaires_juridiques_minepat"
+    },
+    {
+      "id": "cellule_suivi_minepat",
+      "name": "Cellule de Suivi",
+      "acronyme": "CS_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minepat"
+    },
+    {
+      "id": "cellule_communication_minepat",
+      "name": "Cellule de Communication",
+      "acronyme": "CCOM_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minepat"
+    },
+    {
+      "id": "cellule_informatique_minepat",
+      "name": "Cellule Informatique",
+      "acronyme": "CI_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minepat"
+    },
+    {
+      "id": "cellule_traduction_minepat",
+      "name": "Cellule de Traduction",
+      "acronyme": "CTRAD_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "secretariat_general_minepat"
+    },
+    {
+      "id": "sous_direction_accueil_courrier_liaison_minepat",
+      "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+      "acronyme": "SDACL_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "secretariat_general_minepat"
+    },
+    {
+      "id": "service_accueil_orientation_minepat",
+      "name": "Service de l'Accueil et de l'Orientation",
+      "acronyme": "SAO_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_liaison_minepat"
+    },
+    {
+      "id": "service_courrier_liaison_minepat",
+      "name": "Service du Courrier et de Liaison",
+      "acronyme": "SCL_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_liaison_minepat"
+    },
+    {
+      "id": "service_relance_minepat",
+      "name": "Service de la Relance",
+      "acronyme": "SR_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_accueil_courrier_liaison_minepat"
+    },
+    {
+      "id": "sous_direction_documentation_archives_minepat",
+      "name": "Sous-Direction de la Documentation et des Archives",
+      "acronyme": "SDDA_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "secretariat_general_minepat"
+    },
+    {
+      "id": "service_documentation_minepat",
+      "name": "Service de la Documentation",
+      "acronyme": "SDOC_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_documentation_archives_minepat"
+    },
+    {
+      "id": "service_archives_minepat",
+      "name": "Service des Archives",
+      "acronyme": "SARCH_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_documentation_archives_minepat"
+    },
+    {
+      "id": "division_prospective_planification_strategique_minepat",
+      "name": "Division de la Prospective et de la Planification Stratégique",
+      "acronyme": "DPPS_MINEPAT",
+      "fonction": "Division",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "cellule_prospective_economique_minepat",
+      "name": "Cellule de la Prospective Economique",
+      "acronyme": "CPE_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_suivi_progres_scientifique_minepat",
+      "name": "Cellule du Suivi des Progrès Scientifique et Technologique",
+      "acronyme": "CSPST_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_analyse_mutations_sociales_minepat",
+      "name": "Cellule de l'Analyse de Mutations Sociales et Culturelles",
+      "acronyme": "CAMSC_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_elaboration_plan_developpement_national_minepat",
+      "name": "Cellule d'Elaboration du Plan de Développement National",
+      "acronyme": "CEPDN_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_evaluation_minepat",
+      "name": "Cellule de l'Evaluation",
+      "acronyme": "CEVAL_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_planification_developpement_rural_minepat",
+      "name": "Cellule de Planification du Développement Rural",
+      "acronyme": "CPDR_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_planification_infrastructures_minepat",
+      "name": "Cellule de Planification des Infrastructures",
+      "acronyme": "CPI_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_planification_industrie_services_minepat",
+      "name": "Cellule de Planification de l'Industrie et des Services",
+      "acronyme": "CPIS_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "cellule_strategies_transversales_minepat",
+      "name": "Cellule des Stratégies Transversales",
+      "acronyme": "CST_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "id": "division_population_developpement_humain_minepat",
+      "name": "Division de la Population et du Développement Humain",
+      "acronyme": "DPDH_MINEPAT",
+      "fonction": "Division",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "cellule_politique_population_minepat",
+      "name": "Cellule de la Politique de Population",
+      "acronyme": "CPP_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_population_developpement_humain_minepat"
+    },
+    {
+      "id": "cellule_developpement_ressources_humaines_minepat",
+      "name": "Cellule de Développement des Ressources Humaines",
+      "acronyme": "CDRH_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_population_developpement_humain_minepat"
+    },
+    {
+      "id": "cellule_developpement_social_minepat",
+      "name": "Cellule du Développement Social",
+      "acronyme": "CDS_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_population_developpement_humain_minepat"
+    },
+    {
+      "id": "division_appui_developpement_regional_local_minepat",
+      "name": "Division d'Appui au Développement Régional et Local",
+      "acronyme": "DADRL_MINEPAT",
+      "fonction": "Division",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "cellule_etudes_evaluation_developpement_regional_local_minepat",
+      "name": "Cellule des Etudes et de l'Evaluation du Développement Régional et Local",
+      "acronyme": "CEEDRL_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_appui_developpement_regional_local_minepat"
+    },
+    {
+      "id": "cellule_appui_planification_regionale_locale_minepat",
+      "name": "Cellule d'Appui à la Planification Régionale et Locale",
+      "acronyme": "CAPRL_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_appui_developpement_regional_local_minepat"
+    },
+    {
+      "id": "direction_amenagement_territoire_minepat",
+      "name": "Direction de l'Aménagement du Territoire",
+      "acronyme": "DAT_MINEPAT",
+      "fonction": "Direction",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "sous_direction_etablissements_humains_minepat",
+      "name": "Sous-Direction des Etablissements Humains",
+      "acronyme": "SDEH_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_amenagement_territoire_minepat"
+    },
+    {
+      "id": "service_implantations_humaines_minepat",
+      "name": "Service des Implantations Humaines",
+      "acronyme": "SIH_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_etablissements_humains_minepat"
+    },
+    {
+      "id": "service_inventaires_regionaux_etablissements_humains_minepat",
+      "name": "Service des Inventaires Régionaux des Etablissements Humains",
+      "acronyme": "SIREH_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_etablissements_humains_minepat"
+    },
+    {
+      "id": "service_suivi_controle_minepat",
+      "name": "Service de Suivi et de Contrôle",
+      "acronyme": "SSC_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_etablissements_humains_minepat"
+    },
+    {
+      "id": "sous_direction_missions_organismes_amenagement_minepat",
+      "name": "Sous-Direction des Missions et Organismes d'Aménagement",
+      "acronyme": "SDMOA_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_amenagement_territoire_minepat"
+    },
+    {
+      "id": "service_missions_amenagement_minepat",
+      "name": "Service des Missions d'Aménagement",
+      "acronyme": "SMA_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_missions_organismes_amenagement_minepat"
+    },
+    {
+      "id": "service_amenagements_sous_regionaux_minepat",
+      "name": "Service des Aménagements Sous-Régionaux",
+      "acronyme": "SASR_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_missions_organismes_amenagement_minepat"
+    },
+    {
+      "id": "cellule_etudes_schemas_amenagement_minepat",
+      "name": "Cellule des Etudes et des Schémas d'Aménagement",
+      "acronyme": "CESA_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "direction_amenagement_territoire_minepat"
+    },
+    {
+      "id": "cellule_cartographie_minepat",
+      "name": "Cellule de la Cartographie",
+      "acronyme": "CCART_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "direction_amenagement_territoire_minepat"
+    },
+    {
+      "id": "direction_infrastructures_zones_frontalieres_minepat",
+      "name": "Direction des Infrastructures et de la Mise en Valeur des Zones Frontalières",
+      "acronyme": "DIZF_MINEPAT",
+      "fonction": "Direction",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "sous_direction_infrastructures_minepat",
+      "name": "Sous-Direction des Infrastructures",
+      "acronyme": "SDI_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_infrastructures_zones_frontalieres_minepat"
+    },
+    {
+      "id": "service_inventaires_regionaux_infrastructures_minepat",
+      "name": "Service des Inventaires Régionaux des Infrastructures",
+      "acronyme": "SIRI_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_infrastructures_minepat"
+    },
+    {
+      "id": "service_programmes_infrastructures_minepat",
+      "name": "Service des Programmes d'Infrastructures",
+      "acronyme": "SPI_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_infrastructures_minepat"
+    },
+    {
+      "id": "sous_direction_mise_valeur_zones_frontalieres_minepat",
+      "name": "Sous-Direction de la Mise en Valeur des Zones Frontalières",
+      "acronyme": "SDMZF_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_infrastructures_zones_frontalieres_minepat"
+    },
+    {
+      "id": "service_programmes_mise_valeur_zones_frontalieres_minepat",
+      "name": "Service des Programmes de Mise en Valeur des Zones Frontalières",
+      "acronyme": "SPMVZF_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_mise_valeur_zones_frontalieres_minepat"
+    },
+    {
+      "id": "service_suivi_frontiere_maritime_minepat",
+      "name": "Service du Suivi de la Frontière Maritime",
+      "acronyme": "SSFM_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_mise_valeur_zones_frontalieres_minepat"
+    },
+    {
+      "id": "division_programmation_developpement_minepat",
+      "name": "Division de la Programmation du Développement",
+      "acronyme": "DPD_MINEPAT",
+      "fonction": "Division",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "cellule_etudes_normalisation_minepat",
+      "name": "Cellule des Etudes et de la Normalisation",
+      "acronyme": "CEN_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_programmation_developpement_minepat"
+    },
+    {
+      "id": "cellule_cadres_depenses_moyen_terme_minepat",
+      "name": "Cellule des Cadres de Dépenses à Moyen Terme",
+      "acronyme": "CCDMT_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_programmation_developpement_minepat"
+    },
+    {
+      "id": "cellule_programmation_subventions_investissement_public_minepat",
+      "name": "Cellule de Programmation des Subventions d'Investissement Public",
+      "acronyme": "CPSIP_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_programmation_developpement_minepat"
+    },
+    {
+      "id": "cellule_programmation_projets_cooperation_internationale_minepat",
+      "name": "Cellule de Programmation des Projets de Coopération Internationale",
+      "acronyme": "CPPCI_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_programmation_developpement_minepat"
+    },
+    {
+      "id": "cellule_audits_analyses_impacts_suivi_evaluation_minepat",
+      "name": "Cellule des Audits, des Analyses d'Impacts et du Suivi-Evaluation des Programmes et Projets",
+      "acronyme": "CAAISEP_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "division_programmation_developpement_minepat"
+    },
+    {
+      "id": "service_informatique_minepat",
+      "name": "Service Informatique",
+      "acronyme": "SI_MINEPAT",
+      "fonction": "Service",
+      "parent": "division_programmation_developpement_minepat"
+    },
+    {
+      "id": "direction_cooperation_technique_internationale_minepat",
+      "name": "Direction de la Coopération Technique Internationale",
+      "acronyme": "DCTI_MINEPAT",
+      "fonction": "Direction",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "sous_direction_cooperation_technique_bilaterale_minepat",
+      "name": "Sous-Direction de la Coopération Technique Bilatérale",
+      "acronyme": "SDCTB_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_cooperation_technique_internationale_minepat"
+    },
+    {
+      "id": "sous_direction_cooperation_technique_multilaterale_minepat",
+      "name": "Sous-Direction de la Coopération Technique Multilatérale",
+      "acronyme": "SDCTM_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_cooperation_technique_internationale_minepat"
+    },
+    {
+      "id": "sous_direction_integration_cooperation_regionale_minepat",
+      "name": "Sous-Direction de l'Intégration et de la Coopération Régionale",
+      "acronyme": "SDICR_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_cooperation_technique_internationale_minepat"
+    },
+    {
+      "id": "service_fichier_accords_conventions_minepat",
+      "name": "Service du Fichier des Accords et des Conventions",
+      "acronyme": "SFAC_MINEPAT",
+      "fonction": "Service",
+      "parent": "direction_cooperation_technique_internationale_minepat"
+    },
+    {
+      "id": "service_appui_cooperation_decentralisee_m`inepat",
+      "name": "Service d'Appui à la Coopération Décentralisée",
+      "acronyme": "SACD_MINEPAT",
+      "fonction": "Service",
+      "parent": "direction_cooperation_technique_internationale_minepat"
+    },
+    {
+      "id": "direction_affaires_generales_minepat",
+      "name": "Direction des Affaires Générales",
+      "acronyme": "DAG_MINEPAT",
+      "fonction": "Direction",
+      "parent": "administration_centrale_minepat"
+    },
+    {
+      "id": "cellule_gestion_projet_sigipes_minepat",
+      "name": "Cellule de Gestion du Projet SIGIPES",
+      "acronyme": "CGPS_MINEPAT",
+      "fonction": "Cellule",
+      "parent": "direction_affaires_generales_minepat"
+    },
+    {
+      "id": "sous_direction_personnels_solde_pensions_minepat",
+      "name": "Sous-Direction des Personnels, de la Solde et des Pensions",
+      "acronyme": "SDPSP_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_affaires_generales_minepat"
+    },
+    {
+      "id": "service_personnel_minepat",
+      "name": "Service du Personnel",
+      "acronyme": "SP_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_personnels_solde_pensions_minepat"
+    },
+    {
+      "id": "service_formation_stages_minepat",
+      "name": "Service de la Formation et des Stages",
+      "acronyme": "SFS_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_personnels_solde_pensions_minepat"
+    },
+    {
+      "id": "service_solde_pensions_minepat",
+      "name": "Service de la Solde et des Pensions",
+      "acronyme": "SSP_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_personnels_solde_pensions_minepat"
+    },
+    {
+      "id": "service_action_sociale_minepat",
+      "name": "Service de l'Action Sociale",
+      "acronyme": "SAS_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_personnels_solde_pensions_minepat"
+    },
+    {
+      "id": "sous_direction_budget_minepat",
+      "name": "Sous-Direction du Budget",
+      "acronyme": "SDB_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_affaires_generales_minepat"
+    },
+    {
+      "id": "service_budget_minepat",
+      "name": "Service du Budget",
+      "acronyme": "SB_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_budget_minepat"
+    },
+    {
+      "id": "service_marches_minepat",
+      "name": "Service des Marchés",
+      "acronyme": "SM_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_budget_minepat"
+    },
+    {
+      "id": "sous_direction_equipement_maintenance_minepat",
+      "name": "Sous-Direction de l'Equipement et de la Maintenance",
+      "acronyme": "SDEM_MINEPAT",
+      "fonction": "Sous-direction",
+      "parent": "direction_affaires_generales_minepat"
+    },
+    {
+      "id": "service_maintenance_minepat",
+      "name": "Service de la Maintenance",
+      "acronyme": "SMAINT_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_equipement_maintenance_minepat"
+    },
+    {
+      "id": "service_patrimoine_minepat",
+      "name": "Service du Patrimoine",
+      "acronyme": "SPATR_MINEPAT",
+      "fonction": "Service",
+      "parent": "sous_direction_equipement_maintenance_minepat"
+    },
+    {
+      "id": "services_deconcentres_minepat",
+      "name": "Services Déconcentrés",
+      "acronyme": "SD_MINEPAT",
+      "fonction": "Services Deconcentres",
+      "parent": "minepat"
+    },
+    {
+      "id": "delegations_provinciales_minepat",
+      "name": "Délégations Provinciales de la Planification, de la Programmation du Développement et de l'Aménagement du Territoire",
+      "acronyme": "DPPDAT_MINEPAT",
+      "fonction": "Delegation Provinciale",
+      "parent": "services_deconcentres_minepat"
+    },
+    {
+      "id": "service_provincial_planification_minepat",
+      "name": "Service Provincial de la Planification",
+      "acronyme": "SPP_MINEPAT",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minepat"
+    },
+    {
+      "id": "service_provincial_programmation_minepat",
+      "name": "Service Provincial de la Programmation",
+      "acronyme": "SPPROG_MINEPAT",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minepat"
+    },
+    {
+      "id": "service_provincial_amenagement_territoire_minepat",
+      "name": "Service Provincial de l'Aménagement du Territoire",
+      "acronyme": "SPAT_MINEPAT",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minepat"
+    },
+    {
+      "id": "service_provincial_affaires_generales_minepat",
+      "name": "Service Provincial des Affaires Générales",
+      "acronyme": "SPAG_MINEPAT",
+      "fonction": "Service",
+      "parent": "delegations_provinciales_minepat"
+    },
+    {
+      "id": "delegations_departementales_minepat",
+      "name": "Délégations Départementales de la Planification, de la Programmation du Développement et de l'Aménagement du Territoire",
+      "acronyme": "DDPDAT_MINEPAT",
+      "fonction": "Delegation Departementale",
+      "parent": "services_deconcentres_minepat"
+    },
+    {
+      "id": "bureau_planification_minepat",
+      "name": "Bureau de la Planification",
+      "acronyme": "BP_MINEPAT",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minepat"
+    },
+    {
+      "id": "bureau_programmation_minepat",
+      "name": "Bureau de la Programmation",
+      "acronyme": "BPROG_MINEPAT",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minepat"
+    },
+    {
+      "id": "bureau_amenagement_territoire_minepat",
+      "name": "Bureau de l'Aménagement du Territoire",
+      "acronyme": "BAT_MINEPAT",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minepat"
+    },
+    {
+      "id": "bureau_affaires_generales_minepat",
+      "name": "Bureau des Affaires Générales",
+      "acronyme": "BAG_MINEPAT",
+      "fonction": "Bureau",
+      "parent": "delegations_departementales_minepat"
+    }
+  ],
+  "edges": [
+    { "source": "minepat", "target": "secretariat_particulier_minepat" },
+    {
+      "source": "minepat",
+      "target": "secretariat_particulier_ministre_delegue_minepat"
+    },
+    {
+      "source": "minepat",
+      "target": "secretariat_particulier_secretaire_etat_minepat"
+    },
+    { "source": "minepat", "target": "conseillers_techniques_minepat" },
+    { "source": "minepat", "target": "inspection_generale_minepat" },
+    { "source": "minepat", "target": "administration_centrale_minepat" },
+    { "source": "minepat", "target": "services_deconcentres_minepat" },
+    {
+      "source": "inspection_generale_minepat",
+      "target": "inspecteur_planification_minepat"
+    },
+    {
+      "source": "inspection_generale_minepat",
+      "target": "inspecteur_amenagement_minepat"
+    },
+    {
+      "source": "inspection_generale_minepat",
+      "target": "inspecteur_services_administratifs_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "secretariat_general_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "division_prospective_planification_strategique_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "division_population_developpement_humain_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "division_appui_developpement_regional_local_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "direction_amenagement_territoire_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "direction_infrastructures_zones_frontalieres_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "division_programmation_developpement_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "direction_cooperation_technique_internationale_minepat"
+    },
+    {
+      "source": "administration_centrale_minepat",
+      "target": "direction_affaires_generales_minepat"
+    },
+    {
+      "source": "secretariat_general_minepat",
+      "target": "division_affaires_juridiques_minepat"
+    },
+    {
+      "source": "division_affaires_juridiques_minepat",
+      "target": "cellule_etudes_reglementation_minepat"
+    },
+    {
+      "source": "division_affaires_juridiques_minepat",
+      "target": "cellule_contentieux_minepat"
+    },
+    {
+      "source": "secretariat_general_minepat",
+      "target": "cellule_suivi_minepat"
+    },
+    {
+      "source": "secretariat_general_minepat",
+      "target": "cellule_communication_minepat"
+    },
+    {
+      "source": "secretariat_general_minepat",
+      "target": "cellule_informatique_minepat"
+    },
+    {
+      "source": "secretariat_general_minepat",
+      "target": "cellule_traduction_minepat"
+    },
+    {
+      "source": "secretariat_general_minepat",
+      "target": "sous_direction_accueil_courrier_liaison_minepat"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_liaison_minepat",
+      "target": "service_accueil_orientation_minepat"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_liaison_minepat",
+      "target": "service_courrier_liaison_minepat"
+    },
+    {
+      "source": "sous_direction_accueil_courrier_liaison_minepat",
+      "target": "service_relance_minepat"
+    },
+    {
+      "source": "secretariat_general_minepat",
+      "target": "sous_direction_documentation_archives_minepat"
+    },
+    {
+      "source": "sous_direction_documentation_archives_minepat",
+      "target": "service_documentation_minepat"
+    },
+    {
+      "source": "sous_direction_documentation_archives_minepat",
+      "target": "service_archives_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_prospective_economique_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_suivi_progres_scientifique_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_analyse_mutations_sociales_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_elaboration_plan_developpement_national_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_evaluation_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_planification_developpement_rural_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_planification_infrastructures_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_planification_industrie_services_minepat"
+    },
+    {
+      "source": "division_prospective_planification_strategique_minepat",
+      "target": "cellule_strategies_transversales_minepat"
+    },
+    {
+      "source": "division_population_developpement_humain_minepat",
+      "target": "cellule_politique_population_minepat"
+    },
+    {
+      "source": "division_population_developpement_humain_minepat",
+      "target": "cellule_developpement_ressources_humaines_minepat"
+    },
+    {
+      "source": "division_population_developpement_humain_minepat",
+      "target": "cellule_developpement_social_minepat"
+    },
+    {
+      "source": "division_appui_developpement_regional_local_minepat",
+      "target": "cellule_etudes_evaluation_developpement_regional_local_minepat"
+    },
+    {
+      "source": "division_appui_developpement_regional_local_minepat",
+      "target": "cellule_appui_planification_regionale_locale_minepat"
+    },
+    {
+      "source": "direction_amenagement_territoire_minepat",
+      "target": "sous_direction_etablissements_humains_minepat"
+    },
+    {
+      "source": "sous_direction_etablissements_humains_minepat",
+      "target": "service_implantations_humaines_minepat"
+    },
+    {
+      "source": "sous_direction_etablissements_humains_minepat",
+      "target": "service_inventaires_regionaux_etablissements_humains_minepat"
+    },
+    {
+      "source": "sous_direction_etablissements_humains_minepat",
+      "target": "service_suivi_controle_minepat"
+    },
+    {
+      "source": "direction_amenagement_territoire_minepat",
+      "target": "sous_direction_missions_organismes_amenagement_minepat"
+    },
+    {
+      "source": "sous_direction_missions_organismes_amenagement_minepat",
+      "target": "service_missions_amenagement_minepat"
+    },
+    {
+      "source": "sous_direction_missions_organismes_amenagement_minepat",
+      "target": "service_amenagements_sous_regionaux_minepat"
+    },
+    {
+      "source": "direction_amenagement_territoire_minepat",
+      "target": "cellule_etudes_schemas_amenagement_minepat"
+    },
+    {
+      "source": "direction_amenagement_territoire_minepat",
+      "target": "cellule_cartographie_minepat"
+    },
+    {
+      "source": "direction_infrastructures_zones_frontalieres_minepat",
+      "target": "sous_direction_infrastructures_minepat"
+    },
+    {
+      "source": "sous_direction_infrastructures_minepat",
+      "target": "service_inventaires_regionaux_infrastructures_minepat"
+    },
+    {
+      "source": "sous_direction_infrastructures_minepat",
+      "target": "service_programmes_infrastructures_minepat"
+    },
+    {
+      "source": "direction_infrastructures_zones_frontalieres_minepat",
+      "target": "sous_direction_mise_valeur_zones_frontalieres_minepat"
+    },
+    {
+      "source": "sous_direction_mise_valeur_zones_frontalieres_minepat",
+      "target": "service_programmes_mise_valeur_zones_frontalieres_minepat"
+    },
+    {
+      "source": "sous_direction_mise_valeur_zones_frontalieres_minepat",
+      "target": "service_suivi_frontiere_maritime_minepat"
+    },
+    {
+      "source": "division_programmation_developpement_minepat",
+      "target": "cellule_etudes_normalisation_minepat"
+    },
+    {
+      "source": "division_programmation_developpement_minepat",
+      "target": "cellule_cadres_depenses_moyen_terme_minepat"
+    },
+    {
+      "source": "division_programmation_developpement_minepat",
+      "target": "cellule_programmation_subventions_investissement_public_minepat"
+    },
+    {
+      "source": "division_programmation_developpement_minepat",
+      "target": "cellule_programmation_projets_cooperation_internationale_minepat"
+    },
+    {
+      "source": "division_programmation_developpement_minepat",
+      "target": "cellule_audits_analyses_impacts_suivi_evaluation_minepat"
+    },
+    {
+      "source": "division_programmation_developpement_minepat",
+      "target": "service_informatique_minepat"
+    },
+    {
+      "source": "direction_cooperation_technique_internationale_minepat",
+      "target": "sous_direction_cooperation_technique_bilaterale_minepat"
+    },
+    {
+      "source": "direction_cooperation_technique_internationale_minepat",
+      "target": "sous_direction_cooperation_technique_multilaterale_minepat"
+    },
+    {
+      "source": "direction_cooperation_technique_internationale_minepat",
+      "target": "sous_direction_integration_cooperation_regionale_minepat"
+    },
+    {
+      "source": "direction_cooperation_technique_internationale_minepat",
+      "target": "service_fichier_accords_conventions_minepat"
+    },
+    {
+      "source": "direction_cooperation_technique_internationale_minepat",
+      "target": "service_appui_cooperation_decentralisee_minepat"
+    },
+    {
+      "source": "direction_affaires_generales_minepat",
+      "target": "cellule_gestion_projet_sigipes_minepat"
+    },
+    {
+      "source": "direction_affaires_generales_minepat",
+      "target": "sous_direction_personnels_solde_pensions_minepat"
+    },
+    {
+      "source": "sous_direction_personnels_solde_pensions_minepat",
+      "target": "service_personnel_minepat"
+    },
+    {
+      "source": "sous_direction_personnels_solde_pensions_minepat",
+      "target": "service_formation_stages_minepat"
+    },
+    {
+      "source": "sous_direction_personnels_solde_pensions_minepat",
+      "target": "service_solde_pensions_minepat"
+    },
+    {
+      "source": "sous_direction_personnels_solde_pensions_minepat",
+      "target": "service_action_sociale_minepat"
+    },
+    {
+      "source": "direction_affaires_generales_minepat",
+      "target": "sous_direction_budget_minepat"
+    },
+    {
+      "source": "sous_direction_budget_minepat",
+      "target": "service_budget_minepat"
+    },
+    {
+      "source": "sous_direction_budget_minepat",
+      "target": "service_marches_minepat"
+    },
+    {
+      "source": "direction_affaires_generales_minepat",
+      "target": "sous_direction_equipement_maintenance_minepat"
+    },
+    {
+      "source": "sous_direction_equipement_maintenance_minepat",
+      "target": "service_maintenance_minepat"
+    },
+    {
+      "source": "sous_direction_equipement_maintenance_minepat",
+      "target": "service_patrimoine_minepat"
+    },
+    {
+      "source": "services_deconcentres_minepat",
+      "target": "delegations_provinciales_minepat"
+    },
+    {
+      "source": "services_deconcentres_minepat",
+      "target": "delegations_departementales_minepat"
+    },
+    {
+      "source": "delegations_provinciales_minepat",
+      "target": "service_provincial_planification_minepat"
+    },
+    {
+      "source": "delegations_provinciales_minepat",
+      "target": "service_provincial_programmation_minepat"
+    },
+    {
+      "source": "delegations_provinciales_minepat",
+      "target": "service_provincial_amenagement_territoire_minepat"
+    },
+    {
+      "source": "delegations_provinciales_minepat",
+      "target": "service_provincial_affaires_generales_minepat"
+    },
+    {
+      "source": "delegations_departementales_minepat",
+      "target": "bureau_planification_minepat"
+    },
+    {
+      "source": "delegations_departementales_minepat",
+      "target": "bureau_programmation_minepat"
+    },
+    {
+      "source": "delegations_departementales_minepat",
+      "target": "bureau_amenagement_territoire_minepat"
+    },
+    {
+      "source": "delegations_departementales_minepat",
+      "target": "bureau_affaires_generales_minepat"
+    }
+  ]
+}
