@@ -1,0 +1,984 @@
+{
+    "nodes": [
+        {
+            "id": "minfopra",
+            "name": "Ministère de la Fonction Publique et de la Réforme Administrative",
+            "acronyme": "MINFOPRA",
+            "fonction": "Ministere"
+        },
+        {
+            "id": "secretariat_particulier_minfopra",
+            "name": "Secrétariat Particulier",
+            "acronyme": "SP_MINFOPRA",
+            "fonction": "Secretariat Particulier",
+            "parent": "minfopra"
+        },
+        {
+            "id": "conseillers_techniques_minfopra",
+            "name": "Conseillers Techniques",
+            "acronyme": "CT_MINFOPRA",
+            "fonction": "Conseillers Techniques",
+            "parent": "minfopra"
+        },
+        {
+            "id": "secretariat_permanent_reforme_minfopra",
+            "name": "Secrétariat Permanent à la Réforme Administrative",
+            "acronyme": "SPRA_MINFOPRA",
+            "fonction": "Secretariat Permanent",
+            "parent": "minfopra"
+        },
+        {
+            "id": "inspection_generale_minfopra",
+            "name": "Inspection Générale",
+            "acronyme": "IG_MINFOPRA",
+            "fonction": "Inspection Generale",
+            "parent": "minfopra"
+        },
+        {
+            "id": "administration_centrale_minfopra",
+            "name": "Administration Centrale",
+            "acronyme": "AC_MINFOPRA",
+            "fonction": "Administration Centrale",
+            "parent": "minfopra"
+        },
+        {
+            "id": "services_deconcentres_minfopra",
+            "name": "Services Déconcentrés",
+            "acronyme": "SD_MINFOPRA",
+            "fonction": "Services Deconcentres",
+            "parent": "minfopra"
+        },
+        {
+            "id": "division_administrations_souverainete_minfopra",
+            "name": "Division des Administrations de Souveraineté",
+            "acronyme": "DAS_MINFOPRA",
+            "fonction": "Division",
+            "parent": "secretariat_permanent_reforme_minfopra"
+        },
+        {
+            "id": "division_administrations_techniques_minfopra",
+            "name": "Division des Administrations Techniques",
+            "acronyme": "DAT_MINFOPRA",
+            "fonction": "Division",
+            "parent": "secretariat_permanent_reforme_minfopra"
+        },
+        {
+            "id": "division_administrations_economiques_sociales_minfopra",
+            "name": "Division des Administrations Economiques et Sociales",
+            "acronyme": "DAES_MINFOPRA",
+            "fonction": "Division",
+            "parent": "secretariat_permanent_reforme_minfopra"
+        },
+        {
+            "id": "cellule_etudes_cooperation_technologies_minfopra",
+            "name": "Cellule des Etudes, de la Coopération et des Nouvelles Technologies",
+            "acronyme": "CECNT_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "secretariat_permanent_reforme_minfopra"
+        },
+        {
+            "id": "service_affaires_generales_minfopra",
+            "name": "Service des Affaires Générales",
+            "acronyme": "SAG_MINFOPRA",
+            "fonction": "Service",
+            "parent": "secretariat_permanent_reforme_minfopra"
+        },
+        {
+            "id": "section_etudes_prospective_souverainete_minfopra",
+            "name": "Section des Etudes et de la Prospective",
+            "acronyme": "SEP_DAS_MINFOPRA",
+            "fonction": "Section",
+            "parent": "division_administrations_souverainete_minfopra"
+        },
+        {
+            "id": "section_evaluation_controle_souverainete_minfopra",
+            "name": "Section de l'Evaluation et du Contrôle des Performances",
+            "acronyme": "SECP_DAS_MINFOPRA",
+            "fonction": "Section",
+            "parent": "division_administrations_souverainete_minfopra"
+        },
+        {
+            "id": "section_etudes_prospective_techniques_minfopra",
+            "name": "Section des Etudes et de la Prospective",
+            "acronyme": "SEP_DAT_MINFOPRA",
+            "fonction": "Section",
+            "parent": "division_administrations_techniques_minfopra"
+        },
+        {
+            "id": "section_evaluation_controle_techniques_minfopra",
+            "name": "Section de l'Evaluation et du Contrôle des Performances",
+            "acronyme": "SECP_DAT_MINFOPRA",
+            "fonction": "Section",
+            "parent": "division_administrations_techniques_minfopra"
+        },
+        {
+            "id": "section_etudes_prospective_economiques_minfopra",
+            "name": "Section des Etudes et de la Prospective",
+            "acronyme": "SEP_DAES_MINFOPRA",
+            "fonction": "Section",
+            "parent": "division_administrations_economiques_sociales_minfopra"
+        },
+        {
+            "id": "section_evaluation_controle_economiques_minfopra",
+            "name": "Section de l'Evaluation et du Contrôle des Performances",
+            "acronyme": "SECP_DAES_MINFOPRA",
+            "fonction": "Section",
+            "parent": "division_administrations_economiques_sociales_minfopra"
+        },
+        {
+            "id": "secretariat_general_minfopra",
+            "name": "Secrétariat Général",
+            "acronyme": "SG_MINFOPRA",
+            "fonction": "Secretariat General",
+            "parent": "administration_centrale_minfopra"
+        },
+        {
+            "id": "direction_developpement_ressources_humaines_minfopra",
+            "name": "Direction du Développement des Ressources Humaines de l'Etat",
+            "acronyme": "DDRH_MINFOPRA",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minfopra"
+        },
+        {
+            "id": "direction_gestion_carrieres_minfopra",
+            "name": "Direction de la Gestion des Carrières",
+            "acronyme": "DGC_MINFOPRA",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minfopra"
+        },
+        {
+            "id": "division_discipline_contentieux_minfopra",
+            "name": "Division de la Discipline et du Contentieux",
+            "acronyme": "DDC_MINFOPRA",
+            "fonction": "Division",
+            "parent": "administration_centrale_minfopra"
+        },
+        {
+            "id": "division_reglementation_prospective_effectifs_minfopra",
+            "name": "Division de la Règlementation, de la Prospective et du Contrôle des Effectifs",
+            "acronyme": "DRPCE_MINFOPRA",
+            "fonction": "Division",
+            "parent": "administration_centrale_minfopra"
+        },
+        {
+            "id": "direction_affaires_generales_minfopra",
+            "name": "Direction des Affaires Générales",
+            "acronyme": "DAG_MINFOPRA",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minfopra"
+        },
+        {
+            "id": "division_coordination_sigipes_minfopra",
+            "name": "Division de la Coordination Nationale du SIGIPES",
+            "acronyme": "DCS_MINFOPRA",
+            "fonction": "Division",
+            "parent": "secretariat_general_minfopra"
+        },
+        {
+            "id": "division_systemes_information_minfopra",
+            "name": "Division des Systèmes d'Information",
+            "acronyme": "DSI_MINFOPRA",
+            "fonction": "Division",
+            "parent": "secretariat_general_minfopra"
+        },
+        {
+            "id": "cellule_communication_minfopra",
+            "name": "Cellule de Communication",
+            "acronyme": "CC_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "secretariat_general_minfopra"
+        },
+        {
+            "id": "cellule_traduction_minfopra",
+            "name": "Cellule de Traduction",
+            "acronyme": "CT_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "secretariat_general_minfopra"
+        },
+        {
+            "id": "sous_direction_accueil_courrier_liaison_minfopra",
+            "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+            "acronyme": "SDACL_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "secretariat_general_minfopra"
+        },
+        {
+            "id": "sous_direction_fichier_central_documentation_minfopra",
+            "name": "Sous-Direction du Fichier Central et de la Documentation",
+            "acronyme": "SDFCD_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "secretariat_general_minfopra"
+        },
+        {
+            "id": "cellule_suivi_minfopra",
+            "name": "Cellule de Suivi",
+            "acronyme": "CS_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "secretariat_general_minfopra"
+        },
+        {
+            "id": "service_accueil_orientation_minfopra",
+            "name": "Service de l'Accueil et de l'Orientation",
+            "acronyme": "SAO_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_accueil_courrier_liaison_minfopra"
+        },
+        {
+            "id": "service_courrier_arrivee_minfopra",
+            "name": "Service du Courrier Arrivée",
+            "acronyme": "SCA_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_accueil_courrier_liaison_minfopra"
+        },
+        {
+            "id": "service_courrier_depart_minfopra",
+            "name": "Service du Courrier Départ",
+            "acronyme": "SCD_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_accueil_courrier_liaison_minfopra"
+        },
+        {
+            "id": "service_relance_minfopra",
+            "name": "Service de la Relance",
+            "acronyme": "SR_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_accueil_courrier_liaison_minfopra"
+        },
+        {
+            "id": "service_exploitation_minfopra",
+            "name": "Service de l'Exploitation",
+            "acronyme": "SE_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_fichier_central_documentation_minfopra"
+        },
+        {
+            "id": "service_fichier_classement_minfopra",
+            "name": "Service du Fichier et du Classement",
+            "acronyme": "SFC_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_fichier_central_documentation_minfopra"
+        },
+        {
+            "id": "bureau_documentation_minfopra",
+            "name": "Bureau de la Documentation",
+            "acronyme": "BD_MINFOPRA",
+            "fonction": "Bureau",
+            "parent": "sous_direction_fichier_central_documentation_minfopra"
+        },
+        {
+            "id": "cellule_exploitation_infrastructures_securite_minfopra",
+            "name": "Cellule de l'Exploitation, des Infrastructures et de la Sécurité",
+            "acronyme": "CEIS_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_systemes_information_minfopra"
+        },
+        {
+            "id": "cellule_etudes_projets_minfopra",
+            "name": "Cellule des Etudes et des Projets",
+            "acronyme": "CEP_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_systemes_information_minfopra"
+        },
+        {
+            "id": "sous_direction_concours_minfopra",
+            "name": "Sous-Direction des Concours",
+            "acronyme": "SDC_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_developpement_ressources_humaines_minfopra"
+        },
+        {
+            "id": "sous_direction_renforcement_capacites_minfopra",
+            "name": "Sous-Direction du Renforcement des Capacités",
+            "acronyme": "SDRC_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_developpement_ressources_humaines_minfopra"
+        },
+        {
+            "id": "service_archives_concours_minfopra",
+            "name": "Service des Archives des Concours",
+            "acronyme": "SAC_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_concours_minfopra"
+        },
+        {
+            "id": "service_concours_internes_minfopra",
+            "name": "Service des Concours Internes",
+            "acronyme": "SCI_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_concours_minfopra"
+        },
+        {
+            "id": "service_concours_directs_bourse_minfopra",
+            "name": "Service des Concours Directs et Bourse",
+            "acronyme": "SCDB_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_concours_minfopra"
+        },
+        {
+            "id": "service_statistiques_minfopra",
+            "name": "Service des Statistiques",
+            "acronyme": "SS_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_concours_minfopra"
+        },
+        {
+            "id": "service_formation_minfopra",
+            "name": "Service de la Formation",
+            "acronyme": "SF_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_renforcement_capacites_minfopra"
+        },
+        {
+            "id": "service_gestion_stagiaires_minfopra",
+            "name": "Service de Gestion des Stagiaires",
+            "acronyme": "SGS_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_renforcement_capacites_minfopra"
+        },
+        {
+            "id": "cellule_coordination_carrieres_minfopra",
+            "name": "Cellule de Coordination des Structures chargées de la Gestion des Carrières",
+            "acronyme": "CCSC_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "direction_gestion_carrieres_minfopra"
+        },
+        {
+            "id": "sous_direction_personnels_fonctionnaires_minfopra",
+            "name": "Sous-Direction des Personnels Fonctionnaires",
+            "acronyme": "SDPF_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_gestion_carrieres_minfopra"
+        },
+        {
+            "id": "sous_direction_personnels_educatifs_minfopra",
+            "name": "Sous-Direction des Personnels Fonctionnaires des Services Educatifs",
+            "acronyme": "SDPFSE_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_gestion_carrieres_minfopra"
+        },
+        {
+            "id": "sous_direction_personnels_non_fonctionnaires_minfopra",
+            "name": "Sous-Direction des Personnels Non Fonctionnaires",
+            "acronyme": "SDPNF_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_gestion_carrieres_minfopra"
+        },
+        {
+            "id": "sous_direction_liquidation_droits_minfopra",
+            "name": "Sous-Direction de la Liquidation des Droits",
+            "acronyme": "SDLD_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_gestion_carrieres_minfopra"
+        },
+        {
+            "id": "service_personnels_administratifs_financiers_minfopra",
+            "name": "Service des Personnels Administratifs et Financiers",
+            "acronyme": "SPAF_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_fonctionnaires_minfopra"
+        },
+        {
+            "id": "service_personnels_techniques_minfopra",
+            "name": "Service des Personnels des Administrations Techniques",
+            "acronyme": "SPAT_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_fonctionnaires_minfopra"
+        },
+        {
+            "id": "service_personnels_sociaux_minfopra",
+            "name": "Service des Personnels Sociaux",
+            "acronyme": "SPS_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_fonctionnaires_minfopra"
+        },
+        {
+            "id": "service_personnels_primaire_maternel_minfopra",
+            "name": "Service des Personnels de l'Enseignement Primaire et Maternel",
+            "acronyme": "SPEPM_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_educatifs_minfopra"
+        },
+        {
+            "id": "service_autres_personnels_enseignants_minfopra",
+            "name": "Service des Autres Personnels Enseignants",
+            "acronyme": "SAPE_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_educatifs_minfopra"
+        },
+        {
+            "id": "service_personnels_contractuels_nationaux_minfopra",
+            "name": "Service des Personnels Contractuels Nationaux",
+            "acronyme": "SPCN_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_non_fonctionnaires_minfopra"
+        },
+        {
+            "id": "service_personnels_cooperation_technique_minfopra",
+            "name": "Service des Personnels de la Coopération Technique",
+            "acronyme": "SPCT_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_non_fonctionnaires_minfopra"
+        },
+        {
+            "id": "service_personnels_educatifs_sociaux_minfopra",
+            "name": "Service des Personnels Fonctionnaires des Services Educatifs et Sociaux",
+            "acronyme": "SPFSES_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_liquidation_droits_minfopra"
+        },
+        {
+            "id": "service_autres_personnels_fonctionnaires_minfopra",
+            "name": "Service des Autres Personnels Fonctionnaires",
+            "acronyme": "SAPF_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_liquidation_droits_minfopra"
+        },
+        {
+            "id": "service_personnels_non_fonctionnaires_minfopra",
+            "name": "Service des Personnels Non Fonctionnaires",
+            "acronyme": "SPNF_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_liquidation_droits_minfopra"
+        },
+        {
+            "id": "cellule_discipline_minfopra",
+            "name": "Cellule de la Discipline",
+            "acronyme": "CD_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_discipline_contentieux_minfopra"
+        },
+        {
+            "id": "cellule_affaires_contentieuses_minfopra",
+            "name": "Cellule des Affaires Contentieuses",
+            "acronyme": "CAC_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_discipline_contentieux_minfopra"
+        },
+        {
+            "id": "cellule_reglementation_minfopra",
+            "name": "Cellule de la Réglementation",
+            "acronyme": "CR_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_reglementation_prospective_effectifs_minfopra"
+        },
+        {
+            "id": "cellule_prospective_minfopra",
+            "name": "Cellule de la Prospective",
+            "acronyme": "CP_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_reglementation_prospective_effectifs_minfopra"
+        },
+        {
+            "id": "cellule_controle_effectifs_minfopra",
+            "name": "Cellule du Contrôle des Effectifs",
+            "acronyme": "CCE_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_reglementation_prospective_effectifs_minfopra"
+        },
+        {
+            "id": "cellule_planification_projets_minfopra",
+            "name": "Cellule de la Planification et des Projets",
+            "acronyme": "CPP_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "division_reglementation_prospective_effectifs_minfopra"
+        },
+        {
+            "id": "cellule_gestion_projet_sigipes_minfopra",
+            "name": "Cellule de Gestion du Projet SIGIPES",
+            "acronyme": "CGPS_MINFOPRA",
+            "fonction": "Cellule",
+            "parent": "direction_affaires_generales_minfopra"
+        },
+        {
+            "id": "sous_direction_personnels_solde_pensions_minfopra",
+            "name": "Sous-Direction des Personnels, de la Solde et des Pensions",
+            "acronyme": "SDPSP_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_affaires_generales_minfopra"
+        },
+        {
+            "id": "sous_direction_budget_materiel_maintenance_minfopra",
+            "name": "Sous-Direction du Budget, du Matériel et de la Maintenance",
+            "acronyme": "SDBMM_MINFOPRA",
+            "fonction": "Sous-Direction",
+            "parent": "direction_affaires_generales_minfopra"
+        },
+        {
+            "id": "service_personnel_minfopra",
+            "name": "Service du Personnel",
+            "acronyme": "SP_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_solde_pensions_minfopra"
+        },
+        {
+            "id": "service_solde_pensions_minfopra",
+            "name": "Service de la Solde et des Pensions",
+            "acronyme": "SSP_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_solde_pensions_minfopra"
+        },
+        {
+            "id": "service_action_sociale_minfopra",
+            "name": "Service de l'Action Sociale",
+            "acronyme": "SAS_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_solde_pensions_minfopra"
+        },
+        {
+            "id": "service_budget_materiel_minfopra",
+            "name": "Service du Budget et du Matériel",
+            "acronyme": "SBM_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_budget_materiel_maintenance_minfopra"
+        },
+        {
+            "id": "service_marches_minfopra",
+            "name": "Service des Marchés",
+            "acronyme": "SM_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_budget_materiel_maintenance_minfopra"
+        },
+        {
+            "id": "service_maintenance_minfopra",
+            "name": "Service de la Maintenance",
+            "acronyme": "SMA_MINFOPRA",
+            "fonction": "Service",
+            "parent": "sous_direction_budget_materiel_maintenance_minfopra"
+        },
+        {
+            "id": "delegation_regionale_minfopra",
+            "name": "Délégation Régionale",
+            "acronyme": "DR_MINFOPRA",
+            "fonction": "Delegation Regionale",
+            "parent": "services_deconcentres_minfopra"
+        },
+        {
+            "id": "service_recrutements_formation_minfopra",
+            "name": "Service des Recrutements et de la Formation",
+            "acronyme": "SRF_MINFOPRA",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minfopra"
+        },
+        {
+            "id": "service_fichier_discipline_minfopra",
+            "name": "Service du Fichier et de la Discipline",
+            "acronyme": "SFD_MINFOPRA",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minfopra"
+        },
+        {
+            "id": "service_affaires_generales_delegation_minfopra",
+            "name": "Service des Affaires Générales",
+            "acronyme": "SAGD_MINFOPRA",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minfopra"
+        }
+    ],
+    "edges": [
+        {
+            "from": "secretariat_particulier_minfopra",
+            "to": "minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "conseillers_techniques_minfopra",
+            "to": "minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "secretariat_permanent_reforme_minfopra",
+            "to": "minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "inspection_generale_minfopra",
+            "to": "minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "administration_centrale_minfopra",
+            "to": "minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "services_deconcentres_minfopra",
+            "to": "minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_administrations_souverainete_minfopra",
+            "to": "secretariat_permanent_reforme_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_administrations_techniques_minfopra",
+            "to": "secretariat_permanent_reforme_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_administrations_economiques_sociales_minfopra",
+            "to": "secretariat_permanent_reforme_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_etudes_cooperation_technologies_minfopra",
+            "to": "secretariat_permanent_reforme_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_affaires_generales_minfopra",
+            "to": "secretariat_permanent_reforme_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "section_etudes_prospective_souverainete_minfopra",
+            "to": "division_administrations_souverainete_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "section_evaluation_controle_souverainete_minfopra",
+            "to": "division_administrations_souverainete_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "section_etudes_prospective_techniques_minfopra",
+            "to": "division_administrations_techniques_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "section_evaluation_controle_techniques_minfopra",
+            "to": "division_administrations_techniques_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "section_etudes_prospective_economiques_minfopra",
+            "to": "division_administrations_economiques_sociales_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "section_evaluation_controle_economiques_minfopra",
+            "to": "division_administrations_economiques_sociales_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "secretariat_general_minfopra",
+            "to": "administration_centrale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_developpement_ressources_humaines_minfopra",
+            "to": "administration_centrale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_gestion_carrieres_minfopra",
+            "to": "administration_centrale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_discipline_contentieux_minfopra",
+            "to": "administration_centrale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_reglementation_prospective_effectifs_minfopra",
+            "to": "administration_centrale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_affaires_generales_minfopra",
+            "to": "administration_centrale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_coordination_sigipes_minfopra",
+            "to": "secretariat_general_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_systemes_information_minfopra",
+            "to": "secretariat_general_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_communication_minfopra",
+            "to": "secretariat_general_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_traduction_minfopra",
+            "to": "secretariat_general_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_accueil_courrier_liaison_minfopra",
+            "to": "secretariat_general_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_fichier_central_documentation_minfopra",
+            "to": "secretariat_general_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_suivi_minfopra",
+            "to": "secretariat_general_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_accueil_orientation_minfopra",
+            "to": "sous_direction_accueil_courrier_liaison_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_courrier_arrivee_minfopra",
+            "to": "sous_direction_accueil_courrier_liaison_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_courrier_depart_minfopra",
+            "to": "sous_direction_accueil_courrier_liaison_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_relance_minfopra",
+            "to": "sous_direction_accueil_courrier_liaison_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_exploitation_minfopra",
+            "to": "sous_direction_fichier_central_documentation_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_fichier_classement_minfopra",
+            "to": "sous_direction_fichier_central_documentation_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_documentation_minfopra",
+            "to": "sous_direction_fichier_central_documentation_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_exploitation_infrastructures_securite_minfopra",
+            "to": "division_systemes_information_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_etudes_projets_minfopra",
+            "to": "division_systemes_information_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_concours_minfopra",
+            "to": "direction_developpement_ressources_humaines_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_renforcement_capacites_minfopra",
+            "to": "direction_developpement_ressources_humaines_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_archives_concours_minfopra",
+            "to": "sous_direction_concours_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_concours_internes_minfopra",
+            "to": "sous_direction_concours_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_concours_directs_bourse_minfopra",
+            "to": "sous_direction_concours_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_statistiques_minfopra",
+            "to": "sous_direction_concours_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_formation_minfopra",
+            "to": "sous_direction_renforcement_capacites_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_gestion_stagiaires_minfopra",
+            "to": "sous_direction_renforcement_capacites_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_coordination_carrieres_minfopra",
+            "to": "direction_gestion_carrieres_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_personnels_fonctionnaires_minfopra",
+            "to": "direction_gestion_carrieres_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_personnels_educatifs_minfopra",
+            "to": "direction_gestion_carrieres_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_personnels_non_fonctionnaires_minfopra",
+            "to": "direction_gestion_carrieres_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_liquidation_droits_minfopra",
+            "to": "direction_gestion_carrieres_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_administratifs_financiers_minfopra",
+            "to": "sous_direction_personnels_fonctionnaires_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_techniques_minfopra",
+            "to": "sous_direction_personnels_fonctionnaires_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_sociaux_minfopra",
+            "to": "sous_direction_personnels_fonctionnaires_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_primaire_maternel_minfopra",
+            "to": "sous_direction_personnels_educatifs_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_autres_personnels_enseignants_minfopra",
+            "to": "sous_direction_personnels_educatifs_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_contractuels_nationaux_minfopra",
+            "to": "sous_direction_personnels_non_fonctionnaires_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_cooperation_technique_minfopra",
+            "to": "sous_direction_personnels_non_fonctionnaires_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_educatifs_sociaux_minfopra",
+            "to": "sous_direction_liquidation_droits_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_autres_personnels_fonctionnaires_minfopra",
+            "to": "sous_direction_liquidation_droits_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnels_non_fonctionnaires_minfopra",
+            "to": "sous_direction_liquidation_droits_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_discipline_minfopra",
+            "to": "division_discipline_contentieux_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_affaires_contentieuses_minfopra",
+            "to": "division_discipline_contentieux_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_reglementation_minfopra",
+            "to": "division_reglementation_prospective_effectifs_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_prospective_minfopra",
+            "to": "division_reglementation_prospective_effectifs_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_controle_effectifs_minfopra",
+            "to": "division_reglementation_prospective_effectifs_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_planification_projets_minfopra",
+            "to": "division_reglementation_prospective_effectifs_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_gestion_projet_sigipes_minfopra",
+            "to": "direction_affaires_generales_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_personnels_solde_pensions_minfopra",
+            "to": "direction_affaires_generales_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_budget_materiel_maintenance_minfopra",
+            "to": "direction_affaires_generales_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnel_minfopra",
+            "to": "sous_direction_personnels_solde_pensions_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_solde_pensions_minfopra",
+            "to": "sous_direction_personnels_solde_pensions_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_action_sociale_minfopra",
+            "to": "sous_direction_personnels_solde_pensions_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_budget_materiel_minfopra",
+            "to": "sous_direction_budget_materiel_maintenance_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_marches_minfopra",
+            "to": "sous_direction_budget_materiel_maintenance_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_maintenance_minfopra",
+            "to": "sous_direction_budget_materiel_maintenance_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "delegation_regionale_minfopra",
+            "to": "services_deconcentres_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_recrutements_formation_minfopra",
+            "to": "delegation_regionale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_fichier_discipline_minfopra",
+            "to": "delegation_regionale_minfopra",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_affaires_generales_delegation_minfopra",
+            "to": "delegation_regionale_minfopra",
+            "relationship": "reports_to"
+        }
+    ]
+}

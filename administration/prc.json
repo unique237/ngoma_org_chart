@@ -10,7 +10,7 @@
         "id": "secretariat_general_prc",
         "name": "Secrétariat Général",
         "acronyme": "SG_PRC",
-        "fonction": "Secrétariat Général",
+        "fonction": "Secrétariat_Général",
         "parent": "prc"
       },
       {
@@ -30,7 +30,7 @@
       {
         "id": "mindef",
         "name": "Ministère de la Défense",
-        "acronyme": "MINDEF_PRC",
+        "acronyme": "MINDEF",
         "fonction": "Ministère Délégué",
         "parent": "prc"
       },
@@ -59,7 +59,7 @@
         "id": "ministres_mission_prc",
         "name": "Ministres Chargés de Mission",
         "acronyme": "MCM_PRC",
-        "fonction": "Ministres",
+        "fonction": "Ministere",
         "parent": "prc"
       },
       {
@@ -822,11 +822,11 @@
       },
       {
         "source": "prc",
-        "target": "ministres_mission_prc"
+        "target": "ministere_mission_prc"
       },
       {
         "source": "prc",
-        "target": "ministres_sans_portefeuille_prc"
+        "target": "ministere_sans_portefeuille_prc"
       },
       {
         "source": "prc",

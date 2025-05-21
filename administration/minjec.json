@@ -1,0 +1,1680 @@
+{
+    "nodes": [
+        {
+            "id": "minjec",
+            "name": "Ministère de la Jeunesse et de l'Éducation Civique",
+            "acronyme": "MINJEC",
+            "fonction": "Ministere"
+        },
+        {
+            "id": "secretariat_particulier_minjec",
+            "name": "Secrétariat Particulier",
+            "acronyme": "SP_MINJEC",
+            "fonction": "Secretariat Particulier",
+            "parent": "minjec"
+        },
+        {
+            "id": "conseillers_techniques_minjec",
+            "name": "Conseillers Techniques",
+            "acronyme": "CT_MINJEC",
+            "fonction": "Conseillers Techniques",
+            "parent": "minjec"
+        },
+        {
+            "id": "inspection_generale_services_minjec",
+            "name": "Inspection Générale des Services",
+            "acronyme": "IGS_MINJEC",
+            "fonction": "Inspection Generale",
+            "parent": "minjec"
+        },
+        {
+            "id": "inspection_generale_programmes_minjec",
+            "name": "Inspection Générale des Programmes et Méthodes d'Enseignement et de Formation",
+            "acronyme": "IGP_MINJEC",
+            "fonction": "Inspection Generale",
+            "parent": "minjec"
+        },
+        {
+            "id": "administration_centrale_minjec",
+            "name": "Administration Centrale",
+            "acronyme": "AC_MINJEC",
+            "fonction": "Administration Centrale",
+            "parent": "minjec"
+        },
+        {
+            "id": "services_deconcentres_minjec",
+            "name": "Services Déconcentrés",
+            "acronyme": "SD_MINJEC",
+            "fonction": "Services Deconcentres",
+            "parent": "minjec"
+        },
+        {
+            "id": "services_rattaches_minjec",
+            "name": "Services Rattachés",
+            "acronyme": "SR_MINJEC",
+            "fonction": "Services Rattachés",
+            "parent": "minjec"
+        },
+        {
+            "id": "inspecteurs_services_minjec",
+            "name": "Inspecteurs de Services",
+            "acronyme": "IS_MINJEC",
+            "fonction": "Inspecteurs",
+            "parent": "inspection_generale_services_minjec"
+        },
+        {
+            "id": "inspecteurs_assistants_programmes_minjec",
+            "name": "Inspecteurs Assistants des Programmes et Méthodes",
+            "acronyme": "IAP_MINJEC",
+            "fonction": "Inspecteurs Assistants",
+            "parent": "inspection_generale_programmes_minjec"
+        },
+        {
+            "id": "secretariat_general_minjec",
+            "name": "Secrétariat Général",
+            "acronyme": "SG_MINJEC",
+            "fonction": "Secretariat General",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "division_etudes_projets_minjec",
+            "name": "Division des Études et Projets",
+            "acronyme": "DEP_MINJEC",
+            "fonction": "Division",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "division_cooperation_statistiques_minjec",
+            "name": "Division de la Coopération et des Statistiques",
+            "acronyme": "DCS_MINJEC",
+            "fonction": "Division",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "direction_vie_associative_minjec",
+            "name": "Direction de la Vie Associative et de la Participation des Jeunes",
+            "acronyme": "DVAPJ_MINJEC",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "direction_education_civique_minjec",
+            "name": "Direction de l'Éducation Civique et de l'Intégration Nationale",
+            "acronyme": "DECIN_MINJEC",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "direction_promotion_economique_minjec",
+            "name": "Direction de la Promotion Économique des Jeunes",
+            "acronyme": "DPEJ_MINJEC",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "direction_affaires_generales_minjec",
+            "name": "Direction des Affaires Générales",
+            "acronyme": "DAG_MINJEC",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "division_affaires_juridiques_minjec",
+            "name": "Division des Affaires Juridiques",
+            "acronyme": "DAJ_MINJEC",
+            "fonction": "Division",
+            "parent": "secretariat_general_minjec"
+        },
+        {
+            "id": "cellule_suivi_minjec",
+            "name": "Cellule de Suivi",
+            "acronyme": "CS_MINJEC",
+            "fonction": "Cellule",
+            "parent": "secretariat_general_minjec"
+        },
+        {
+            "id": "cellule_communication_minjec",
+            "name": "Cellule de Communication",
+            "acronyme": "CC_MINJEC",
+            "fonction": "Cellule",
+            "parent": "secretariat_general_minjec"
+        },
+        {
+            "id": "cellule_traduction_minjec",
+            "name": "Cellule de Traduction",
+            "acronyme": "CT_MINJEC",
+            "fonction": "Cellule",
+            "parent": "secretariat_general_minjec"
+        },
+        {
+            "id": "cellule_informatique_minjec",
+            "name": "Cellule Informatique",
+            "acronyme": "CI_MINJEC",
+            "fonction": "Cellule",
+            "parent": "secretariat_general_minjec"
+        },
+        {
+            "id": "sous_direction_accueil_courrier_minjec",
+            "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+            "acronyme": "SDACL_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "secretariat_general_minjec"
+        },
+        {
+            "id": "service_documentation_archives_minjec",
+            "name": "Service de la Documentation et des Archives",
+            "acronyme": "SDA_MINJEC",
+            "fonction": "Service",
+            "parent": "secretariat_general_minjec"
+        },
+        {
+            "id": "cellule_legislation_reglementation_minjec",
+            "name": "Cellule de la Législation et de la Réglementation",
+            "acronyme": "CLR_MINJEC",
+            "fonction": "Cellule",
+            "parent": "division_affaires_juridiques_minjec"
+        },
+        {
+            "id": "cellule_requetes_contentieux_minjec",
+            "name": "Cellule des Requêtes et du Contentieux",
+            "acronyme": "CRC_MINJEC",
+            "fonction": "Cellule",
+            "parent": "division_affaires_juridiques_minjec"
+        },
+        {
+            "id": "service_accueil_orientation_minjec",
+            "name": "Service de l'Accueil et de l'Orientation",
+            "acronyme": "SAO_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_accueil_courrier_minjec"
+        },
+        {
+            "id": "service_courrier_liaison_minjec",
+            "name": "Service du Courrier et de Liaison",
+            "acronyme": "SCL_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_accueil_courrier_minjec"
+        },
+        {
+            "id": "service_relance_minjec",
+            "name": "Service de la Relance",
+            "acronyme": "SR_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_accueil_courrier_minjec"
+        },
+        {
+            "id": "bureau_accueil_information_minjec",
+            "name": "Bureau de l'Accueil et de l'Information",
+            "acronyme": "BAI_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_accueil_orientation_minjec"
+        },
+        {
+            "id": "bureau_controle_conformite_minjec",
+            "name": "Bureau du Contrôle de Conformité",
+            "acronyme": "BCC_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_accueil_orientation_minjec"
+        },
+        {
+            "id": "bureau_courrier_arrivee_minjec",
+            "name": "Bureau du Courrier Arrivée",
+            "acronyme": "BCA_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_courrier_liaison_minjec"
+        },
+        {
+            "id": "bureau_courrier_depart_minjec",
+            "name": "Bureau du Courrier Départ",
+            "acronyme": "BCD_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_courrier_liaison_minjec"
+        },
+        {
+            "id": "bureau_reprographie_minjec",
+            "name": "Bureau de la Reprographie",
+            "acronyme": "BR_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_courrier_liaison_minjec"
+        },
+        {
+            "id": "bureau_documentation_minjec",
+            "name": "Bureau de la Documentation",
+            "acronyme": "BD_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_documentation_archives_minjec"
+        },
+        {
+            "id": "bureau_archives_minjec",
+            "name": "Bureau des Archives",
+            "acronyme": "BA_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_documentation_archives_minjec"
+        },
+        {
+            "id": "cellule_etudes_planification_minjec",
+            "name": "Cellule des Études et de la Planification",
+            "acronyme": "CEP_MINJEC",
+            "fonction": "Cellule",
+            "parent": "division_etudes_projets_minjec"
+        },
+        {
+            "id": "cellule_projets_minjec",
+            "name": "Cellule des Projets",
+            "acronyme": "CP_MINJEC",
+            "fonction": "Cellule",
+            "parent": "division_etudes_projets_minjec"
+        },
+        {
+            "id": "cellule_cooperation_minjec",
+            "name": "Cellule de la Coopération",
+            "acronyme": "CCO_MINJEC",
+            "fonction": "Cellule",
+            "parent": "division_cooperation_statistiques_minjec"
+        },
+        {
+            "id": "cellule_statistiques_minjec",
+            "name": "Cellule des Statistiques",
+            "acronyme": "CS_MINJEC",
+            "fonction": "Cellule",
+            "parent": "division_cooperation_statistiques_minjec"
+        },
+        {
+            "id": "sous_direction_vie_associative_minjec",
+            "name": "Sous-Direction de la Vie Associative",
+            "acronyme": "SDVA_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_vie_associative_minjec"
+        },
+        {
+            "id": "sous_direction_participation_jeunes_minjec",
+            "name": "Sous-Direction de la Participation des Jeunes",
+            "acronyme": "SDPJ_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_vie_associative_minjec"
+        },
+        {
+            "id": "service_promotion_organisations_jeunesse_minjec",
+            "name": "Service de la Promotion et du Suivi des Organisations de Jeunesse",
+            "acronyme": "SPOJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_vie_associative_minjec"
+        },
+        {
+            "id": "service_encadrement_leaders_minjec",
+            "name": "Service de l'Encadrement des Leaders des Organisations de Jeunesse",
+            "acronyme": "SELOJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_vie_associative_minjec"
+        },
+        {
+            "id": "service_mobilisation_orientation_jeunes_minjec",
+            "name": "Service de la Mobilisation et de l'Orientation des Jeunes",
+            "acronyme": "SMOJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_participation_jeunes_minjec"
+        },
+        {
+            "id": "service_accompagnement_jeunes_minjec",
+            "name": "Service de l'Accompagnement des Jeunes",
+            "acronyme": "SAJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_participation_jeunes_minjec"
+        },
+        {
+            "id": "sous_direction_education_civique_scolaire_minjec",
+            "name": "Sous-Direction de l'Éducation Civique en Milieu Scolaire et Universitaire",
+            "acronyme": "SDECSU_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_education_civique_minjec"
+        },
+        {
+            "id": "sous_direction_education_civique_extrascolaire_minjec",
+            "name": "Sous-Direction de l'Éducation Civique en Milieu Extrascolaire",
+            "acronyme": "SDECE_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_education_civique_minjec"
+        },
+        {
+            "id": "sous_direction_promotion_integration_nationale_minjec",
+            "name": "Sous-Direction de la Promotion de l'Intégration Nationale",
+            "acronyme": "SDPIN_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_education_civique_minjec"
+        },
+        {
+            "id": "service_education_civique_scolaire_minjec",
+            "name": "Service de l'Éducation Civique en Milieu Scolaire",
+            "acronyme": "SECS_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_education_civique_scolaire_minjec"
+        },
+        {
+            "id": "service_education_civique_universitaire_minjec",
+            "name": "Service de l'Éducation Civique en Milieu Universitaire",
+            "acronyme": "SECU_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_education_civique_scolaire_minjec"
+        },
+        {
+            "id": "service_education_civique_non_formels_minjec",
+            "name": "Service de l'Éducation Civique en Milieux Non Formels",
+            "acronyme": "SECNF_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_education_civique_extrascolaire_minjec"
+        },
+        {
+            "id": "service_education_civique_professionnels_minjec",
+            "name": "Service de l'Éducation Civique en Milieux Professionnels",
+            "acronyme": "SECP_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_education_civique_extrascolaire_minjec"
+        },
+        {
+            "id": "service_promotion_integration_nationale_minjec",
+            "name": "Service de la Promotion de l'Intégration au Plan National",
+            "acronyme": "SPIN_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_promotion_integration_nationale_minjec"
+        },
+        {
+            "id": "service_integration_diaspora_minjec",
+            "name": "Service de la Promotion de l'Intégration des Camerounais de la Diaspora",
+            "acronyme": "SPICD_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_promotion_integration_nationale_minjec"
+        },
+        {
+            "id": "bureau_programmes_scolaire_minjec",
+            "name": "Bureau des Programmes d'Éducation Civique en Milieu Scolaire",
+            "acronyme": "BPECS_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_scolaire_minjec"
+        },
+        {
+            "id": "bureau_valeurs_scolaire_minjec",
+            "name": "Bureau de la Promotion des Valeurs Civiques en Milieu Scolaire",
+            "acronyme": "BPVCS_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_scolaire_minjec"
+        },
+        {
+            "id": "bureau_programmes_universitaire_minjec",
+            "name": "Bureau des Programmes d'Éducation Civique en Milieu Universitaire",
+            "acronyme": "BPECU_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_universitaire_minjec"
+        },
+        {
+            "id": "bureau_valeurs_universitaire_minjec",
+            "name": "Bureau de la Promotion des Valeurs Civiques en Milieu Universitaire",
+            "acronyme": "BPVCU_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_universitaire_minjec"
+        },
+        {
+            "id": "bureau_programmes_non_formelle_minjec",
+            "name": "Bureau des Programmes d'Éducation Civique Non Formelle",
+            "acronyme": "BPECNF_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_non_formels_minjec"
+        },
+        {
+            "id": "bureau_valeurs_informelle_minjec",
+            "name": "Bureau de la Promotion des Valeurs Civiques et de l'Éducation Civique Informelle",
+            "acronyme": "BPVCECI_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_non_formels_minjec"
+        },
+        {
+            "id": "bureau_programmes_informelle_minjec",
+            "name": "Bureau des Programmes d'Éducation Civique Informelle",
+            "acronyme": "BPECI_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_professionnels_minjec"
+        },
+        {
+            "id": "bureau_valeurs_professionnels_minjec",
+            "name": "Bureau de la Promotion des Valeurs Civiques",
+            "acronyme": "BPVCP_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_professionnels_minjec"
+        },
+        {
+            "id": "direction_insertion_sociale_volontariat_minjec",
+            "name": "Direction de l'Insertion Sociale des Jeunes et du Volontariat",
+            "acronyme": "DISJV_MINJEC",
+            "fonction": "Direction",
+            "parent": "administration_centrale_minjec"
+        },
+        {
+            "id": "sous_direction_insertion_sociale_minjec",
+            "name": "Sous-Direction de l'Insertion Sociale des Jeunes",
+            "acronyme": "SDISJ_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_insertion_sociale_volontariat_minjec"
+        },
+        {
+            "id": "sous_direction_volontariat_minjec",
+            "name": "Sous-Direction du Volontariat",
+            "acronyme": "SDV_MINJEC",
+            "fonction": " Sous-Direction",
+            "parent": "direction_insertion_sociale_volontariat_minjec"
+        },
+        {
+            "id": "service_insertion_sociale_jeunes_minjec",
+            "name": "Service de l'Insertion Sociale des Jeunes",
+            "acronyme": "SISJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_insertion_sociale_minjec"
+        },
+        {
+            "id": "service_promotion_valeurs_ethiques_minjec",
+            "name": "Service de la Promotion des Valeurs Éthiques",
+            "acronyme": "SPVE_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_insertion_sociale_minjec"
+        },
+        {
+            "id": "service_promotion_volontariat_minjec",
+            "name": "Service de la Promotion du Volontariat",
+            "acronyme": "SPV_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_volontariat_minjec"
+        },
+        {
+            "id": "service_appui_initiatives_jeunes_minjec",
+            "name": "Service de l'Appui aux Initiatives des Jeunes",
+            "acronyme": "SAIJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_volontariat_minjec"
+        },
+        {
+            "id": "sous_direction_promotion_entrepreneuriat_minjec",
+            "name": "Sous-Direction de la Promotion de l'Entrepreneuriat des Jeunes",
+            "acronyme": "SDPEJ_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_promotion_economique_minjec"
+        },
+        {
+            "id": "sous_direction_promotion_emploi_minjec",
+            "name": "Sous-Direction de la Promotion de l'Emploi des Jeunes",
+            "acronyme": "SDPEMJ_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_promotion_economique_minjec"
+        },
+        {
+            "id": "service_suivi_programmes_jeunes_minjec",
+            "name": "Service du Suivi des Programmes et Projets en faveur des Jeunes",
+            "acronyme": "SSPPJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_promotion_entrepreneuriat_minjec"
+        },
+        {
+            "id": "service_developpement_culture_entrepreneuriale_minjec",
+            "name": "Service du Développement de la Culture Entrepreneuriale",
+            "acronyme": "SDCE_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_promotion_entrepreneuriat_minjec"
+        },
+        {
+            "id": "service_suivi_cmpj_minjec",
+            "name": "Service du Suivi et de l'Évaluation des Centres Multifonctionnels de Promotion des Jeunes",
+            "acronyme": "SSECMPJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_promotion_emploi_minjec"
+        },
+        {
+            "id": "service_insertion_socioprofessionnelle_minjec",
+            "name": "Service de l'Insertion Socioprofessionnelle des Jeunes",
+            "acronyme": "SISJ_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_promotion_emploi_minjec"
+        },
+        {
+            "id": "bureau_suivi_programmes_minjec",
+            "name": "Bureau du Suivi et de l'Évaluation des Programmes et Projets en faveur des Jeunes",
+            "acronyme": "BSEPPJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_suivi_programmes_jeunes_minjec"
+        },
+        {
+            "id": "bureau_fichier_programmes_minjec",
+            "name": "Bureau du Fichier des Programmes et Projets en faveur des Jeunes",
+            "acronyme": "BFPPJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_suivi_programmes_jeunes_minjec"
+        },
+        {
+            "id": "bureau_appui_initiatives_minjec",
+            "name": "Bureau d'Appui aux Initiatives Socioéconomiques des Jeunes",
+            "acronyme": "BAISJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_developpement_culture_entrepreneuriale_minjec"
+        },
+        {
+            "id": "bureau_formation_entrepreneuriat_minjec",
+            "name": "Bureau de la Formation, du Recyclage et de l'Orientation des Jeunes en Entrepreneuriat",
+            "acronyme": "BFROJE_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_developpement_culture_entrepreneuriale_minjec"
+        },
+        {
+            "id": "bureau_fichier_cmpj_minjec",
+            "name": "Bureau du Fichier",
+            "acronyme": "BFCMPJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_suivi_cmpj_minjec"
+        },
+        {
+            "id": "bureau_encadrement_cmpj_minjec",
+            "name": "Bureau de l'Encadrement",
+            "acronyme": "BECMPJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_suivi_cmpj_minjec"
+        },
+        {
+            "id": "bureau_promotion_stages_minjec",
+            "name": "Bureau de la Promotion des Stages des Jeunes",
+            "acronyme": "BPSJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_insertion_socioprofessionnelle_minjec"
+        },
+        {
+            "id": "bureau_insertion_socioprofessionnelle_minjec",
+            "name": "Bureau de l'Insertion Socioprofessionnelle",
+            "acronyme": "BISJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_insertion_socioprofessionnelle_minjec"
+        },
+        {
+            "id": "cellule_gestion_sigipes_minjec",
+            "name": "Cellule de Gestion du Projet SIGIPES",
+            "acronyme": "CGS_MINJEC",
+            "fonction": "Cellule",
+            "parent": "direction_affaires_generales_minjec"
+        },
+        {
+            "id": "sous_direction_personnels_solde_pensions_minjec",
+            "name": "Sous-Direction des Personnels, de la Solde et des Pensions",
+            "acronyme": "SDPSP_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_affaires_generales_minjec"
+        },
+        {
+            "id": "sous_direction_budget_materiel_maintenance_minjec",
+            "name": "Sous-Direction du Budget, du Matériel et de la Maintenance",
+            "acronyme": "SDBMM_MINJEC",
+            "fonction": "Sous-Direction",
+            "parent": "direction_affaires_generales_minjec"
+        },
+        {
+            "id": "service_personnel_formation_stages_minjec",
+            "name": "Service du Personnel, de la Formation et des Stages",
+            "acronyme": "SPFS_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_solde_pensions_minjec"
+        },
+        {
+            "id": "service_solde_pensions_minjec",
+            "name": "Service de la Solde et des Pensions",
+            "acronyme": "SSP_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_solde_pensions_minjec"
+        },
+        {
+            "id": "service_action_sociale_minjec",
+            "name": "Service de l'Action Sociale",
+            "acronyme": "SAS_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_personnels_solde_pensions_minjec"
+        },
+        {
+            "id": "service_budget_materiel_minjec",
+            "name": "Service du Budget et du Matériel",
+            "acronyme": "SBM_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_budget_materiel_maintenance_minjec"
+        },
+        {
+            "id": "service_marches_minjec",
+            "name": "Service des Marchés",
+            "acronyme": "SM_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_budget_materiel_maintenance_minjec"
+        },
+        {
+            "id": "service_equipements_maintenance_minjec",
+            "name": "Service des Équipements et de la Maintenance",
+            "acronyme": "SEM_MINJEC",
+            "fonction": "Service",
+            "parent": "sous_direction_budget_materiel_maintenance_minjec"
+        },
+        {
+            "id": "bureau_fichier_personnel_minjec",
+            "name": "Bureau du Fichier",
+            "acronyme": "BFP_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_personnel_formation_stages_minjec"
+        },
+        {
+            "id": "bureau_personnel_fonctionnaire_minjec",
+            "name": "Bureau du Personnel Fonctionnaire",
+            "acronyme": "BPF_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_personnel_formation_stages_minjec"
+        },
+        {
+            "id": "bureau_personnel_non_fonctionnaire_minjec",
+            "name": "Bureau du Personnel Non Fonctionnaire",
+            "acronyme": "BPNF_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_personnel_formation_stages_minjec"
+        },
+        {
+            "id": "bureau_gestion_effectifs_minjec",
+            "name": "Bureau de la Gestion Prévisionnelle des Effectifs",
+            "acronyme": "BGPE_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_personnel_formation_stages_minjec"
+        },
+        {
+            "id": "bureau_formation_stages_minjec",
+            "name": "Bureau de la Formation et des Stages",
+            "acronyme": "BFS_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_personnel_formation_stages_minjec"
+        },
+        {
+            "id": "bureau_solde_prestations_minjec",
+            "name": "Bureau de la Solde et des Prestations Diverses",
+            "acronyme": "BSPD_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_solde_pensions_minjec"
+        },
+        {
+            "id": "bureau_requetes_relance_minjec",
+            "name": "Bureau des Requêtes et de la Relance",
+            "acronyme": "BRR_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_solde_pensions_minjec"
+        },
+        {
+            "id": "bureau_budget_minjec",
+            "name": "Bureau du Budget",
+            "acronyme": "BB_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_budget_materiel_minjec"
+        },
+        {
+            "id": "bureau_materiel_minjec",
+            "name": "Bureau du Matériel",
+            "acronyme": "BM_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_budget_materiel_minjec"
+        },
+        {
+            "id": "bureau_appels_offres_minjec",
+            "name": "Bureau des Appels d'Offres",
+            "acronyme": "BAO_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_marches_minjec"
+        },
+        {
+            "id": "bureau_suivi_marches_minjec",
+            "name": "Bureau du Suivi et du Contrôle de l'Exécution des Marchés",
+            "acronyme": "BSCM_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_marches_minjec"
+        },
+        {
+            "id": "bureau_equipements_minjec",
+            "name": "Bureau des Équipements",
+            "acronyme": "BE_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_equipements_maintenance_minjec"
+        },
+        {
+            "id": "bureau_maintenance_minjec",
+            "name": "Bureau de la Maintenance",
+            "acronyme": "BMA_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_equipements_maintenance_minjec"
+        },
+        {
+            "id": "delegation_regionale_minjec",
+            "name": "Délégation Régionale de la Jeunesse et de l'Éducation Civique",
+            "acronyme": "DR_MINJEC",
+            "fonction": "Delegation Regionale",
+            "parent": "services_deconcentres_minjec"
+        },
+        {
+            "id": "delegation_departementale_minjec",
+            "name": "Délégation Départementale de la Jeunesse et de l'Éducation Civique",
+            "acronyme": "DD_MINJEC",
+            "fonction": "Delegation Departementale",
+            "parent": "services_deconcentres_minjec"
+        },
+        {
+            "id": "delegation_arrondissement_minjec",
+            "name": "Délégation d'Arrondissement de la Jeunesse et de l'Éducation Civique",
+            "acronyme": "DA_MINJEC",
+            "fonction": "Delegation Arrondissement",
+            "parent": "services_deconcentres_minjec"
+        },
+        {
+            "id": "service_vie_associative_regionale_minjec",
+            "name": "Service de la Vie Associative et de la Participation des Jeunes",
+            "acronyme": "SVAPJ_MINJEC",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minjec"
+        },
+        {
+            "id": "service_insertion_volontariat_regionale_minjec",
+            "name": "Service de l'Insertion Sociale des Jeunes et du Volontariat",
+            "acronyme": "SISJV_MINJEC",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minjec"
+        },
+        {
+            "id": "service_education_civique_regionale_minjec",
+            "name": "Service de l'Éducation Civique et de l'Intégration Nationale",
+            "acronyme": "SECIN_MINJEC",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minjec"
+        },
+        {
+            "id": "service_promotion_economique_regionale_minjec",
+            "name": "Service de la Promotion Économique des Jeunes",
+            "acronyme": "SPEJ_MINJEC",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minjec"
+        },
+        {
+            "id": "service_affaires_generales_regionale_minjec",
+            "name": "Service des Affaires Générales",
+            "acronyme": "SAG_MINJEC",
+            "fonction": "Service",
+            "parent": "delegation_regionale_minjec"
+        },
+        {
+            "id": "inspecteur_regional_pedagogie_minjec",
+            "name": "Inspecteur Régional de Pédagogie",
+            "acronyme": "IRP_MINJEC",
+            "fonction": "Inspecteur",
+            "parent": "delegation_regionale_minjec"
+        },
+        {
+            "id": "bureau_accueil_courrier_regionale_minjec",
+            "name": "Bureau de l'Accueil, du Courrier et de Liaison",
+            "acronyme": "BACL_MINJEC",
+            "fonction": "Bureau",
+            "parent": "delegation_regionale_minjec"
+        },
+        {
+            "id": "bureau_vie_associative_regionale_minjec",
+            "name": "Bureau de la Vie Associative",
+            "acronyme": "BVA_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_vie_associative_regionale_minjec"
+        },
+        {
+            "id": "bureau_participation_jeunes_regionale_minjec",
+            "name": "Bureau de la Participation des Jeunes",
+            "acronyme": "BPJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_vie_associative_regionale_minjec"
+        },
+        {
+            "id": "bureau_insertion_sociale_regionale_minjec",
+            "name": "Bureau de l'Insertion Sociale des Jeunes",
+            "acronyme": "BISJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_insertion_volontariat_regionale_minjec"
+        },
+        {
+            "id": "bureau_volontariat_regionale_minjec",
+            "name": "Bureau du Volontariat",
+            "acronyme": "BV_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_insertion_volontariat_regionale_minjec"
+        },
+        {
+            "id": "bureau_education_civique_regionale_minjec",
+            "name": "Bureau de l'Éducation Civique et Citoyenne",
+            "acronyme": "BECC_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_regionale_minjec"
+        },
+        {
+            "id": "bureau_integration_nationale_regionale_minjec",
+            "name": "Bureau de l'Intégration Nationale",
+            "acronyme": "BIN_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_regionale_minjec"
+        },
+        {
+            "id": "bureau_entrepreneuriat_regionale_minjec",
+            "name": "Bureau de la Promotion de l'Entrepreneuriat des Jeunes",
+            "acronyme": "BPEJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_promotion_economique_regionale_minjec"
+        },
+        {
+            "id": "bureau_emploi_regionale_minjec",
+            "name": "Bureau de la Promotion de l'Emploi des Jeunes",
+            "acronyme": "BPEMJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_promotion_economique_regionale_minjec"
+        },
+        {
+            "id": "bureau_personnels_regionale_minjec",
+            "name": "Bureau des Personnels",
+            "acronyme": "BP_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_affaires_generales_regionale_minjec"
+        },
+        {
+            "id": "bureau_budget_materiel_regionale_minjec",
+            "name": "Bureau du Budget, du Matériel et des Équipements",
+            "acronyme": "BBME_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_affaires_generales_regionale_minjec"
+        },
+        {
+            "id": "service_vie_associative_departementale_minjec",
+            "name": "Service de la Vie Associative, de la Participation et de la Promotion Économique des Jeunes",
+            "acronyme": "SVAPPEJ_MINJEC",
+            "fonction": "Service",
+            "parent": "delegation_departementale_minjec"
+        },
+        {
+            "id": "service_education_civique_departementale_minjec",
+            "name": "Service de l'Éducation Civique, de l'Intégration Nationale, de l'Insertion Sociale des Jeunes et du Volontariat",
+            "acronyme": "SECINISJV_MINJEC",
+            "fonction": "Service",
+            "parent": "delegation_departementale_minjec"
+        },
+        {
+            "id": "bureau_affaires_generales_departementale_minjec",
+            "name": "Bureau des Affaires Générales",
+            "acronyme": "BAG_MINJEC",
+            "fonction": "Bureau",
+            "parent": "delegation_departementale_minjec"
+        },
+        {
+            "id": "bureau_vie_associative_departementale_minjec",
+            "name": "Bureau de la Vie Associative et de la Participation",
+            "acronyme": "BVAP_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_vie_associative_departementale_minjec"
+        },
+        {
+            "id": "bureau_promotion_economique_departementale_minjec",
+            "name": "Bureau de la Promotion Économique des Jeunes",
+            "acronyme": "BPEJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_vie_associative_departementale_minjec"
+        },
+        {
+            "id": "bureau_education_civique_departementale_minjec",
+            "name": "Bureau de l'Éducation Civique et de l'Intégration Nationale",
+            "acronyme": "BECIN_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_departementale_minjec"
+        },
+        {
+            "id": "bureau_insertion_volontariat_departementale_minjec",
+            "name": "Bureau de l'Insertion Sociale des Jeunes et du Volontariat",
+            "acronyme": "BISJV_MINJEC",
+            "fonction": "Bureau",
+            "parent": "service_education_civique_departementale_minjec"
+        },
+        {
+            "id": "bureau_vie_associative_arrondissement_minjec",
+            "name": "Bureau de la Vie Associative, de la Participation et de la Promotion Économique des Jeunes",
+            "acronyme": "BVAPPEJ_MINJEC",
+            "fonction": "Bureau",
+            "parent": "delegation_arrondissement_minjec"
+        },
+        {
+            "id": "bureau_education_civique_arrondissement_minjec",
+            "name": "Bureau de l'Éducation Civique, de l'Intégration Nationale, de l'Insertion Sociale des Jeunes et du Volontariat",
+            "acronyme": "BECINISJV_MINJEC",
+            "fonction": "Bureau",
+            "parent": "delegation_arrondissement_minjec"
+        },
+        {
+            "id": "bureau_affaires_generales_arrondissement_minjec",
+            "name": "Bureau des Affaires Générales",
+            "acronyme": "BAG_MINJEC",
+            "fonction": "Bureau",
+            "parent": "delegation_arrondissement_minjec"
+        },
+        {
+            "id": "etablissements_formation_minjec",
+            "name": "Établissements de Formation des Cadres Moyens de Jeunesse et d'Animation",
+            "acronyme": "EFCMJA_MINJEC",
+            "fonction": "Service Rattaché",
+            "parent": "services_rattaches_minjec"
+        },
+        {
+            "id": "centre_education_populaire_minjec",
+            "name": "Centre National d'Éducation Populaire et Civique",
+            "acronyme": "CNEPC_MINJEC",
+            "fonction": "Service Rattaché",
+            "parent": "services_rattaches_minjec"
+        },
+        {
+            "id": "centres_multifonctionnels_minjec",
+            "name": "Centres Multifonctionnels de Promotion des Jeunes",
+            "acronyme": "CMPJ_MINJEC",
+            "fonction": "Service Rattaché",
+            "parent": "services_rattaches_minjec"
+        },
+        {
+            "id": "centre_production_documentation_minjec",
+            "name": "Centre National de Production et de Diffusion de la Documentation pour la Jeunesse",
+            "acronyme": "CNPDDJ_MINJEC",
+            "fonction": "Service Rattaché",
+            "parent": "services_rattaches_minjec"
+        }
+    ],
+    "edges": [
+        {
+            "from": "secretariat_particulier_minjec",
+            "to": "minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "conseillers_techniques_minjec",
+            "to": "minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "inspection_generale_services_minjec",
+            "to": "minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "inspection_generale_programmes_minjec",
+            "to": "minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "administration_centrale_minjec",
+            "to": "minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "services_deconcentres_minjec",
+            "to": "minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "services_rattaches_minjec",
+            "to": "minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "inspecteurs_services_minjec",
+            "to": "inspection_generale_services_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "inspecteurs_assistants_programmes_minjec",
+            "to": "inspection_generale_programmes_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "secretariat_general_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_etudes_projets_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_cooperation_statistiques_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_vie_associative_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_education_civique_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_promotion_economique_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_affaires_generales_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "division_affaires_juridiques_minjec",
+            "to": "secretariat_general_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_suivi_minjec",
+            "to": "secretariat_general_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_communication_minjec",
+            "to": "secretariat_general_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_traduction_minjec",
+            "to": "secretariat_general_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_informatique_minjec",
+            "to": "secretariat_general_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_accueil_courrier_minjec",
+            "to": "secretariat_general_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_documentation_archives_minjec",
+            "to": "secretariat_general_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_legislation_reglementation_minjec",
+            "to": "division_affaires_juridiques_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_requetes_contentieux_minjec",
+            "to": "division_affaires_juridiques_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_accueil_orientation_minjec",
+            "to": "sous_direction_accueil_courrier_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_courrier_liaison_minjec",
+            "to": "sous_direction_accueil_courrier_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_relance_minjec",
+            "to": "sous_direction_accueil_courrier_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_accueil_information_minjec",
+            "to": "service_accueil_orientation_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_controle_conformite_minjec",
+            "to": "service_accueil_orientation_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_courrier_arrivee_minjec",
+            "to": "service_courrier_liaison_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_courrier_depart_minjec",
+            "to": "service_courrier_liaison_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_reprographie_minjec",
+            "to": "service_courrier_liaison_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_documentation_minjec",
+            "to": "service_documentation_archives_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_archives_minjec",
+            "to": "service_documentation_archives_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_etudes_planification_minjec",
+            "to": "division_etudes_projets_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_projets_minjec",
+            "to": "division_etudes_projets_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_cooperation_minjec",
+            "to": "division_cooperation_statistiques_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_statistiques_minjec",
+            "to": "division_cooperation_statistiques_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_vie_associative_minjec",
+            "to": "direction_vie_associative_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_participation_jeunes_minjec",
+            "to": "direction_vie_associative_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_promotion_organisations_jeunesse_minjec",
+            "to": "sous_direction_vie_associative_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_encadrement_leaders_minjec",
+            "to": "sous_direction_vie_associative_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_mobilisation_orientation_jeunes_minjec",
+            "to": "sous_direction_participation_jeunes_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_accompagnement_jeunes_minjec",
+            "to": "sous_direction_participation_jeunes_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_education_civique_scolaire_minjec",
+            "to": "direction_education_civique_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_education_civique_extrascolaire_minjec",
+            "to": "direction_education_civique_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_promotion_integration_nationale_minjec",
+            "to": "direction_education_civique_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_education_civique_scolaire_minjec",
+            "to": "sous_direction_education_civique_scolaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_education_civique_universitaire_minjec",
+            "to": "sous_direction_education_civique_scolaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_education_civique_non_formels_minjec",
+            "to": "sous_direction_education_civique_extrascolaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_education_civique_professionnels_minjec",
+            "to": "sous_direction_education_civique_extrascolaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_promotion_integration_nationale_minjec",
+            "to": "sous_direction_promotion_integration_nationale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_integration_diaspora_minjec",
+            "to": "sous_direction_promotion_integration_nationale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_programmes_scolaire_minjec",
+            "to": "service_education_civique_scolaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_valeurs_scolaire_minjec",
+            "to": "service_education_civique_scolaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_programmes_universitaire_minjec",
+            "to": "service_education_civique_universitaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_valeurs_universitaire_minjec",
+            "to": "service_education_civique_universitaire_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_programmes_non_formelle_minjec",
+            "to": "service_education_civique_non_formels_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_valeurs_informelle_minjec",
+            "to": "service_education_civique_non_formels_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_programmes_informelle_minjec",
+            "to": "service_education_civique_professionnels_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_valeurs_professionnels_minjec",
+            "to": "service_education_civique_professionnels_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "direction_insertion_sociale_volontariat_minjec",
+            "to": "administration_centrale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_insertion_sociale_minjec",
+            "to": "direction_insertion_sociale_volontariat_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_volontariat_minjec",
+            "to": "direction_insertion_sociale_volontariat_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_insertion_sociale_jeunes_minjec",
+            "to": "sous_direction_insertion_sociale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_promotion_valeurs_ethiques_minjec",
+            "to": "sous_direction_insertion_sociale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_promotion_volontariat_minjec",
+            "to": "sous_direction_volontariat_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_appui_initiatives_jeunes_minjec",
+            "to": "sous_direction_volontariat_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_promotion_entrepreneuriat_minjec",
+            "to": "direction_promotion_economique_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_promotion_emploi_minjec",
+            "to": "direction_promotion_economique_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_suivi_programmes_jeunes_minjec",
+            "to": "sous_direction_promotion_entrepreneuriat_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_developpement_culture_entrepreneuriale_minjec",
+            "to": "sous_direction_promotion_entrepreneuriat_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_suivi_cmpj_minjec",
+            "to": "sous_direction_promotion_emploi_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_insertion_socioprofessionnelle_minjec",
+            "to": "sous_direction_promotion_emploi_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_suivi_programmes_minjec",
+            "to": "service_suivi_programmes_jeunes_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_fichier_programmes_minjec",
+            "to": "service_suivi_programmes_jeunes_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_appui_initiatives_minjec",
+            "to": "service_developpement_culture_entrepreneuriale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_formation_entrepreneuriat_minjec",
+            "to": "service_developpement_culture_entrepreneuriale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_fichier_cmpj_minjec",
+            "to": "service_suivi_cmpj_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_encadrement_cmpj_minjec",
+            "to": "service_suivi_cmpj_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_promotion_stages_minjec",
+            "to": "service_insertion_socioprofessionnelle_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_insertion_socioprofessionnelle_minjec",
+            "to": "service_insertion_socioprofessionnelle_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "cellule_gestion_sigipes_minjec",
+            "to": "direction_affaires_generales_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_personnels_solde_pensions_minjec",
+            "to": "direction_affaires_generales_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "sous_direction_budget_materiel_maintenance_minjec",
+            "to": "direction_affaires_generales_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_personnel_formation_stages_minjec",
+            "to": "sous_direction_personnels_solde_pensions_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_solde_pensions_minjec",
+            "to": "sous_direction_personnels_solde_pensions_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_action_sociale_minjec",
+            "to": "sous_direction_personnels_solde_pensions_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_budget_materiel_minjec",
+            "to": "sous_direction_budget_materiel_maintenance_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_marches_minjec",
+            "to": "sous_direction_budget_materiel_maintenance_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_equipements_maintenance_minjec",
+            "to": "sous_direction_budget_materiel_maintenance_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_fichier_personnel_minjec",
+            "to": "service_personnel_formation_stages_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_personnel_fonctionnaire_minjec",
+            "to": "service_personnel_formation_stages_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_personnel_non_fonctionnaire_minjec",
+            "to": "service_personnel_formation_stages_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_gestion_effectifs_minjec",
+            "to": "service_personnel_formation_stages_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_formation_stages_minjec",
+            "to": "service_personnel_formation_stages_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_solde_prestations_minjec",
+            "to": "service_solde_pensions_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_requetes_relance_minjec",
+            "to": "service_solde_pensions_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_budget_minjec",
+            "to": "service_budget_materiel_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_materiel_minjec",
+            "to": "service_budget_materiel_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_appels_offres_minjec",
+            "to": "service_marches_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_suivi_marches_minjec",
+            "to": "service_marches_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_equipements_minjec",
+            "to": "service_equipements_maintenance_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_maintenance_minjec",
+            "to": "service_equipements_maintenance_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "delegation_regionale_minjec",
+            "to": "services_deconcentres_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "delegation_departementale_minjec",
+            "to": "services_deconcentres_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "delegation_arrondissement_minjec",
+            "to": "services_deconcentres_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_vie_associative_regionale_minjec",
+            "to": "delegation_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_insertion_volontariat_regionale_minjec",
+            "to": "delegation_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_education_civique_regionale_minjec",
+            "to": "delegation_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_promotion_economique_regionale_minjec",
+            "to": "delegation_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_affaires_generales_regionale_minjec",
+            "to": "delegation_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "inspecteur_regional_pedagogie_minjec",
+            "to": "delegation_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_accueil_courrier_regionale_minjec",
+            "to": "delegation_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_vie_associative_regionale_minjec",
+            "to": "service_vie_associative_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_participation_jeunes_regionale_minjec",
+            "to": "service_vie_associative_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_insertion_sociale_regionale_minjec",
+            "to": "service_insertion_volontariat_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_volontariat_regionale_minjec",
+            "to": "service_insertion_volontariat_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_education_civique_regionale_minjec",
+            "to": "service_education_civique_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_integration_nationale_regionale_minjec",
+            "to": "service_education_civique_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_entrepreneuriat_regionale_minjec",
+            "to": "service_promotion_economique_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_emploi_regionale_minjec",
+            "to": "service_promotion_economique_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_personnels_regionale_minjec",
+            "to": "service_affaires_generales_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_budget_materiel_regionale_minjec",
+            "to": "service_affaires_generales_regionale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_vie_associative_departementale_minjec",
+            "to": "delegation_departementale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "service_education_civique_departementale_minjec",
+            "to": "delegation_departementale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_affaires_generales_departementale_minjec",
+            "to": "delegation_departementale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_vie_associative_departementale_minjec",
+            "to": "service_vie_associative_departementale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_promotion_economique_departementale_minjec",
+            "to": "service_vie_associative_departementale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_education_civique_departementale_minjec",
+            "to": "service_education_civique_departementale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_insertion_volontariat_departementale_minjec",
+            "to": "service_education_civique_departementale_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_vie_associative_arrondissement_minjec",
+            "to": "delegation_arrondissement_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_education_civique_arrondissement_minjec",
+            "to": "delegation_arrondissement_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "bureau_affaires_generales_arrondissement_minjec",
+            "to": "delegation_arrondissement_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "etablissements_formation_minjec",
+            "to": "services_rattaches_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "centre_education_populaire_minjec",
+            "to": "services_rattaches_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "centres_multifonctionnels_minjec",
+            "to": "services_rattaches_minjec",
+            "relationship": "reports_to"
+        },
+        {
+            "from": "centre_production_documentation_minjec",
+            "to": "services_rattaches_minjec",
+            "relationship": "reports_to"
+        }
+    ]
+}

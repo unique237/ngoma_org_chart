@@ -1,0 +1,228 @@
+{
+    "nodes":[
+        {
+            "id":"minfi",
+            "name": "Ministère des Finances",
+            "function": "Ministère",
+            "parent": "prc"
+        },
+        //central administration
+        {
+            "id": "secretariat_particulier_minfi",
+            "name": "Secrétariat Particulier",
+            "function": "Secrétariat_Particulier",
+            "parent": "minfi"
+            
+        },
+        /*{
+            "id": "conseillers_techniques_minfi",
+            "name": "Conseillers Techniques",
+            "function": "Conseillers_Techniques",
+            "parent": "minfi"
+            
+        },*/
+        {
+            "id": "inspection_generale_minfi",
+            "name": "Inspection Générale",
+            "function": "Inspection_Generale",
+            "parent": "minfi"
+            
+        },
+        {
+            "id": "secretariat_generale_minfi",
+            "name": "Secrétariat Général",
+            "function": "Secrétariat_Général",
+            "parent": "minfi"
+            
+        },
+        {
+            "id": "services_deconcentres_mifi",
+            "name": "Services Déconcentrés",
+            "function": "Services_deconcentres",
+            "parent": "minfi"
+            
+        },
+        {
+            "id": "services_exterieurs_minfi",
+            "name": "Services Extérieurs",
+            "function": "Servces_Exterieurs",
+            "parent": "minfi"
+            
+        },
+        {
+            "id": "services_rattaches_minfi",
+            "name": "Services Rattachés",
+            "function": "Services_Rattaches",
+            "parent": "minfi"
+            
+        },
+        //under the minfi tutorship
+        {
+            "id": "caisse_autonome_amortissement",
+            "name": "Caisse Autonome d'Amortissement",
+            "acronym": "CAA",
+            "function": "Direction_Général",
+            "parent": "minfi"
+            
+        },
+        {
+            "id": "caisse_depot_et_consignations",
+            "name": "Caisse de Dépot et de Consignations",
+            "acronym": "CDEC",
+            "function": "Direction_Général",
+            "parent": "minfi"
+        },
+        {
+            "id": "societe_de_recouvrement_des_creances_du_cameroun",
+            "name": "Société de Recouvrement des Créances du cameroun",
+            "acronym": "SRC",
+            "function": "Direction_Général",
+            "parent": "minfi"
+            
+        },
+        {
+            "id": "centre_national_de_developpement_informatique",
+            "name": "Centre Nationale de Développement Informatique",
+            "acronym": "CENADI",
+            "function": "Direction",
+            "parent": "minfi"
+
+        },
+        {
+            "id": "commission_technique_de_privatisation_et_de_liquidation_des_entreprises",
+            "name": "Commission Technique de Privatisation et de Liquidation des Entreprises",
+            "acronym": "CTPL",
+            "function": "Direction",
+            "parent": "minfi"
+        },
+        {
+            "id": "agence_nationale_d_investigation_financiere",
+            "name": "Agence Nationale d'Investigation Financière",
+            "acronym": "ANIF",
+            "function": "Direction_Général",
+            "parent": "minfi"
+        },
+        //under the secretariat general
+        {
+            "id": "service_affaires_generales_minfi",
+            "name": "Service des Affaires Générales",
+            "function": "Service",
+            "parent": "secretariat_generale_minfi"
+            
+        },
+        {
+            "id": "centre_documentation_archives_minfi",
+            "name": "Centre de Documentation et des Archives",
+            "acronym": "cda_minfi",
+            "function": "direction",
+            "parent": "secretariat_generale_minfi"
+            
+        },
+        {
+            "id": "sous_direction_accueil_courrier_liaison_minfi",
+            "name": "Sous-Direction de l’Accueil, du Courrier et de Liaison ",
+            "acronym": "",
+            "function": "sous_direction",
+            "parent": "secretariat_generale_minfi"
+        },
+        {
+            "id": "cellule_traduction_minfi",
+            "name": "Cellule de Traduction",
+            "acronym": "",
+            "function": "direction",
+            "parent": "secretariat_generale_minfi"
+            
+        },
+        {
+            "id": "division_communication_minfi",
+            "name": "Division de Communication",
+            "acronym": "DIV_COM_MINFI",
+            "function": "direction",
+            "parent": "secretariat_generale_minfi"
+            
+        },
+        {
+            "id": "division_suivi_minfi",
+            "name": "Division de Suivi",
+            "acronym": "",
+            "function": "direction",
+            "parent": "secretariat_generale_minfi"
+            
+        },
+        {
+            "id": "division_affaires_juridiques_minfi",
+            "name": "Division des Affaires Juridiques ",
+            "acronym": "",
+            "function": "direction",
+            "parent": "secretariat_generale_minfi"
+            
+        },
+        {
+            "id": "division_systemes_informations_minfi",
+            "name": "Division des Systèmes d’Information ",
+            "acronym": "",
+            "function": "direction",
+            "parent": "secretariat_generale_minfi"
+            
+        },
+        //under service des affaires generales
+        {
+            "id": "bureau_des_voyages",
+            "name": "Bureau des Voyages",
+            "acronym": "",
+            "function": "Bureau",
+            "parent": "service_affaires_generales_minfi"
+            
+        },
+        {
+            "id": "bureau_du_budget_et_du_materiel",
+            "name": "Bureau du Budget et du Matériel",
+            "acronym": "",
+            "function": "Bureau",
+            "parent": "service_affaires_generales_minfi"
+            
+        },
+        {
+            "id": "bureau_du_personnel_et_de_la",
+            "name": "Bureau du Personnel et de la Formation",
+            "acronym": "",
+            "function": "Bureau",
+            "parent": "service_affaires_generales_minfi"
+            
+        },
+        //under the centre de documentation et des archives
+        {
+            "id": "bibliotheque",
+            "name": "Bibliothèque",
+            "acronym": "",
+            "function": "sous_direction",
+            "parent": "centre_documentation_archives_minfi"
+            
+        },
+        {
+            "id": "",
+            "name": "",
+            "acronym": "",
+            "function": "",
+            "parent": ""
+            
+        },
+        {
+            "id": "",
+            "name": "",
+            "acronym": "",
+            "function": "",
+            "parent": ""
+            
+        },
+        {
+            "id": "",
+            "name": "",
+            "acronym": "",
+            "function": "",
+            "parent": ""
+            
+        }
+    ]
+}
+

@@ -1,0 +1,557 @@
+{
+    "nodes": [
+      {
+        "id": "minmap",
+        "name": "Ministère des Marchés Publics",
+        "acronyme": "MINMAP",
+        "fonction": "Ministère",
+        "parent": null
+      },
+      {
+        "id": "secretariat_particulier_minmap",
+        "name": "Secrétariat Particulier",
+        "acronyme": "SP",
+        "fonction": "Secrétariat",
+        "parent": "minmap"
+      },
+      {
+        "id": "conseillers_techniques_minmap",
+        "name": "Conseillers Techniques",
+        "acronyme": "CT",
+        "fonction": "Conseillers",
+        "parent": "minmap"
+      },
+      {
+        "id": "inspection_generale_minmap",
+        "name": "Inspection Générale",
+        "acronyme": "IG",
+        "fonction": "Inspection",
+        "parent": "minmap"
+      },
+      {
+        "id": "inspecteur_general_evaluation_minmap",
+        "name": "Inspecteur Général de l'Évaluation des Performances des Services",
+        "acronyme": "IGEPS",
+        "fonction": "Inspecteur",
+        "parent": "inspection_generale_minmap"
+      },
+      {
+        "id": "inspecteur_general_controles_minmap",
+        "name": "Inspecteur Général des Contrôles des Marchés Publics",
+        "acronyme": "IGCMP",
+        "fonction": "Inspecteur",
+        "parent": "inspection_generale_minmap"
+      },
+      {
+        "id": "administration_centrale_minmap",
+        "name": "Administration Centrale",
+        "acronyme": "AC",
+        "fonction": "Administration",
+        "parent": "minmap"
+      },
+      {
+        "id": "secretariat_general_minmap",
+        "name": "Secrétariat Général",
+        "acronyme": "SG",
+        "fonction": "Secrétariat",
+        "parent": "administration_centrale_minmap"
+      },
+      {
+        "id": "division_affaires_juridiques_minmap",
+        "name": "Division des Affaires Juridiques",
+        "acronyme": "DAJ",
+        "fonction": "Division",
+        "parent": "secretariat_general_minmap"
+      },
+      {
+        "id": "cellule_reglementation_legislation_minmap",
+        "name": "Cellule de la Réglementation et de la Législation",
+        "acronyme": "CRL",
+        "fonction": "Cellule",
+        "parent": "division_affaires_juridiques_minmap"
+      },
+      {
+        "id": "cellule_requetes_contentieux_minmap",
+        "name": "Cellule des Requêtes et du Contentieux",
+        "acronyme": "CRC",
+        "fonction": "Cellule",
+        "parent": "division_affaires_juridiques_minmap"
+      },
+      {
+        "id": "division_systemes_information_minmap",
+        "name": "Division des Systèmes d'Information",
+        "acronyme": "DSI",
+        "fonction": "Division",
+        "parent": "secretariat_general_minmap"
+      },
+      {
+        "id": "cellule_etudes_developpement_minmap",
+        "name": "Cellule des Études et Développement",
+        "acronyme": "CED",
+        "fonction": "Cellule",
+        "parent": "division_systemes_information_minmap"
+      },
+      {
+        "id": "cellule_reseaux_gestion_materiel_minmap",
+        "name": "Cellule des Réseaux et de Gestion du Matériel Informatique",
+        "acronyme": "CRGMI",
+        "fonction": "Cellule",
+        "parent": "division_systemes_information_minmap"
+      },
+      {
+        "id": "sous_direction_documentation_archives_minmap",
+        "name": "Sous-direction de la Documentation et des Archives",
+        "acronyme": "SDDA",
+        "fonction": "Sous-direction",
+        "parent": "secretariat_general_minmap"
+      },
+      {
+        "id": "service_documentation_minmap",
+        "name": "Service de la Documentation",
+        "acronyme": "SDOC",
+        "fonction": "Service",
+        "parent": "sous_direction_documentation_archives_minmap"
+      },
+      {
+        "id": "service_fichier_archives_minmap",
+        "name": "Service du Fichier et des Archives",
+        "acronyme": "SFA",
+        "fonction": "Service",
+        "parent": "sous_direction_documentation_archives_minmap"
+      },
+      {
+        "id": "sous_direction_accueil_courrier_liaison_minmap",
+        "name": "Sous-direction de l'Accueil, du Courrier et de Liaison",
+        "acronyme": "SDACL",
+        "fonction": "Sous-direction",
+        "parent": "secretariat_general_minmap"
+      },
+      {
+        "id": "service_accueil_orientation_minmap",
+        "name": "Service de l'Accueil et de l'Orientation",
+        "acronyme": "SAO",
+        "fonction": "Service",
+        "parent": "sous_direction_accueil_courrier_liaison_minmap"
+      },
+      {
+        "id": "service_courrier_liaison_minmap",
+        "name": "Service du Courrier et de Liaison",
+        "acronyme": "SCL",
+        "fonction": "Service",
+        "parent": "sous_direction_accueil_courrier_liaison_minmap"
+      },
+      {
+        "id": "service_relance_minmap",
+        "name": "Service de la Relance",
+        "acronyme": "SREL",
+        "fonction": "Service",
+        "parent": "sous_direction_accueil_courrier_liaison_minmap"
+      },
+      {
+        "id": "cellule_suivi_minmap",
+        "name": "Cellule de Suivi",
+        "acronyme": "CS",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minmap"
+      },
+      {
+        "id": "cellule_communication_minmap",
+        "name": "Cellule de Communication",
+        "acronyme": "CCOM",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minmap"
+      },
+      {
+        "id": "cellule_traduction_minmap",
+        "name": "Cellule de Traduction",
+        "acronyme": "CTR",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minmap"
+      },
+      {
+        "id": "direction_generale_infrastructures_minmap",
+        "name": "Direction Générale des Marchés des Infrastructures",
+        "acronyme": "DGMI",
+        "fonction": "Direction Générale",
+        "parent": "administration_centrale_minmap"
+      },
+      {
+        "id": "direction_travaux_routiers_minmap",
+        "name": "Direction des Marchés des Travaux Routiers",
+        "acronyme": "DMTR",
+        "fonction": "Direction",
+        "parent": "direction_generale_infrastructures_minmap"
+      },
+      {
+        "id": "direction_travaux_batiments_minmap",
+        "name": "Direction des Marchés des Travaux de Bâtiments et Équipements Collectifs",
+        "acronyme": "DMTBEC",
+        "fonction": "Direction",
+        "parent": "direction_generale_infrastructures_minmap"
+      },
+      {
+        "id": "direction_autres_infrastructures_minmap",
+        "name": "Direction des Marchés des Autres Infrastructures",
+        "acronyme": "DMAI",
+        "fonction": "Direction",
+        "parent": "direction_generale_infrastructures_minmap"
+      },
+      {
+        "id": "direction_generale_approvisionnements_services_minmap",
+        "name": "Direction Générale des Marchés des Approvisionnements et des Services",
+        "acronyme": "DGMAS",
+        "fonction": "Direction Générale",
+        "parent": "administration_centrale_minmap"
+      },
+      {
+        "id": "direction_approvisionnements_generaux_minmap",
+        "name": "Direction des Marchés des Approvisionnements Généraux",
+        "acronyme": "DMAG",
+        "fonction": "Direction",
+        "parent": "direction_generale_approvisionnements_services_minmap"
+      },
+      {
+        "id": "direction_services_prestations_intellectuelles_minmap",
+        "name": "Direction des Marchés des Services et des Prestations Intellectuelles",
+        "acronyme": "DMSPI",
+        "fonction": "Direction",
+        "parent": "direction_generale_approvisionnements_services_minmap"
+      },
+      {
+        "id": "direction_generale_controles_minmap",
+        "name": "Direction Générale des Contrôles des Marchés Publics",
+        "acronyme": "DGCMP",
+        "fonction": "Direction Générale",
+        "parent": "administration_centrale_minmap"
+      },
+      {
+        "id": "brigade_centrale_infrastructures_minmap",
+        "name": "Brigade Centrale de Contrôle des Marchés des Infrastructures",
+        "acronyme": "BCCMI",
+        "fonction": "Brigade",
+        "parent": "direction_generale_controles_minmap"
+      },
+      {
+        "id": "brigade_centrale_approvisionnements_services_minmap",
+        "name": "Brigade Centrale de Contrôle des Marchés des Approvisionnements et des Services",
+        "acronyme": "BCCMAS",
+        "fonction": "Brigade",
+        "parent": "direction_generale_controles_minmap"
+      },
+      {
+        "id": "division_etudes_prospective_minmap",
+        "name": "Division des Études et de la Prospective",
+        "acronyme": "DEP",
+        "fonction": "Division",
+        "parent": "administration_centrale_minmap"
+      },
+      {
+        "id": "cellule_etudes_prospective_minmap",
+        "name": "Cellule des Études et de la Prospective",
+        "acronyme": "CEP",
+        "fonction": "Cellule",
+        "parent": "division_etudes_prospective_minmap"
+      },
+      {
+        "id": "cellule_statistiques_minmap",
+        "name": "Cellule des Statistiques",
+        "acronyme": "CST",
+        "fonction": "Cellule",
+        "parent": "division_etudes_prospective_minmap"
+      },
+      {
+        "id": "division_programmation_suivi_minmap",
+        "name": "Division de la Programmation et du Suivi des Marchés Publics",
+        "acronyme": "DPSMP",
+        "fonction": "Division",
+        "parent": "administration_centrale_minmap"
+      },
+      {
+        "id": "cellule_programmation_minmap",
+        "name": "Cellule de la Programmation",
+        "acronyme": "CPROG",
+        "fonction": "Cellule",
+        "parent": "division_programmation_suivi_minmap"
+      },
+      {
+        "id": "cellule_suivi_evaluation_minmap",
+        "name": "Cellule du Suivi et de l'Évaluation des Programmes",
+        "acronyme": "CSEP",
+        "fonction": "Cellule",
+        "parent": "division_programmation_suivi_minmap"
+      },
+      {
+        "id": "direction_affaires_generales_minmap",
+        "name": "Direction des Affaires Générales",
+        "acronyme": "DAG",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minmap"
+      },
+      {
+        "id": "sous_direction_personnels_minmap",
+        "name": "Sous-direction des Personnels",
+        "acronyme": "SDP",
+        "fonction": "Sous-direction",
+        "parent": "direction_affaires_generales_minmap"
+      },
+      {
+        "id": "service_personnel_minmap",
+        "name": "Service du Personnel",
+        "acronyme": "SPER",
+        "fonction": "Service",
+        "parent": "sous_direction_personnels_minmap"
+      },
+      {
+        "id": "service_formation_stages_minmap",
+        "name": "Service de la Formation et des Stages",
+        "acronyme": "SFS",
+        "fonction": "Service",
+        "parent": "sous_direction_personnels_minmap"
+      },
+      {
+        "id": "service_action_sociale_minmap",
+        "name": "Service de l'Action Sociale",
+        "acronyme": "SAS",
+        "fonction": "Service",
+        "parent": "sous_direction_personnels_minmap"
+      },
+      {
+        "id": "sous_direction_budget_minmap",
+        "name": "Sous-direction du Budget",
+        "acronyme": "SDB",
+        "fonction": "Sous-direction",
+        "parent": "direction_affaires_generales_minmap"
+      },
+      {
+        "id": "service_budget_minmap",
+        "name": "Service du Budget",
+        "acronyme": "SBUD",
+        "fonction": "Service",
+        "parent": "sous_direction_budget_minmap"
+      },
+      {
+        "id": "service_marches_internes_minmap",
+        "name": "Service des Marchés Internes",
+        "acronyme": "SMI",
+        "fonction": "Service",
+        "parent": "sous_direction_budget_minmap"
+      },
+      {
+        "id": "sous_direction_solde_pensions_minmap",
+        "name": "Sous-direction de la Solde et des Pensions",
+        "acronyme": "SDSP",
+        "fonction": "Sous-direction",
+        "parent": "direction_affaires_generales_minmap"
+      },
+      {
+        "id": "service_solde_minmap",
+        "name": "Service de la Solde",
+        "acronyme": "SSOL",
+        "fonction": "Service",
+        "parent": "sous_direction_solde_pensions_minmap"
+      },
+      {
+        "id": "service_pensions_minmap",
+        "name": "Service des Pensions",
+        "acronyme": "SPEN",
+        "fonction": "Service",
+        "parent": "sous_direction_solde_pensions_minmap"
+      },
+      {
+        "id": "sous_direction_equipements_maintenance_minmap",
+        "name": "Sous-direction des Équipements et de la Maintenance",
+        "acronyme": "SDEM",
+        "fonction": "Sous-direction",
+        "parent": "direction_affaires_generales_minmap"
+      },
+      {
+        "id": "service_equipements_minmap",
+        "name": "Service des Équipements",
+        "acronyme": "SEQP",
+        "fonction": "Service",
+        "parent": "sous_direction_equipements_maintenance_minmap"
+      },
+      {
+        "id": "service_maintenance_minmap",
+        "name": "Service de la Maintenance",
+        "acronyme": "SMAI",
+        "fonction": "Service",
+        "parent": "sous_direction_equipements_maintenance_minmap"
+      },
+      {
+        "id": "cellule_sigipes_minmap",
+        "name": "Cellule de Gestion du Projet SIGIPES",
+        "acronyme": "CSIG",
+        "fonction": "Cellule",
+        "parent": "direction_affaires_generales_minmap"
+      },
+      {
+        "id": "services_deconcentres_minmap",
+        "name": "Services Déconcentrés",
+        "acronyme": "SD",
+        "fonction": "Services",
+        "parent": "minmap"
+      },
+      {
+        "id": "delegations_regionales_minmap",
+        "name": "Délégations Régionales des Marchés Publics",
+        "acronyme": "DRMP",
+        "fonction": "Délégation",
+        "parent": "services_deconcentres_minmap"
+      },
+      {
+        "id": "service_accueil_courrier_liaison_regional_minmap",
+        "name": "Service de l'Accueil, du Courrier et de Liaison",
+        "acronyme": "SACLR",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minmap"
+      },
+      {
+        "id": "service_affaires_generales_regional_minmap",
+        "name": "Service des Affaires Générales",
+        "acronyme": "SAGR",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minmap"
+      },
+      {
+        "id": "service_fichier_marches_regional_minmap",
+        "name": "Service du Fichier des Marchés Publics",
+        "acronyme": "SFMPR",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minmap"
+      },
+      {
+        "id": "service_informatique_statistiques_regional_minmap",
+        "name": "Service de l'Informatique et des Statistiques",
+        "acronyme": "SISR",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minmap"
+      },
+      {
+        "id": "service_marches_infrastructures_regional_minmap",
+        "name": "Service des Marchés des Infrastructures",
+        "acronyme": "SMIR",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minmap"
+      },
+      {
+        "id": "service_marches_approvisionnements_services_regional_minmap",
+        "name": "Service des Marchés des Approvisionnements et des Services",
+        "acronyme": "SMASR",
+        "fonction": "Service",
+        "parent": "delegations_regionales_minmap"
+      },
+      {
+        "id": "brigade_regionale_controle_minmap",
+        "name": "Brigade Régionale de Contrôle de l'Exécution des Marchés Publics",
+        "acronyme": "BRCMP",
+        "fonction": "Brigade",
+        "parent": "delegations_regionales_minmap"
+      },
+      {
+        "id": "delegations_departementales_minmap",
+        "name": "Délégations Départementales des Marchés Publics",
+        "acronyme": "DDMP",
+        "fonction": "Délégation",
+        "parent": "services_deconcentres_minmap"
+      },
+      {
+        "id": "bureau_affaires_generales_departemental_minmap",
+        "name": "Bureau des Affaires Générales",
+        "acronyme": "BAGD",
+        "fonction": "Bureau",
+        "parent": "delegations_departementales_minmap"
+      },
+      {
+        "id": "bureau_courrier_departemental_minmap",
+        "name": "Bureau du Courrier",
+        "acronyme": "BCD",
+        "fonction": "Bureau",
+        "parent": "delegations_departementales_minmap"
+      },
+      {
+        "id": "service_passation_marches_departemental_minmap",
+        "name": "Service de la Passation des Marchés",
+        "acronyme": "SPMD",
+        "fonction": "Service",
+        "parent": "delegations_departementales_minmap"
+      },
+      {
+        "id": "brigade_departementale_controle_minmap",
+        "name": "Brigade Départementale des Contrôles des Marchés Publics",
+        "acronyme": "BDCMP",
+        "fonction": "Brigade",
+        "parent": "delegations_departementales_minmap"
+      }
+    ],
+    "edges": [
+      {"source": "minmap", "target": "secretariat_particulier_minmap"},
+      {"source": "minmap", "target": "conseillers_techniques_minmap"},
+      {"source": "minmap", "target": "inspection_generale_minmap"},
+      {"source": "inspection_generale_minmap", "target": "inspecteur_general_evaluation_minmap"},
+      {"source": "inspection_generale_minmap", "target": "inspecteur_general_controles_minmap"},
+      {"source": "minmap", "target": "administration_centrale_minmap"},
+      {"source": "administration_centrale_minmap", "target": "secretariat_general_minmap"},
+      {"source": "secretariat_general_minmap", "target": "division_affaires_juridiques_minmap"},
+      {"source": "division_affaires_juridiques_minmap", "target": "cellule_reglementation_legislation_minmap"},
+      {"source": "division_affaires_juridiques_minmap", "target": "cellule_requetes_contentieux_minmap"},
+      {"source": "secretariat_general_minmap", "target": "division_systemes_information_minmap"},
+      {"source": "division_systemes_information_minmap", "target": "cellule_etudes_developpement_minmap"},
+      {"source": "division_systemes_information_minmap", "target": "cellule_reseaux_gestion_materiel_minmap"},
+      {"source": "secretariat_general_minmap", "target": "sous_direction_documentation_archives_minmap"},
+      {"source": "sous_direction_documentation_archives_minmap", "target": "service_documentation_minmap"},
+      {"source": "sous_direction_documentation_archives_minmap", "target": "service_fichier_archives_minmap"},
+      {"source": "secretariat_general_minmap", "target": "sous_direction_accueil_courrier_liaison_minmap"},
+      {"source": "sous_direction_accueil_courrier_liaison_minmap", "target": "service_accueil_orientation_minmap"},
+      {"source": "sous_direction_accueil_courrier_liaison_minmap", "target": "service_courrier_liaison_minmap"},
+      {"source": "sous_direction_accueil_courrier_liaison_minmap", "target": "service_relance_minmap"},
+      {"source": "secretariat_general_minmap", "target": "cellule_suivi_minmap"},
+      {"source": "secretariat_general_minmap", "target": "cellule_communication_minmap"},
+      {"source": "secretariat_general_minmap", "target": "cellule_traduction_minmap"},
+      {"source": "administration_centrale_minmap", "target": "direction_generale_infrastructures_minmap"},
+      {"source": "direction_generale_infrastructures_minmap", "target": "direction_travaux_routiers_minmap"},
+      {"source": "direction_generale_infrastructures_minmap", "target": "direction_travaux_batiments_minmap"},
+      {"source": "direction_generale_infrastructures_minmap", "target": "direction_autres_infrastructures_minmap"},
+      {"source": "administration_centrale_minmap", "target": "direction_generale_approvisionnements_services_minmap"},
+      {"source": "direction_generale_approvisionnements_services_minmap", "target": "direction_approvisionnements_generaux_minmap"},
+      {"source": "direction_generale_approvisionnements_services_minmap", "target": "direction_services_prestations_intellectuelles_minmap"},
+      {"source": "administration_centrale_minmap", "target": "direction_generale_controles_minmap"},
+      {"source": "direction_generale_controles_minmap", "target": "brigade_centrale_infrastructures_minmap"},
+      {"source": "direction_generale_controles_minmap", "target": "brigade_centrale_approvisionnements_services_minmap"},
+      {"source": "administration_centrale_minmap", "target": "division_etudes_prospective_minmap"},
+      {"source": "division_etudes_prospective_minmap", "target": "cellule_etudes_prospective_minmap"},
+      {"source": "division_etudes_prospective_minmap", "target": "cellule_statistiques_minmap"},
+      {"source": "administration_centrale_minmap", "target": "division_programmation_suivi_minmap"},
+      {"source": "division_programmation_suivi_minmap", "target": "cellule_programmation_minmap"},
+      {"source": "division_programmation_suivi_minmap", "target": "cellule_suivi_evaluation_minmap"},
+      {"source": "administration_centrale_minmap", "target": "direction_affaires_generales_minmap"},
+      {"source": "direction_affaires_generales_minmap", "target": "sous_direction_personnels_minmap"},
+      {"source": "sous_direction_personnels_minmap", "target": "service_personnel_minmap"},
+      {"source": "sous_direction_personnels_minmap", "target": "service_formation_stages_minmap"},
+      {"source": "sous_direction_personnels_minmap", "target": "service_action_sociale_minmap"},
+      {"source": "direction_affaires_generales_minmap", "target": "sous_direction_budget_minmap"},
+      {"source": "sous_direction_budget_minmap", "target": "service_budget_minmap"},
+      {"source": "sous_direction_budget_minmap", "target": "service_marches_internes_minmap"},
+      {"source": "direction_affaires_generales_minmap", "target": "sous_direction_solde_pensions_minmap"},
+      {"source": "sous_direction_solde_pensions_minmap", "target": "service_solde_minmap"},
+      {"source": "sous_direction_solde_pensions_minmap", "target": "service_pensions_minmap"},
+      {"source": "direction_affaires_generales_minmap", "target": "sous_direction_equipements_maintenance_minmap"},
+      {"source": "sous_direction_equipements_maintenance_minmap", "target": "service_equipements_minmap"},
+      {"source": "sous_direction_equipements_maintenance_minmap", "target": "service_maintenance_minmap"},
+      {"source": "direction_affaires_generales_minmap", "target": "cellule_sigipes_minmap"},
+      {"source": "minmap", "target": "services_deconcentres_minmap"},
+      {"source": "services_deconcentres_minmap", "target": "delegations_regionales_minmap"},
+      {"source": "delegations_regionales_minmap", "target": "service_accueil_courrier_liaison_regional_minmap"},
+      {"source": "delegations_regionales_minmap", "target": "service_affaires_generales_regional_minmap"},
+      {"source": "delegations_regionales_minmap", "target": "service_fichier_marches_regional_minmap"},
+      {"source": "delegations_regionales_minmap", "target": "service_informatique_statistiques_regional_minmap"},
+      {"source": "delegations_regionales_minmap", "target": "service_marches_infrastructures_regional_minmap"},
+      {"source": "delegations_regionales_minmap", "target": "service_marches_approvisionnements_services_regional_minmap"},
+      {"source": "delegations_regionales_minmap", "target": "brigade_regionale_controle_minmap"},
+      {"source": "services_deconcentres_minmap", "target": "delegations_departementales_minmap"},
+      {"source": "delegations_departementales_minmap", "target": "bureau_affaires_generales_departemental_minmap"},
+      {"source": "delegations_departementales_minmap", "target": "bureau_courrier_departemental_minmap"},
+      {"source": "delegations_departementales_minmap", "target": "service_passation_marches_departemental_minmap"},
+      {"source": "delegations_departementales_minmap", "target": "brigade_departementale_controle_minmap"}
+    ]
+  }

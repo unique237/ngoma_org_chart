@@ -1,0 +1,622 @@
+{
+  "nodes": [
+    {
+      "id": "minproff",
+      "name": "Ministère de la Promotion de la Femme et de la Famille",
+      "function": "Ministère",
+      "parent_id": null
+    },
+    {
+      "id": "secretariat_particulier_minproff",
+      "name": "Secrétariat Particulier",
+      "function": "Gestion des affaires réservées du Ministre.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "b2c3d4e5-f678-9012-bcde-f23456789012",
+      "name": "Conseillers Techniques",
+      "function": "Exécution des missions confiées par le Ministre.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "c3d4e5f6-7890-1234-cdef-345678901234",
+      "name": "Inspection Générale",
+      "function": "Évaluation des performances, contrôle interne, et lutte contre la corruption.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "d4e5f678-9012-3456-def0-456789012345",
+      "name": "Secrétariat Général",
+      "function": "Coordination de l'administration centrale et des services déconcentrés, gestion des archives et formation du personnel.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "e5f67890-1234-5678-ef01-567890123456",
+      "name": "Cellule de Suivi",
+      "function": "Suivi des activités des services et synthèse des programmes d'action.",
+      "parent_id": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "id": "f6789012-3456-7890-f012-678901234567",
+      "name": "Cellule de Communication",
+      "function": "Mise en œuvre de la stratégie de communication et gestion des relations publiques.",
+      "parent_id": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "id": "78901234-5678-9012-0123-789012345678",
+      "name": "Cellule Juridique",
+      "function": "Respect de la légalité des actes et préparation des projets de textes.",
+      "parent_id": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "id": "89012345-6789-0123-1234-890123456789",
+      "name": "Cellule Informatique",
+      "function": "Gestion du système informatique et des bases de données.",
+      "parent_id": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "id": "90123456-7890-1234-2345-901234567890",
+      "name": "Cellule de Traduction",
+      "function": "Traduction des documents et constitution d'une banque de données terminologiques.",
+      "parent_id": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "id": "a1234567-8901-2345-3456-012345678901",
+      "name": "Sous-Direction de l'Accueil, du Courrier et de Liaison",
+      "function": "Accueil des usagers, gestion du courrier et relance des services.",
+      "parent_id": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "id": "b2345678-9012-3456-4567-123456789012",
+      "name": "Service de l'Accueil et de l'Orientation",
+      "function": "Réception des dossiers, information et orientation des usagers.",
+      "parent_id": "a1234567-8901-2345-3456-012345678901"
+    },
+    {
+      "id": "c3456789-0123-4567-5678-234567890123",
+      "name": "Service du Courrier et de Liaison",
+      "function": "Ventilation du courrier, classement et reproduction des actes.",
+      "parent_id": "a1234567-8901-2345-3456-012345678901"
+    },
+    {
+      "id": "d4567890-1234-5678-6789-345678901234",
+      "name": "Service de la Relance",
+      "function": "Enregistrement des requêtes et relance des services pour le traitement des dossiers.",
+      "parent_id": "a1234567-8901-2345-3456-012345678901"
+    },
+    {
+      "id": "e5678901-2345-6789-7890-456789012345",
+      "name": "Service de la Documentation et des Archives",
+      "function": "Gestion et conservation de la documentation et des archives.",
+      "parent_id": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "id": "f6789012-3456-7890-8901-567890123456",
+      "name": "Direction de la Promotion Sociale de la Femme",
+      "function": "Promotion des droits de la femme et du genre, et programmes de formation.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "78901234-5678-9012-9012-678901234567",
+      "name": "Sous-Direction de la Promotion des Droits de la Femme et du Genre",
+      "function": "Élaboration de textes et suivi des mesures contre la discrimination des femmes.",
+      "parent_id": "f6789012-3456-7890-8901-567890123456"
+    },
+    {
+      "id": "89012345-6789-0123-0123-789012345678",
+      "name": "Service des Droits de la Femme",
+      "function": "Promotion et protection des droits de la femme, élimination des discriminations.",
+      "parent_id": "78901234-5678-9012-9012-678901234567"
+    },
+    {
+      "id": "90123456-7890-1234-1234-890123456789",
+      "name": "Service de la Promotion du Genre",
+      "function": "Promotion de l'égalité et intégration du genre dans les politiques.",
+      "parent_id": "78901234-5678-9012-9012-678901234567"
+    },
+    {
+      "id": "a1234567-8901-2345-2345-901234567890",
+      "name": "Sous-Direction de l'Education et de la Formation de la Jeune Fille et de la Femme",
+      "function": "Programmes d'éducation et formation pour les femmes et jeunes filles.",
+      "parent_id": "f6789012-3456-7890-8901-567890123456"
+    },
+    {
+      "id": "b2345678-9012-3456-3456-012345678901",
+      "name": "Service de l'Education et de l'Animation",
+      "function": "Élaboration de programmes d'éducation civique et formation des femmes.",
+      "parent_id": "a1234567-8901-2345-2345-901234567890"
+    },
+    {
+      "id": "c3456789-0123-4567-4567-123456789012",
+      "name": "Service de la Promotion de la Santé de la Femme et de la Jeune Fille",
+      "function": "Promotion de la santé reproductive et prévention des maladies.",
+      "parent_id": "a1234567-8901-2345-2345-901234567890"
+    },
+    {
+      "id": "d4567890-1234-5678-5678-234567890123",
+      "name": "Direction du Bien-Etre de la Famille",
+      "function": "Stratégies pour renforcer l'harmonie et la protection des familles.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "e5678901-2345-6789-6789-345678901234",
+      "name": "Sous-Direction de la Promotion des Droits de la Famille",
+      "function": "Élaboration de textes et diffusion des droits de la famille.",
+      "parent_id": "d4567890-1234-5678-5678-234567890123"
+    },
+    {
+      "id": "f6789012-3456-7890-7890-456789012345",
+      "name": "Service de la Prospection",
+      "function": "Élaboration et suivi des instruments juridiques pour la famille.",
+      "parent_id": "e5678901-2345-6789-6789-345678901234"
+    },
+    {
+      "id": "78901234-5678-9012-8901-567890123456",
+      "name": "Service de l'Education aux Droits de la Famille",
+      "function": "Vulgarisation des mesures législatives et accompagnement juridique.",
+      "parent_id": "e5678901-2345-6789-6789-345678901234"
+    },
+    {
+      "id": "89012345-6789-0123-9012-678901234567",
+      "name": "Sous-Direction de la Protection de la Famille",
+      "function": "Programmes de promotion sociale et protection des membres vulnérables.",
+      "parent_id": "d4567890-1234-5678-5678-234567890123"
+    },
+    {
+      "id": "90123456-7890-1234-0123-789012345678",
+      "name": "Service de la Protection Sociale",
+      "function": "Assistance psychosociale et programmes de placement familial.",
+      "parent_id": "89012345-6789-0123-9012-678901234567"
+    },
+    {
+      "id": "a1234567-8901-2345-1234-890123456789",
+      "name": "Service de l'Amélioration des Conditions de Vie",
+      "function": "Amélioration de la nutrition et accès aux services sociaux de base.",
+      "parent_id": "89012345-6789-0123-9012-678901234567"
+    },
+    {
+      "id": "b2345678-9012-3456-2345-901234567890",
+      "name": "Direction de la Promotion Economique de la Femme et de la Famille",
+      "function": "Promotion de l'entrepreneuriat féminin et réduction de la pauvreté.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "c3456789-0123-4567-3456-012345678901",
+      "name": "Sous-Direction de la Promotion Economique de la Femme",
+      "function": "Facilitation de l'emploi et intégration économique des femmes.",
+      "parent_id": "b2345678-9012-3456-2345-901234567890"
+    },
+    {
+      "id": "d4567890-1234-5678-4567-123456789012",
+      "name": "Service de la Promotion de l'Emploi de la Femme",
+      "function": "Insertion professionnelle et accès des femmes aux sphères de décision.",
+      "parent_id": "c3456789-0123-4567-3456-012345678901"
+    },
+    {
+      "id": "e5678901-2345-6789-5678-234567890123",
+      "name": "Service de l'Entrepreneuriat Féminin",
+      "function": "Appui à la création et gestion de projets entrepreneuriaux féminins.",
+      "parent_id": "c3456789-0123-4567-3456-012345678901"
+    },
+    {
+      "id": "f6789012-3456-7890-6789-345678901234",
+      "name": "Sous-Direction de la Promotion Economique de la Famille",
+      "function": "Réduction de la pauvreté et amélioration des revenus familiaux.",
+      "parent_id": "b2345678-9012-3456-2345-901234567890"
+    },
+    {
+      "id": "78901234-5678-9012-7890-456789012345",
+      "name": "Service d'Evaluation du Niveau de Vie des Familles",
+      "function": "Analyse des données sur le niveau de vie des familles.",
+      "parent_id": "f6789012-3456-7890-6789-345678901234"
+    },
+    {
+      "id": "89012345-6789-0123-8901-567890123456",
+      "name": "Service d'Appui au Progrès des Familles",
+      "function": "Stratégies pour la réduction de la pauvreté et gestion des ressources.",
+      "parent_id": "f6789012-3456-7890-6789-345678901234"
+    },
+    {
+      "id": "90123456-7890-1234-9012-678901234567",
+      "name": "Division des Etudes, de la Planification et de la Coopération",
+      "function": "Études prospectives, planification stratégique et coopération internationale.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "a1234567-8901-2345-0123-789012345678",
+      "name": "Cellule des Etudes",
+      "function": "Recherche appliquée et gestion des données sur la femme et la famille.",
+      "parent_id": "90123456-7890-1234-9012-678901234567"
+    },
+    {
+      "id": "b2345678-9012-3456-1234-890123456789",
+      "name": "Cellule de la Planification",
+      "function": "Planification stratégique et gestion des projets.",
+      "parent_id": "90123456-7890-1234-9012-678901234567"
+    },
+    {
+      "id": "c3456789-0123-4567-2345-901234567890",
+      "name": "Cellule de la Coopération",
+      "function": "Coopération bilatérale et multilatérale, recherche de financements.",
+      "parent_id": "90123456-7890-1234-9012-678901234567"
+    },
+    {
+      "id": "d4567890-1234-5678-3456-012345678901",
+      "name": "Direction des Affaires Générales",
+      "function": "Gestion des ressources humaines, budget et maintenance des biens.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "e5678901-2345-6789-4567-123456789012",
+      "name": "Cellule de Gestion du Projet SIGIPES",
+      "function": "Gestion des fichiers du personnel et de la solde.",
+      "parent_id": "d4567890-1234-5678-3456-012345678901"
+    },
+    {
+      "id": "f6789012-3456-7890-5678-234567890123",
+      "name": "Sous-Direction des Personnels, de la Solde et des Pensions",
+      "function": "Gestion des carrières, solde et pensions des personnels.",
+      "parent_id": "d4567890-1234-5678-3456-012345678901"
+    },
+    {
+      "id": "78901234-5678-9012-6789-345678901234",
+      "name": "Service du Personnel",
+      "function": "Gestion des actes, postes de travail et formation du personnel.",
+      "parent_id": "f6789012-3456-7890-5678-234567890123"
+    },
+    {
+      "id": "89012345-6789-0123-7890-456789012345",
+      "name": "Service de la Solde et des Pensions",
+      "function": "Préparation de la solde, pensions et gestion des réclamations.",
+      "parent_id": "f6789012-3456-7890-5678-234567890123"
+    },
+    {
+      "id": "90123456-7890-1234-8901-567890123456",
+      "name": "Service de l'Action Sociale",
+      "function": "Amélioration des conditions de travail et appui associatif.",
+      "parent_id": "f6789012-3456-7890-5678-234567890123"
+    },
+    {
+      "id": "a1234567-8901-2345-9012-678901234567",
+      "name": "Sous-Direction du Budget, du Matériel et de la Maintenance",
+      "function": "Exécution du budget et gestion des biens meubles et immeubles.",
+      "parent_id": "d4567890-1234-5678-3456-012345678901"
+    },
+    {
+      "id": "b2345678-9012-3456-0123-789012345678",
+      "name": "Service du Budget et du Matériel",
+      "function": "Préparation et suivi du budget, acquisition de matériel.",
+      "parent_id": "a1234567-8901-2345-9012-678901234567"
+    },
+    {
+      "id": "c3456789-0123-4567-1234-890123456789",
+      "name": "Service des Marchés",
+      "function": "Préparation des dossiers de passation des marchés.",
+      "parent_id": "a1234567-8901-2345-9012-678901234567"
+    },
+    {
+      "id": "d4567890-1234-5678-2345-901234567890",
+      "name": "Service des Infrastructures et de la Maintenance",
+      "function": "Entretien des bâtiments, maintenance et propreté des locaux.",
+      "parent_id": "a1234567-8901-2345-9012-678901234567"
+    },
+    {
+      "id": "e5678901-2345-6789-3456-012345678901",
+      "name": "Services Déconcentrés",
+      "function": "Mise en œuvre des politiques au niveau provincial, départemental et d'arrondissement.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "f6789012-3456-7890-4567-123456789012",
+      "name": "Délégation Provinciale de la Promotion de la Femme et de la Famille",
+      "function": "Coordination et suivi des projets provinciaux pour la femme et la famille.",
+      "parent_id": "e5678901-2345-6789-3456-012345678901"
+    },
+    {
+      "id": "78901234-5678-9012-5678-234567890123",
+      "name": "Service des Statistiques",
+      "function": "Collecte et analyse des données statistiques provinciales.",
+      "parent_id": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "id": "89012345-6789-0123-6789-345678901234",
+      "name": "Service de la Promotion Sociale de la Femme",
+      "function": "Promotion des droits et élimination des discriminations des femmes.",
+      "parent_id": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "id": "90123456-7890-1234-7890-456789012345",
+      "name": "Service du Bien-Etre de la Famille",
+      "function": "Renforcement de l'harmonie et bien-être des familles.",
+      "parent_id": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "id": "a1234567-8901-2345-8901-567890123456",
+      "name": "Service de la Promotion Economique de la Femme et de la Famille",
+      "function": "Développement économique et intégration des femmes et familles.",
+      "parent_id": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "id": "b2345678-9012-3456-9012-678901234567",
+      "name": "Service des Affaires Générales",
+      "function": "Gestion du personnel, budget et infrastructures provinciales.",
+      "parent_id": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "id": "c3456789-0123-4567-0123-789012345678",
+      "name": "Délégation Départementale de la Promotion de la Femme et de la Famille",
+      "function": "Suivi des projets et promotion des droits au niveau départemental.",
+      "parent_id": "e5678901-2345-6789-3456-012345678901"
+    },
+    {
+      "id": "d4567890-1234-5678-1234-890123456789",
+      "name": "Délégation d'Arrondissement de la Promotion de la Femme et de la Famille",
+      "function": "Exécution des actions et encadrement communautaire.",
+      "parent_id": "e5678901-2345-6789-3456-012345678901"
+    },
+    {
+      "id": "e5678901-2345-6789-2345-901234567890",
+      "name": "Unités Techniques Spécialisées",
+      "function": "Mise en œuvre de programmes spécifiques pour la femme et la famille.",
+      "parent_id": "minproff"
+    },
+    {
+      "id": "f6789012-3456-7890-3456-012345678901",
+      "name": "Centres de Promotion de la Femme et de la Famille",
+      "function": "Programmes de promotion et formation pour la femme et la famille.",
+      "parent_id": "e5678901-2345-6789-2345-901234567890"
+    },
+    {
+      "id": "78901234-5678-9012-4567-123456789012",
+      "name": "Centres de Technologies Appropriées",
+      "function": "Promotion et vulgarisation des technologies adaptées.",
+      "parent_id": "e5678901-2345-6789-2345-901234567890"
+    }
+  ],
+  "edges": [
+    {
+      "source": "secretariat_particulier_minproff",
+      "target": "minproff"
+    },
+    {
+      "source": "b2c3d4e5-f678-9012-bcde-f23456789012",
+      "target": "minproff"
+    },
+    {
+      "source": "c3d4e5f6-7890-1234-cdef-345678901234",
+      "target": "minproff"
+    },
+    {
+      "source": "d4e5f678-9012-3456-def0-456789012345",
+      "target": "minproff"
+    },
+    {
+      "source": "e5f67890-1234-5678-ef01-567890123456",
+      "target": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "source": "f6789012-3456-7890-f012-678901234567",
+      "target": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "source": "78901234-5678-9012-0123-789012345678",
+      "target": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "source": "89012345-6789-0123-1234-890123456789",
+      "target": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "source": "90123456-7890-1234-2345-901234567890",
+      "target": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "source": "a1234567-8901-2345-3456-012345678901",
+      "target": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "source": "b2345678-9012-3456-4567-123456789012",
+      "target": "a1234567-8901-2345-3456-012345678901"
+    },
+    {
+      "source": "c3456789-0123-4567-5678-234567890123",
+      "target": "a1234567-8901-2345-3456-012345678901"
+    },
+    {
+      "source": "d4567890-1234-5678-6789-345678901234",
+      "target": "a1234567-8901-2345-3456-012345678901"
+    },
+    {
+      "source": "e5678901-2345-6789-7890-456789012345",
+      "target": "d4e5f678-9012-3456-def0-456789012345"
+    },
+    {
+      "source": "f6789012-3456-7890-8901-567890123456",
+      "target": "minproff"
+    },
+    {
+      "source": "78901234-5678-9012-9012-678901234567",
+      "target": "f6789012-3456-7890-8901-567890123456"
+    },
+    {
+      "source": "89012345-6789-0123-0123-789012345678",
+      "target": "78901234-5678-9012-9012-678901234567"
+    },
+    {
+      "source": "90123456-7890-1234-1234-890123456789",
+      "target": "78901234-5678-9012-9012-678901234567"
+    },
+    {
+      "source": "a1234567-8901-2345-2345-901234567890",
+      "target": "f6789012-3456-7890-8901-567890123456"
+    },
+    {
+      "source": "b2345678-9012-3456-3456-012345678901",
+      "target": "a1234567-8901-2345-2345-901234567890"
+    },
+    {
+      "source": "c3456789-0123-4567-4567-123456789012",
+      "target": "a1234567-8901-2345-2345-901234567890"
+    },
+    {
+      "source": "d4567890-1234-5678-5678-234567890123",
+      "target": "minproff"
+    },
+    {
+      "source": "e5678901-2345-6789-6789-345678901234",
+      "target": "d4567890-1234-5678-5678-234567890123"
+    },
+    {
+      "source": "f6789012-3456-7890-7890-456789012345",
+      "target": "e5678901-2345-6789-6789-345678901234"
+    },
+    {
+      "source": "78901234-5678-9012-8901-567890123456",
+      "target": "e5678901-2345-6789-6789-345678901234"
+    },
+    {
+      "source": "89012345-6789-0123-9012-678901234567",
+      "target": "d4567890-1234-5678-5678-234567890123"
+    },
+    {
+      "source": "90123456-7890-1234-0123-789012345678",
+      "target": "89012345-6789-0123-9012-678901234567"
+    },
+    {
+      "source": "a1234567-8901-2345-1234-890123456789",
+      "target": "89012345-6789-0123-9012-678901234567"
+    },
+    {
+      "source": "b2345678-9012-3456-2345-901234567890",
+      "target": "minproff"
+    },
+    {
+      "source": "c3456789-0123-4567-3456-012345678901",
+      "target": "b2345678-9012-3456-2345-901234567890"
+    },
+    {
+      "source": "d4567890-1234-5678-4567-123456789012",
+      "target": "c3456789-0123-4567-3456-012345678901"
+    },
+    {
+      "source": "e5678901-2345-6789-5678-234567890123",
+      "target": "c3456789-0123-4567-3456-012345678901"
+    },
+    {
+      "source": "f6789012-3456-7890-6789-345678901234",
+      "target": "b2345678-9012-3456-2345-901234567890"
+    },
+    {
+      "source": "78901234-5678-9012-7890-456789012345",
+      "target": "f6789012-3456-7890-6789-345678901234"
+    },
+    {
+      "source": "89012345-6789-0123-8901-567890123456",
+      "target": "f6789012-3456-7890-6789-345678901234"
+    },
+    {
+      "source": "90123456-7890-1234-9012-678901234567",
+      "target": "minproff"
+    },
+    {
+      "source": "a1234567-8901-2345-0123-789012345678",
+      "target": "90123456-7890-1234-9012-678901234567"
+    },
+    {
+      "source": "b2345678-9012-3456-1234-890123456789",
+      "target": "90123456-7890-1234-9012-678901234567"
+    },
+    {
+      "source": "c3456789-0123-4567-2345-901234567890",
+      "target": "90123456-7890-1234-9012-678901234567"
+    },
+    {
+      "source": "d4567890-1234-5678-3456-012345678901",
+      "target": "minproff"
+    },
+    {
+      "source": "e5678901-2345-6789-4567-123456789012",
+      "target": "d4567890-1234-5678-3456-012345678901"
+    },
+    {
+      "source": "f6789012-3456-7890-5678-234567890123",
+      "target": "d4567890-1234-5678-3456-012345678901"
+    },
+    {
+      "source": "78901234-5678-9012-6789-345678901234",
+      "target": "f6789012-3456-7890-5678-234567890123"
+    },
+    {
+      "source": "89012345-6789-0123-7890-456789012345",
+      "target": "f6789012-3456-7890-5678-234567890123"
+    },
+    {
+      "source": "90123456-7890-1234-8901-567890123456",
+      "target": "f6789012-3456-7890-5678-234567890123"
+    },
+    {
+      "source": "a1234567-8901-2345-9012-678901234567",
+      "target": "d4567890-1234-5678-3456-012345678901"
+    },
+    {
+      "source": "b2345678-9012-3456-0123-789012345678",
+      "target": "a1234567-8901-2345-9012-678901234567"
+    },
+    {
+      "source": "c3456789-0123-4567-1234-890123456789",
+      "target": "a1234567-8901-2345-9012-678901234567"
+    },
+    {
+      "source": "d4567890-1234-5678-2345-901234567890",
+      "target": "a1234567-8901-2345-9012-678901234567"
+    },
+    {
+      "source": "e5678901-2345-6789-3456-012345678901",
+      "target": "minproff"
+    },
+    {
+      "source": "f6789012-3456-7890-4567-123456789012",
+      "target": "e5678901-2345-6789-3456-012345678901"
+    },
+    {
+      "source": "78901234-5678-9012-5678-234567890123",
+      "target": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "source": "89012345-6789-0123-6789-345678901234",
+      "target": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "source": "90123456-7890-1234-7890-456789012345",
+      "target": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "source": "a1234567-8901-2345-8901-567890123456",
+      "target": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "source": "b2345678-9012-3456-9012-678901234567",
+      "target": "f6789012-3456-7890-4567-123456789012"
+    },
+    {
+      "source": "c3456789-0123-4567-0123-789012345678",
+      "target": "e5678901-2345-6789-3456-012345678901"
+    },
+    {
+      "source": "d4567890-1234-5678-1234-890123456789",
+      "target": "e5678901-2345-6789-3456-012345678901"
+    },
+    {
+      "source": "e5678901-2345-6789-2345-901234567890",
+      "target": "minproff"
+    },
+    {
+      "source": "f6789012-3456-7890-3456-012345678901",
+      "target": "e5678901-2345-6789-2345-901234567890"
+    },
+    {
+      "source": "78901234-5678-9012-4567-123456789012",
+      "target": "e5678901-2345-6789-2345-901234567890"
+    }
+  ]
+}

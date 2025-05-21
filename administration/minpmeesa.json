@@ -1,0 +1,501 @@
+{
+    "nodes": [
+      {
+        "id": "minpmeesa",
+        "name": "Ministère des Petites et Moyennes Entreprises, de l'Économie Sociale et de l'Artisanat",
+        "acronyme": "MINPMEESA",
+        "fonction": "Ministère",
+        "parent": null
+      },
+      {
+        "id": "secretariat_particulier_minpmeesa",
+        "name": "Secrétariat Particulier",
+        "acronyme": "SP",
+        "fonction": "Secrétariat",
+        "parent": "minpmeesa"
+      },
+      {
+        "id": "conseillers_techniques_minpmeesa",
+        "name": "Conseillers Techniques",
+        "acronyme": "CT",
+        "fonction": "Conseillers",
+        "parent": "minpmeesa"
+      },
+      {
+        "id": "inspection_generale_minpmeesa",
+        "name": "Inspection Générale",
+        "acronyme": "IG",
+        "fonction": "Inspection",
+        "parent": "minpmeesa"
+      },
+      {
+        "id": "inspecteurs_minpmeesa",
+        "name": "Inspecteurs",
+        "acronyme": "INSP",
+        "fonction": "Inspecteurs",
+        "parent": "inspection_generale_minpmeesa"
+      },
+      {
+        "id": "administration_centrale_minpmeesa",
+        "name": "Administration Centrale",
+        "acronyme": "AC",
+        "fonction": "Administration",
+        "parent": "minpmeesa"
+      },
+      {
+        "id": "secretariat_general_minpmeesa",
+        "name": "Secrétariat Général",
+        "acronyme": "SG",
+        "fonction": "Secrétariat",
+        "parent": "administration_centrale_minpmeesa"
+      },
+      {
+        "id": "cellule_suivi_minpmeesa",
+        "name": "Cellule de Suivi",
+        "acronyme": "CS",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minpmeesa"
+      },
+      {
+        "id": "cellule_communication_minpmeesa",
+        "name": "Cellule de Communication",
+        "acronyme": "CCOM",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minpmeesa"
+      },
+      {
+        "id": "cellule_juridique_minpmeesa",
+        "name": "Cellule Juridique",
+        "acronyme": "CJ",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minpmeesa"
+      },
+      {
+        "id": "cellule_traduction_minpmeesa",
+        "name": "Cellule de Traduction",
+        "acronyme": "CTR",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minpmeesa"
+      },
+      {
+        "id": "cellule_informatique_statistiques_minpmeesa",
+        "name": "Cellule Informatique et des Statistiques",
+        "acronyme": "CIS",
+        "fonction": "Cellule",
+        "parent": "secretariat_general_minpmeesa"
+      },
+      {
+        "id": "sous_direction_accueil_courrier_liaison_minpmeesa",
+        "name": "Sous-direction de l'Accueil, du Courrier et de Liaison",
+        "acronyme": "SDACL",
+        "fonction": "Sous-direction",
+        "parent": "secretariat_general_minpmeesa"
+      },
+      {
+        "id": "service_accueil_orientation_minpmeesa",
+        "name": "Service de l'Accueil et de l'Orientation",
+        "acronyme": "SAO",
+        "fonction": "Service",
+        "parent": "sous_direction_accueil_courrier_liaison_minpmeesa"
+      },
+      {
+        "id": "bureau_accueil_information_minpmeesa",
+        "name": "Bureau de l'Accueil et de l'Information",
+        "acronyme": "BAI",
+        "fonction": "Bureau",
+        "parent": "service_accueil_orientation_minpmeesa"
+      },
+      {
+        "id": "bureau_controle_conformite_minpmeesa",
+        "name": "Bureau du Contrôle de Conformité",
+        "acronyme": "BCC",
+        "fonction": "Bureau",
+        "parent": "service_accueil_orientation_minpmeesa"
+      },
+      {
+        "id": "service_courrier_liaison_minpmeesa",
+        "name": "Service du Courrier et de Liaison",
+        "acronyme": "SCL",
+        "fonction": "Service",
+        "parent": "sous_direction_accueil_courrier_liaison_minpmeesa"
+      },
+      {
+        "id": "bureau_courrier_arrivee_minpmeesa",
+        "name": "Bureau du Courrier-Arrivée",
+        "acronyme": "BCA",
+        "fonction": "Bureau",
+        "parent": "service_courrier_liaison_minpmeesa"
+      },
+      {
+        "id": "bureau_courrier_depart_minpmeesa",
+        "name": "Bureau du Courrier-Départ",
+        "acronyme": "BCD",
+        "fonction": "Bureau",
+        "parent": "service_courrier_liaison_minpmeesa"
+      },
+      {
+        "id": "bureau_reprographie_minpmeesa",
+        "name": "Bureau de la Reprographie",
+        "acronyme": "BR",
+        "fonction": "Bureau",
+        "parent": "service_courrier_liaison_minpmeesa"
+      },
+      {
+        "id": "service_relance_minpmeesa",
+        "name": "Service de la Relance",
+        "acronyme": "SREL",
+        "fonction": "Service",
+        "parent": "sous_direction_accueil_courrier_liaison_minpmeesa"
+      },
+      {
+        "id": "service_documentation_archives_minpmeesa",
+        "name": "Service de la Documentation et des Archives",
+        "acronyme": "SDA",
+        "fonction": "Service",
+        "parent": "secretariat_general_minpmeesa"
+      },
+      {
+        "id": "direction_pme_minpmeesa",
+        "name": "Direction des Petites et Moyennes Entreprises",
+        "acronyme": "DPME",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minpmeesa"
+      },
+      {
+        "id": "sous_direction_developpement_pme_minpmeesa",
+        "name": "Sous-direction du Développement des Petites et Moyennes Entreprises",
+        "acronyme": "SDDPME",
+        "fonction": "Sous-direction",
+        "parent": "direction_pme_minpmeesa"
+      },
+      {
+        "id": "service_mecanismes_financement_minpmeesa",
+        "name": "Service des Mécanismes de Financement",
+        "acronyme": "SMF",
+        "fonction": "Service",
+        "parent": "sous_direction_developpement_pme_minpmeesa"
+      },
+      {
+        "id": "service_encadrement_technique_minpmeesa",
+        "name": "Service de l'Encadrement Technique",
+        "acronyme": "SET",
+        "fonction": "Service",
+        "parent": "sous_direction_developpement_pme_minpmeesa"
+      },
+      {
+        "id": "cellule_actions_promotionnelles_minpmeesa",
+        "name": "Cellule des Actions Promotionnelles",
+        "acronyme": "CAP",
+        "fonction": "Cellule",
+        "parent": "direction_pme_minpmeesa"
+      },
+      {
+        "id": "direction_economie_sociale_artisanat_minpmeesa",
+        "name": "Direction de l'Économie Sociale et de l'Artisanat",
+        "acronyme": "DESA",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minpmeesa"
+      },
+      {
+        "id": "sous_direction_professions_artisanales_minpmeesa",
+        "name": "Sous-direction des Professions Artisanales",
+        "acronyme": "SDPA",
+        "fonction": "Sous-direction",
+        "parent": "direction_economie_sociale_artisanat_minpmeesa"
+      },
+      {
+        "id": "service_promotion_metiers_artisanaux_minpmeesa",
+        "name": "Service de la Promotion des Métiers Artisanaux",
+        "acronyme": "SPMA",
+        "fonction": "Service",
+        "parent": "sous_direction_professions_artisanales_minpmeesa"
+      },
+      {
+        "id": "service_promotion_statut_social_artisans_minpmeesa",
+        "name": "Service de la Promotion du Statut Social des Artisans",
+        "acronyme": "SPSSA",
+        "fonction": "Service",
+        "parent": "sous_direction_professions_artisanales_minpmeesa"
+      },
+      {
+        "id": "sous_direction_secteur_informel_minpmeesa",
+        "name": "Sous-direction du Secteur Informel",
+        "acronyme": "SDSI",
+        "fonction": "Sous-direction",
+        "parent": "direction_economie_sociale_artisanat_minpmeesa"
+      },
+      {
+        "id": "service_observation_suivi_minpmeesa",
+        "name": "Service de l'Observation et du Suivi",
+        "acronyme": "SOS",
+        "fonction": "Service",
+        "parent": "sous_direction_secteur_informel_minpmeesa"
+      },
+      {
+        "id": "service_appui_encadrement_minpmeesa",
+        "name": "Service d'Appui et d'Encadrement",
+        "acronyme": "SAE",
+        "fonction": "Service",
+        "parent": "sous_direction_secteur_informel_minpmeesa"
+      },
+      {
+        "id": "cellule_promotion_economie_sociale_minpmeesa",
+        "name": "Cellule de la Promotion de l'Économie Sociale",
+        "acronyme": "CPES",
+        "fonction": "Cellule",
+        "parent": "direction_economie_sociale_artisanat_minpmeesa"
+      },
+      {
+        "id": "division_etudes_prospective_partenariat_minpmeesa",
+        "name": "Division des Études, de la Prospective et du Partenariat",
+        "acronyme": "DEPP",
+        "fonction": "Division",
+        "parent": "administration_centrale_minpmeesa"
+      },
+      {
+        "id": "cellule_etudes_prospective_minpmeesa",
+        "name": "Cellule des Études et de la Prospective",
+        "acronyme": "CEP",
+        "fonction": "Cellule",
+        "parent": "division_etudes_prospective_partenariat_minpmeesa"
+      },
+      {
+        "id": "cellule_partenariat_facilitation_minpmeesa",
+        "name": "Cellule du Partenariat et de la Facilitation",
+        "acronyme": "CPF",
+        "fonction": "Cellule",
+        "parent": "division_etudes_prospective_partenariat_minpmeesa"
+      },
+      {
+        "id": "direction_affaires_generales_minpmeesa",
+        "name": "Direction des Affaires Générales",
+        "acronyme": "DAG",
+        "fonction": "Direction",
+        "parent": "administration_centrale_minpmeesa"
+      },
+      {
+        "id": "service_personnel_minpmeesa",
+        "name": "Service du Personnel",
+        "acronyme": "SPER",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_minpmeesa"
+      },
+      {
+        "id": "bureau_gestion_carrieres_previsionnelle_minpmeesa",
+        "name": "Bureau de la Gestion des Carrières et de la Gestion Prévisionnelle",
+        "acronyme": "BGCP",
+        "fonction": "Bureau",
+        "parent": "service_personnel_minpmeesa"
+      },
+      {
+        "id": "bureau_action_sociale_formation_minpmeesa",
+        "name": "Bureau de l'Action Sociale et de la Formation",
+        "acronyme": "BASF",
+        "fonction": "Bureau",
+        "parent": "service_personnel_minpmeesa"
+      },
+      {
+        "id": "service_solde_pensions_minpmeesa",
+        "name": "Service de la Solde et des Pensions",
+        "acronyme": "SSP",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_minpmeesa"
+      },
+      {
+        "id": "bureau_gestion_minpmeesa",
+        "name": "Bureau de la Gestion",
+        "acronyme": "BG",
+        "fonction": "Bureau",
+        "parent": "service_solde_pensions_minpmeesa"
+      },
+      {
+        "id": "bureau_requetes_minpmeesa",
+        "name": "Bureau des Requêtes",
+        "acronyme": "BRQ",
+        "fonction": "Bureau",
+        "parent": "service_solde_pensions_minpmeesa"
+      },
+      {
+        "id": "service_budget_materiel_maintenance_minpmeesa",
+        "name": "Service du Budget, du Matériel et de la Maintenance",
+        "acronyme": "SBMM",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_minpmeesa"
+      },
+      {
+        "id": "bureau_budget_minpmeesa",
+        "name": "Bureau du Budget",
+        "acronyme": "BB",
+        "fonction": "Bureau",
+        "parent": "service_budget_materiel_maintenance_minpmeesa"
+      },
+      {
+        "id": "bureau_materiel_maintenance_minpmeesa",
+        "name": "Bureau du Matériel et de la Maintenance",
+        "acronyme": "BMM",
+        "fonction": "Bureau",
+        "parent": "service_budget_materiel_maintenance_minpmeesa"
+      },
+      {
+        "id": "bureau_proprete_minpmeesa",
+        "name": "Bureau de la Propreté",
+        "acronyme": "BP",
+        "fonction": "Bureau",
+        "parent": "service_budget_materiel_maintenance_minpmeesa"
+      },
+      {
+        "id": "service_marches_minpmeesa",
+        "name": "Service des Marchés",
+        "acronyme": "SM",
+        "fonction": "Service",
+        "parent": "direction_affaires_generales_minpmeesa"
+      },
+      {
+        "id": "services_deconcentres_minpmeesa",
+        "name": "Services Déconcentrés",
+        "acronyme": "SD",
+        "fonction": "Services",
+        "parent": "minpmeesa"
+      },
+      {
+        "id": "delegations_provinciales_minpmeesa",
+        "name": "Délégations Provinciales des Petites et Moyennes Entreprises, de l'Économie Sociale et de l'Artisanat",
+        "acronyme": "DPPMEESA",
+        "fonction": "Délégation",
+        "parent": "services_deconcentres_minpmeesa"
+      },
+      {
+        "id": "bureau_courrier_provincial_minpmeesa",
+        "name": "Bureau du Courrier",
+        "acronyme": "BCP",
+        "fonction": "Bureau",
+        "parent": "delegations_provinciales_minpmeesa"
+      },
+      {
+        "id": "service_developpement_pme_provincial_minpmeesa",
+        "name": "Service de Développement des Petites et Moyennes Entreprises",
+        "acronyme": "SDPMEP",
+        "fonction": "Service",
+        "parent": "delegations_provinciales_minpmeesa"
+      },
+      {
+        "id": "service_economie_sociale_artisanat_provincial_minpmeesa",
+        "name": "Service de l'Économie Sociale et de l'Artisanat",
+        "acronyme": "SESAP",
+        "fonction": "Service",
+        "parent": "delegations_provinciales_minpmeesa"
+      },
+      {
+        "id": "service_administratif_financier_provincial_minpmeesa",
+        "name": "Service Administratif et Financier",
+        "acronyme": "SAFP",
+        "fonction": "Service",
+        "parent": "delegations_provinciales_minpmeesa"
+      },
+      {
+        "id": "bureau_personnel_provincial_minpmeesa",
+        "name": "Bureau du Personnel",
+        "acronyme": "BPP",
+        "fonction": "Bureau",
+        "parent": "service_administratif_financier_provincial_minpmeesa"
+      },
+      {
+        "id": "bureau_budget_materiel_provincial_minpmeesa",
+        "name": "Bureau du Budget et du Matériel",
+        "acronyme": "BBMP",
+        "fonction": "Bureau",
+        "parent": "service_administratif_financier_provincial_minpmeesa"
+      },
+      {
+        "id": "delegations_departementales_minpmeesa",
+        "name": "Délégations Départementales des Petites et Moyennes Entreprises, de l'Économie Sociale et de l'Artisanat",
+        "acronyme": "DDPMEESA",
+        "fonction": "Délégation",
+        "parent": "services_deconcentres_minpmeesa"
+      },
+      {
+        "id": "bureau_pme_departemental_minpmeesa",
+        "name": "Bureau des Petites et Moyennes Entreprises",
+        "acronyme": "BPMED",
+        "fonction": "Bureau",
+        "parent": "delegations_departementales_minpmeesa"
+      },
+      {
+        "id": "bureau_economie_sociale_artisanat_departemental_minpmeesa",
+        "name": "Bureau de l'Économie Sociale et de l'Artisanat",
+        "acronyme": "BESAD",
+        "fonction": "Bureau",
+        "parent": "delegations_departementales_minpmeesa"
+      },
+      {
+        "id": "bureau_administratif_financier_departemental_minpmeesa",
+        "name": "Bureau Administratif et Financier",
+        "acronyme": "BAFD",
+        "fonction": "Bureau",
+        "parent": "delegations_departementales_minpmeesa"
+      }
+    ],
+    "edges": [
+      {"source": "minpmeesa", "target": "secretariat_particulier_minpmeesa"},
+      {"source": "minpmeesa", "target": "conseillers_techniques_minpmeesa"},
+      {"source": "minpmeesa", "target": "inspection_generale_minpmeesa"},
+      {"source": "inspection_generale_minpmeesa", "target": "inspecteurs_minpmeesa"},
+      {"source": "minpmeesa", "target": "administration_centrale_minpmeesa"},
+      {"source": "administration_centrale_minpmeesa", "target": "secretariat_general_minpmeesa"},
+      {"source": "secretariat_general_minpmeesa", "target": "cellule_suivi_minpmeesa"},
+      {"source": "secretariat_general_minpmeesa", "target": "cellule_communication_minpmeesa"},
+      {"source": "secretariat_general_minpmeesa", "target": "cellule_juridique_minpmeesa"},
+      {"source": "secretariat_general_minpmeesa", "target": "cellule_traduction_minpmeesa"},
+      {"source": "secretariat_general_minpmeesa", "target": "cellule_informatique_statistiques_minpmeesa"},
+      {"source": "secretariat_general_minpmeesa", "target": "sous_direction_accueil_courrier_liaison_minpmeesa"},
+      {"source": "sous_direction_accueil_courrier_liaison_minpmeesa", "target": "service_accueil_orientation_minpmeesa"},
+      {"source": "service_accueil_orientation_minpmeesa", "target": "bureau_accueil_information_minpmeesa"},
+      {"source": "service_accueil_orientation_minpmeesa", "target": "bureau_controle_conformite_minpmeesa"},
+      {"source": "sous_direction_accueil_courrier_liaison_minpmeesa", "target": "service_courrier_liaison_minpmeesa"},
+      {"source": "service_courrier_liaison_minpmeesa", "target": "bureau_courrier_arrivee_minpmeesa"},
+      {"source": "service_courrier_liaison_minpmeesa", "target": "bureau_courrier_depart_minpmeesa"},
+      {"source": "service_courrier_liaison_minpmeesa", "target": "bureau_reprographie_minpmeesa"},
+      {"source": "sous_direction_accueil_courrier_liaison_minpmeesa", "target": "service_relance_minpmeesa"},
+      {"source": "secretariat_general_minpmeesa", "target": "service_documentation_archives_minpmeesa"},
+      {"source": "administration_centrale_minpmeesa", "target": "direction_pme_minpmeesa"},
+      {"source": "direction_pme_minpmeesa", "target": "sous_direction_developpement_pme_minpmeesa"},
+      {"source": "sous_direction_developpement_pme_minpmeesa", "target": "service_mecanismes_financement_minpmeesa"},
+      {"source": "sous_direction_developpement_pme_minpmeesa", "target": "service_encadrement_technique_minpmeesa"},
+      {"source": "direction_pme_minpmeesa", "target": "cellule_actions_promotionnelles_minpmeesa"},
+      {"source": "administration_centrale_minpmeesa", "target": "direction_economie_sociale_artisanat_minpmeesa"},
+      {"source": "direction_economie_sociale_artisanat_minpmeesa", "target": "sous_direction_professions_artisanales_minpmeesa"},
+      {"source": "sous_direction_professions_artisanales_minpmeesa", "target": "service_promotion_metiers_artisanaux_minpmeesa"},
+      {"source": "sous_direction_professions_artisanales_minpmeesa", "target": "service_promotion_statut_social_artisans_minpmeesa"},
+      {"source": "direction_economie_sociale_artisanat_minpmeesa", "target": "sous_direction_secteur_informel_minpmeesa"},
+      {"source": "sous_direction_secteur_informel_minpmeesa", "target": "service_observation_suivi_minpmeesa"},
+      {"source": "sous_direction_secteur_informel_minpmeesa", "target": "service_appui_encadrement_minpmeesa"},
+      {"source": "direction_economie_sociale_artisanat_minpmeesa", "target": "cellule_promotion_economie_sociale_minpmeesa"},
+      {"source": "administration_centrale_minpmeesa", "target": "division_etudes_prospective_partenariat_minpmeesa"},
+      {"source": "division_etudes_prospective_partenariat_minpmeesa", "target": "cellule_etudes_prospective_minpmeesa"},
+      {"source": "division_etudes_prospective_partenariat_minpmeesa", "target": "cellule_partenariat_facilitation_minpmeesa"},
+      {"source": "administration_centrale_minpmeesa", "target": "direction_affaires_generales_minpmeesa"},
+      {"source": "direction_affaires_generales_minpmeesa", "target": "service_personnel_minpmeesa"},
+      {"source": "service_personnel_minpmeesa", "target": "bureau_gestion_carrieres_previsionnelle_minpmeesa"},
+      {"source": "service_personnel_minpmeesa", "target": "bureau_action_sociale_formation_minpmeesa"},
+      {"source": "direction_affaires_generales_minpmeesa", "target": "service_solde_pensions_minpmeesa"},
+      {"source": "service_solde_pensions_minpmeesa", "target": "bureau_gestion_minpmeesa"},
+      {"source": "service_solde_pensions_minpmeesa", "target": "bureau_requetes_minpmeesa"},
+      {"source": "direction_affaires_generales_minpmeesa", "target": "service_budget_materiel_maintenance_minpmeesa"},
+      {"source": "service_budget_materiel_maintenance_minpmeesa", "target": "bureau_budget_minpmeesa"},
+      {"source": "service_budget_materiel_maintenance_minpmeesa", "target": "bureau_materiel_maintenance_minpmeesa"},
+      {"source": "service_budget_materiel_maintenance_minpmeesa", "target": "bureau_proprete_minpmeesa"},
+      {"source": "direction_affaires_generales_minpmeesa", "target": "service_marches_minpmeesa"},
+      {"source": "minpmeesa", "target": "services_deconcentres_minpmeesa"},
+      {"source": "services_deconcentres_minpmeesa", "target": "delegations_provinciales_minpmeesa"},
+      {"source": "delegations_provinciales_minpmeesa", "target": "bureau_courrier_provincial_minpmeesa"},
+      {"source": "delegations_provinciales_minpmeesa", "target": "service_developpement_pme_provincial_minpmeesa"},
+      {"source": "delegations_provinciales_minpmeesa", "target": "service_economie_sociale_artisanat_provincial_minpmeesa"},
+      {"source": "delegations_provinciales_minpmeesa", "target": "service_administratif_financier_provincial_minpmeesa"},
+      {"source": "service_administratif_financier_provincial_minpmeesa", "target": "bureau_personnel_provincial_minpmeesa"},
+      {"source": "service_administratif_financier_provincial_minpmeesa", "target": "bureau_budget_materiel_provincial_minpmeesa"},
+      {"source": "services_deconcentres_minpmeesa", "target": "delegations_departementales_minpmeesa"},
+      {"source": "delegations_departementales_minpmeesa", "target": "bureau_pme_departemental_minpmeesa"},
+      {"source": "delegations_departementales_minpmeesa", "target": "bureau_economie_sociale_artisanat_departemental_minpmeesa"},
+      {"source": "delegations_departementales_minpmeesa", "target": "bureau_administratif_financier_departemental_minpmeesa"}
+    ]
+  }
